@@ -1,0 +1,343 @@
+###########################################################
+#
+#  Language:		English
+#  Author:		Winston Zhang
+#  Product Name:	A-PDF Page Master
+#  Product Version:	1.8.0
+#
+###########################################################
+
+[Font]
+ Name 						=Tahoma
+ Size						=8
+ CharSet					=Default
+
+[frmMain]
+.caption		                                =万彩办公大师-页面编辑
+lblexample.caption                        =您可以打开演示DEMO
+lbltip.caption                        =用鼠标拖拽页面进行排序
+Label6.caption                        =列表是空的,请打开PDF开始页面编辑
+ MoveUp1.caption                        =上移
+ MoveDown1.caption                        =下移
+Contactus1.caption                        =联系我们...
+sbtAddDir.hint				=打开
+MergeFile1.Caption			=合并文件...
+ btnSeq.hint				=颠倒页序
+ sbtDelimg.hint				=删除页面
+ btncut.hint				=剪切页面
+ sbtMoveup.hint				=上移
+ sbtMovedown.hint				=下移
+ sbtSetting.Caption				=组合页面
+ sbtSetting.hint				= 组合页面 
+ btncopy.hint				=复制页面
+ sbthelp.hint				=自定义
+ btnSave.hint				=保存
+ btnsaveas.hint				=另存为...
+ btnpaste.hint				=粘贴页面
+ btnAdd.hint				=插入新页面
+ btnRotate.hint				=旋转页面
+ btnUndo.hint				=撤销
+btnhead.hint				=第一页
+ btnpre.hint				=上一页
+ btnnext.hint				=下一页
+ btntail.hint				=最后一页
+ btnFitw.hint				=适合宽度
+ btnFit.hint				=适合页面
+FileF1.Caption				=文件
+ AddImage1.Caption				=打开
+ AddImage1.hint				=打开
+ Delete2.Caption				=保存
+ Delete2.hint				=保存
+ Clearall1.Caption				=另存为
+ Clearall1.hint				=另存为
+ RecentFile1.Caption				=最近打开的文件
+ Quit1.Caption				=退出
+ ools1.Caption				=页面
+ MoveFirst1.Caption				=上移
+ MoveFirst1.hint				=上移
+ MoveLast1.Caption				=下移
+ MoveLast1.hint				=下移
+ Sort1.Caption				=颠倒页序
+ Sort1.hint				=颠倒页序
+ BulidtoOnePDF1.Caption				=剪切
+ BulidtoOnePDF1.hint				=剪切
+ BulidtoMultPDF1.Caption				=复制
+ BulidtoMultPDF1.hint				=复制
+ Paste1.Caption				=粘贴
+ Paste1.hint				=粘贴
+ Insert1.Caption				=插入
+ Insert1.hint				=添加新页面
+ Delete1.Caption				=删除
+ Delete1.hint				=删除
+ Undo1.Caption				=撤销
+ Undo1.hint				=撤销
+ Help1.Caption				=帮助
+Help2.Caption				=帮助
+ AboutImagetoPDF1.Caption				=关于...
+ actOpen.hint				=打开
+ actSave.hint				=保存
+ actSaveas.hint				=另存为一个PDF文件
+ actup.hint				=上移
+ actdown.hint				=下移
+ actsequence.hint				=颠倒页序
+ actCut.hint				=剪切
+ actCopy.hint				=复制
+ actpaste.hint				=粘贴
+ actAddpage.hint				=添加新页面
+ actShuffle.hint				= 组合页面.
+ actdeletepage.hint				=删除页面
+ actundo.hint				=撤销
+ actRotate.hint				=旋转
+ actDelte.hint				=删除
+ Cutpages1.Caption				=剪切
+ Copy1.Caption				=复制
+ Pastepages1.Caption				=粘贴
+ Insertblankpages1.Caption				=插入空白页
+ Deletepages1.Caption				=删除
+ Rotatepages1.Caption				=旋转页面
+ AutoShuffle1.Caption				=组合页面...
+ Undo2.Caption				=撤销
+ PageAssembly1.Caption	                 = 组合页面...
+ Rotate1.Caption	                         =旋转...
+ ExtractPa1.Caption				 =提取页面...
+ ExtractPages2.Caption				 =提取页面...
+ ResizePages2.Caption				 =调整大小...
+ ResizePages1.Caption				 =调整大小...
+ sbtResize.hint				 =调整页面大小
+ actSelectall.Caption		=全选
+ actDeselect.Caption		=取消选择
+ actbatch.Caption				=批处理
+ Print1.Caption					=打开PDF(打印)
+ actClosePDF.Caption		=关闭PDF
+ actSettings.Caption		=设置 
+ 
+[frmNewBlank]
+.Caption			=新的空白页
+ Label5.Caption				=插入页面的大小:
+ Label6.Caption				=位置:
+ Label7.Caption				=方向:
+ Label8.Caption				=插入:
+ Label9.Caption				=页
+ GroupBox1.Caption			=在哪里插入
+ lbexample.Caption			=示例: 2,4--1 ("-1" 代表最后一页).
+ lbstart.Caption			=开始于
+ lbevery.Caption			=每隔
+ lbpages.Caption			=页
+ rbpagerange.Caption			=页面范围:
+ rbadv.Caption				=高级:
+ rbcurrent.Caption			=当前页面 
+ rbfirst.Caption			=第一页
+ rblast.Caption				=最后一页
+ cbSize.Items				=和当前选中页面的大小一样||A3 (11.69 x 16.54 in)||A4 (8.27 x 11.69 in)||A5 (5.83 x 8.27 in)||Legal (8.5 x 14.00 in)||Letter (8.5 x 11.00 in)||Executive (7.50 x 10.00 in)||Statement (5.50 x 8.50 in) 
+ cbposition.items			=之前||之后
+ btnok.Caption				=确定
+ bCancel.Caption			=取消
+ cborientation.items			=横向||纵向
+
+[frmPagearray]
+.Caption =Assemble Pages
+ LabelPagerange.Caption			=页面范围：
+ Label6.Caption				=页
+ Labelto.Caption			=到
+ btnok.Caption				=确定
+ bCancel.Caption			=取消
+ GroupBox1.Caption			=组合模式
+ Label1.Caption				=重复:
+ Label2.Caption				=重复:
+ Label3.Caption				=重复:
+ Label4.Caption				=重复:
+ Label5.Caption				=重复:
+ rbseq.Caption				=依序:
+ rbcross.Caption			=交叉:
+ rbodd.Caption				=奇数页:
+ rbeven.Caption				=偶数页:
+ rbNup.Caption				=&Duplex Sim1
+ rbmanual.Caption			=自定义:
+
+[frmPagefilter]
+.caption				=页面过滤
+ lbOrientation.Caption			=页面方向:
+ lbRotate.Caption			=旋转方向角度:
+ GroupBox1.Caption			=页
+ lbexample.Caption			=示例: 2,4--1 ("-1" 代表最后一页).
+ lbstart.Caption			=开始于
+ lbevery.Caption			=每隔
+ lbpages.Caption			=页
+ rbPage.Caption				=页面:
+ rbPageRange.Caption			=页面范围:
+ rbAdv.Caption				=高级:
+ btnok.Caption				=确定
+ bCancel.Caption			=取消
+ cbPage.Items=当前页||奇数页||偶数页||全部页面
+ cbOricentation.Items=横向||纵向||全部
+ cbRotate.Items=旋转90 (顺时针)||旋转270 (逆时针 90)||180
+
+[frmpaster]
+.caption				=粘贴到
+ Label1.Caption				=从剪贴板粘贴到
+ Labelpos.Caption			=位置:
+ cbposition.items			=之前||之后
+ GroupBoxpos.Caption			=页码
+ rblast.Caption				=最后一页
+ rbfirst.Caption			=第一页
+ rbpage.Caption				=页面位于 :
+rbcurrent.Caption			=当前页面
+ btnok.Caption				=确定
+ bCancel.Caption				=取消
+
+[frmExtractpage]
+.Caption						=提取页面
+btnok.Caption                 				=提取...
+bCancel.Caption               				=取消
+GroupBox1.Caption             				=页
+lbexample.Caption             				=示例: 2,4--1 ("-1" 代表最后一页).
+lbstart.Caption               				=开始于
+lbevery.Caption               				=每隔
+lbpages.Caption               				=也
+lbOrientation.Caption         				=方向:
+rbPage.Caption                				=页:
+rbPageRange.Caption           				=页面范围:
+rbAdv.Caption                 				=高级:
+
+[frmResize]
+.caption						=调整页面大小
+btnok.Caption                 				=确定
+bCancel.Caption               				=取消
+gResize.Caption               				=调整页面范围
+lbexample.Caption             				=示例: 2,4--1 ("-1" 代表最后一页).
+lbOrientation2.Caption        				=方向:
+rbPage.Caption                				=页面:
+rbPageRange.Caption           				=页面范围:
+rbAdv.Caption                 				=高级:
+lbstart.Caption               				=开始于
+lbevery.Caption               				=每隔
+lbpages.Caption               				=页
+gPapersize.Caption            				=新的页面大小
+lbOrientation1.Caption        				=方向:
+cbSize.text                   				=自定义大小
+cbOricentation1.text          				=和原来的一样
+lbWidth.Caption               				=宽度:
+lbHeight.Caption              				=高度
+gContentSize.Caption          				=内容大小
+rbOriginal.Caption            				=原来大小
+rbStretch.Caption             				=缩放到适合
+cbpage.Items                  				=当前页 : 1||奇数页||偶数页||全部
+cbOricentation2.Items         				=横向||纵向||All
+cbSize.Items                  				=自定义大小||A3 (11.69 x 16.54 in)||A4 (8.27 x 11.69 in)||A5 (5.83 x 8.27 in)||Legal (8.5 x 14.00 in)||Letter (8.5 x 11.00 in)||Executive (7.50 x 10.00 in)||Statement (5.50 x 8.50)
+cbOricentation1.Items         				=和原来一样||纵向||横向
+
+[frmMergedocument]
+btnok.Caption                 				=合并
+bCancel.Caption               				=取消
+lbchoose.Caption              				=请选择一个或以上的PDF文件来合并:
+lbTip.Caption                 				=提示:合并的文档将替换掉当前的文档 ||这一操作不可撤销.
+BtnSelect.Caption             				=选择...
+RgPosition.Caption            				=位置
+.Caption															=合并PDF文档
+TabSheet1.Caption											=合并PDF文档
+RgPosition.items									 	=插入到选中页面之前||插入到选页面之后||添加到文档开头||添加到文档末尾
+ 
+[frmBatchProcess]
+.Caption						=批处理
+TabSheet1.Caption             				=批处理
+sbtDelPdf.hint                				=把选中的项目从列表中移除
+sbtDelAllPdf.hint             				=清空所有项目
+sbtAddDir.hint                				=添加列表目录
+sbtaddpdf.hint                				=添加PDF文档
+sbtUnlock.hint                				=解锁选中的PDF文档
+Label1.Caption                				=添加PDF文档
+Label6.Caption                				=列表为空.请添加PDF文档开始工作...
+BtnAddAction.Caption          				=添加操作->
+BtnRemove.Caption             				=<-去除
+Label2.Caption                				=从选框中选择操作:
+Label3.Caption                				=操作列表:
+lbAction.Caption              				=操作
+BtnProcess.Caption            				=处理
+BtnCancel.Caption             				=取消
+lbPageAction.items										=插入空白页||删除页面||旋转页面
+
+[frmSettings_1]
+.caption						=设置
+ts1.Caption                   				=设置
+grp1.Caption                  				=预览DPI 
+lbl1.Caption                  				=预览DPI:||数值大，分辨率高||数值小，处理速度快||默认值96
+btn2.Caption                  				=默认
+btn1.Caption                  				=确定
+Button1.Caption               				=取消
+
+[STRINGS] 
+ 1					= Thank you for registering
+ 2					= Invalid Register Key
+ 3					= The product has been licensed. 
+ 4					= The product has been licensed to:
+ 5					= Q: How to order||A: Click the "Online Purchase" button above, or visit our homepage(http://www.a-pdf.com) for more options. We will send your registration key after receiving your order. If you cannot access the Internet, please call our Toll Free number 1-877-353-7297, and give the operator the product number %s. The product price is %s.
+ 6					= Note: The product is a try-before-buy product. The unregistered version has a limitation: adding a watermark into the output PDF files. If you ordered, you will get a register key (license code), after inputting the code below, the limitation will remove, that means the output files will not be added a watermark..
+
+ 11					= 无法加载文件: %s. %s
+ 12					= 发生未知错误!
+ 13					= 文件打开密码错误: %s      
+ 14					= 解密失败. %s
+ 15					= 用户停止.
+ 16					= 文件 %s 不存在. 需要创建吗?
+ 17					= 不能创建文件夹: %s
+ 18					= 文件保存出错. %s
+
+ 20                     = 不可用
+ 21                     = 未知                          
+ 22                     = 需要                             
+ 23                     = 编号
+ 24                     = 标题
+ 25                     = 作者 
+ 26                     = 主题
+ 27                     = 关键词 
+ 28                     = 文件 
+ 29                     = 在此输入密码: 
+ 30                     = 密码  
+
+                      
+                      
+34			=选中
+35			=不能改变 "%s"
+36              	=文件无法保存 %s, 再试一下?
+37                      =页数超过了最大值.
+38                      =删除页面
+39                      =旋转页面
+40                        =页面正在加载, 请等待...
+41                        =页面打开 "%s" 失败
+42                        =页面加载中 %d (all %d)
+43                       =页面重排, 稍等...
+44                        =页面重排中 %d (all %d)
+45                        =页面范围错误 "%s"
+46                        =文件:
+47                        =页面#:
+48                        =文件 "%s" 已被改动.需要保留这些改动吗?
+49                        =信息
+50                        =放弃确认
+51			  =调整页面大小
+52			  =提取页面
+
+61                        =编号
+62                        =初始页码
+63                        =页面大小
+64                        =角度
+65                        =方向
+66                        =新添加的
+67                        =新的页面大小			
+
+70                        =空白
+71                        =横向
+72                        =纵向
+80                        =页面成功提取:%s
+81                        =页面提取失败:%s
+82                        =找不到符合条件的页面!
+83                        =没有选择删除或者旋转的页面!
+84                        =没有选择调整大小的页面!
+85                        =确定去除页面?||是:删除页面||不是 :隐藏页面
+100				=文件名||路径||密码
+101				=删除选中文件?
+102				=去除所有文件?
+120			  	=处理 %s
+121				=处理 %s 成功
+122				=处理 %s 失败
+123				=处理 %s 失败, 信息: %s
+124				=完成! 需要浏览文件吗?

@@ -1,0 +1,156 @@
+###########################################################
+#
+#  Language:		English
+#  Author:		Wanqing Huang
+#  Product Name:	A-PDF tiffmergesplit
+#  Product Version:	1.0.0
+#
+###########################################################
+
+[Font]
+ Name 						=Tahoma
+ Size						=8
+ CharSet					=Default
+
+[mainForm]
+.Caption                                                =万彩办公大师-TIFF图片合并分割工具
+btnDelAllTif.Caption          				=清除所有
+btnDelTif.Caption             				=删除
+btnAddDirAction.Caption       				=添加文件夹
+btnAddTif.Caption             				=添加文件
+btnSetting.Caption            				=设置
+btnMergeAll.Caption           				=合并所有
+btnSplit.Caption              				=分割所有
+Labeladddoctip.Caption        				=TIFF预览
+lbladdtip.Caption             				=列表为空.请先添加Tiff文件...
+btnmemosave.hint              				=把文本保存到文件.
+btnmemocopy.hint              				=把文本从框中复制到右侧..
+btnLogClear.hint              				=清空日志
+btnLogClose.hint              				=关闭日志查看器
+popOpenPdf.Caption            				=打开
+popAddFromFile.Caption        				=添加文件
+popAddFromFolder.Caption      				=添加文件夹
+popRemove.Caption             				=删除
+popClear.Caption              				=清除所有
+popSelAll.Caption             				=选择所有
+Unselectall1.Caption          				=取消选择所有
+popPropertity.Caption         				=属性
+mainFile.Caption              				=文件
+mniOpenFile.Caption           				=打开
+mniAddFromFile.Caption        				=添加文件
+mniAddFromFolder.Caption      				=添加文件夹
+mniRemove.Caption             				=删除
+mniClear.Caption              				=清除所有
+mniImportList.Caption         				=导入列表
+mniExportList.Caption         				=导出列表
+mainExit.Caption              				=退出
+MenuItem11.Caption            				=操作
+mniSplit.Caption              				=合并所有
+mnistop.Caption               				=分割所有
+Options1.Caption              				=选项
+mniSetting.Caption            				=设置
+MenuItem15.Caption            				=帮助
+mnihelp.Caption               				=帮助
+mniabout.Caption              				=关于...
+mnicontact.Caption            				=联系我们...
+actAddFromFile.Caption        				=添加文件
+actAddFromFolder.Caption      				=添加文件夹
+actRemove.Caption             				=删除
+actClear.Caption              				=清除所有
+actSetting.Caption            				=设置
+actHelp.Caption               				=帮助
+actAbout.Caption              				=关于...
+actContact.Caption            				=联系我们...
+actMerge.Caption              				=合并所有
+actSplit.Caption              				=分割所有
+actOpenFile.Caption           				=打开
+actViewProperty.Caption       				=属性
+actSelectAll.Caption          				=选择所有
+actUnSelectAll.Caption        				=取消选择所有
+actImportList.Caption         				=导入列表
+actExportList.Caption         				=导出列表
+
+[frmOpeSetting]
+tsSplit.Caption               				=分割
+lblSplitTo.Caption            				=分割成:
+grpNaming.Caption             				=Tiff转换命名规则
+lblNaming.Caption             				=名称:
+lblExample.Caption            				=示例:
+btnMacro.Caption              				=宏
+cbbSaveas.text                				=位图格式 (*.bmp)
+grpPNG.Caption                				=PNG质量
+Label3.Caption                				=高质量
+Label4.Caption                				=小尺寸
+grpJPEG.Caption               				=JPEG质量
+Label2.Caption                				=高质量
+Label5.Caption                				=小尺寸
+tsJPEG.Caption                				=&JPEG
+lblJpegEffect.Caption         				=当图片保存为JPEG格式时，
+lblJpegEffect2.Caption        				=将使用此配置。
+grpJpegColor.Caption          				=颜色
+Label6.Caption                				=为JPEG文件选择颜色模式:
+rbJpegColor.Caption           				=颜色
+rbJpegGray.Caption            				=灰度
+rbJpegYCbCr.Caption           				=YCbCr
+rbJpegCMYK.Caption            				=CMYK
+rbJpegYCbCrK.Caption          				=YCbCrK
+grpJpegQuality.Caption        				=质量
+Label11.Caption               				=高质量
+Label10.Caption               				=小尺寸
+tsTiff.Caption                				=&TIFF
+lblCompress.Caption           				=压缩:
+lblTiffEffect1.Caption        				=当图片保存为TIFF格式时，
+lblTiffEffect2.Caption        				=将使用此配置. 
+grpTiffQuality.Caption        				=JPEG quality
+Label7.Caption                				=高质量
+Label8.Caption                				=小尺寸
+grpTiffColor.Caption          				=颜色
+lbl1.Caption                  				=为JPEG文件选择颜色模式:
+rbTiffColor.Caption           				=颜色
+rbTiffGray.Caption            				=灰度
+rbTiffYCbCr.Caption           				=YCbCr
+rbTiffCMYK.Caption            				=CMYK
+rbTiffYCbCrK.Caption          				=YCbCrK
+btnOK.Caption                 				=确定
+btnCancel.Caption             				=取消
+popBasename.Caption           				={basename}
+mniN000.Caption               				={#:000}
+
+[STRINGS]
+ 1					= Thank you for registering
+ 2					= Invalid Register Key
+ 3					= The product has been licensed. 
+ 4					= The product has been licensed to:
+ 5					= Q: How to order||A: Click the "Online Purchase" button above, or visit our homepage (http://www.a-pdf.com) for more options. We will send your registration key after receiving your order. If you cannot access the Internet, please call our Toll Free number 1-877-353-7297, and give the operator the product number %s. The product price is %s.
+ 6					= Note: The product is a try-before-buy product. The unregistered version has a limitation: merge (split) two tiff (pages) only. If you ordered, you will get a register key (license code), after inputting the code below, the limitation will be removed, and that means no number limit for output.
+
+7 = Thank you for registering
+33                            				=文件加载失败
+61                            				=非法目录 %s
+62                            				=非法基名称 %s
+63                            				=图片已导出, 要打开图片所在目录吗?
+66                            				=不支持的PDF %s
+67                            				=输入密码
+68                            				=选择要追加的 PDF 文件 .
+69                                                      =成功追加PDF文件.
+70                            				=批量处理成功
+71                            				=目录 %s 为空
+72                            				=文件名不能包含以下任何字符 \,/,:,*,?,",<,>,|
+73                            				=错误
+74                            				=文件名
+75                                                      =你没有注册此产品,只能合并两个TIFF文件!
+76                                                      = 你没有注册此产品, 只能分割第一个文件.
+77                                                      =未注册
+78                                                      =需要打开输出文件夹吗 "%s"?
+79                                                      =打开文件夹
+80                                                      =添加文件: "%s"
+81                                                      =把文件保存到 "%s"
+83                                                      =失败!
+84                                                      =添加文件
+85                                                      =保存文件
+86                                                      =分割文件: "%s"
+87                                                      =保存图片: "%s"
+88                                                      =分割文件
+89                                                      =总计
+90                                                      =项
+91                                                      = 选中项

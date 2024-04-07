@@ -1,0 +1,197 @@
+###########################################################
+#
+#  Language:		Chinese
+#  Author:		Wanqing Huang
+#  Product Name:	F:\A-PDF\Work\PDFOCR\Chinese.lng
+#  Product Version:	1.0.0 
+#
+###########################################################
+[frmMain]
+lblLang.Caption               				=语言:
+tsPDF.Caption                 				=PDF
+cbbZoom.text                  				=100%
+tsTEXT.Caption                				=OCR文字
+mniFile.Caption                       =文件
+mniScanMenu.Caption                   =扫描
+RecentFile1.Caption                   =最近的文件
+File1.Caption                 				=文件
+btnOpenFile.Caption                   =打开文件
+mniOpenPDF.Caption            				=打开PDF
+mniClosePDF.Caption           				=关闭PDF
+mniExit.Caption               				=退出
+Action1.Caption               				=操作
+mniDelete.Caption                     =删除页面
+mniGotoFirst.Caption          				=第一页
+mniGotoFirst.hint             				=第一页
+mniGotoPrivious.Caption       				=上一页
+mniGotoPrivious.hint          				=上一页
+mniGotoNext.Caption           				=下一页
+mniGotoNext.hint              				=下一页
+mniGotoLast.Caption           				=最后一页
+mniGotoLast.hint              				=最后一页
+mniSaveZip1.Caption           				=保存文本
+Edit1.Caption                 				=编辑
+mniCut.Caption                				=剪切
+mniCopy.Caption               				=复制
+mniPaste.Caption              				=粘贴
+mniUndo.Caption               				=回退
+mniSaveText2.Caption          				=保存
+mniSelectAll.Caption          				=全部选择
+Help1.Caption                 				=帮助
+Help2.Caption                 				=帮助
+About1.Caption                				=关于
+Contackus1.Caption            				=联系我们..
+actOpenPDF.Caption            				=打开PDF
+actCut.Caption                				=剪切
+actSaveZip.Caption            				=保存为ZIP
+btnAttention.Caption                                    =关注我们
+actCopy.Caption               				=复制
+actPaste.Caption              				=粘贴
+actUndo.Caption               				=回退
+actSave.Caption               				=保存
+actHelp.Caption               				=帮助
+actAbout.Caption              				=关于
+actContact.Caption            				=联系我们..
+actClosePDF.Caption           				=关闭PDF
+actExit.Caption               				=退出
+actGotoFirst.Caption          				=第一页
+actGotoFirst.hint             				=第一页
+actGotoPrivious.Caption       				=上一页
+actGotoPrivious.hint          				=上一页
+actGotoNext.Caption           				=下一页
+actGotoNext.hint              				=下一页
+actGotoLast.Caption           				=最后一页
+actGotoLast.hint              				=最后一页
+actExtractText.Caption        				=OCR选择的页
+actSelectAll.Caption          				=全部选择
+actSaveBySelect.Caption       				=OCR并且保存
+actSaveText.Caption           				=保存为文本
+actExtractAllText.Caption     				=OCR所有页
+actExchangeTab.Caption        				=
+mniSaveZip.Caption            				=保存为ZIP
+mniSaveText.Caption           				=保存为Text
+btnSelAll.Caption                     =
+btnSelAll.Hint                        =全部选择(Ctrl+A)
+btnCut.Caption                        =
+btnCut.Hint                           =剪切(Ctrl+X)
+btnCopy.Caption                       =
+btnCopy.Hint                          =复制(Ctrl+C)
+btnPaste.Caption                      =
+btnPaste.Hint                         =粘贴(Ctrl+V)
+btnUndo.Caption                       =
+btnUndo.Hint                          =回退(Ctrl+Z)
+btnSaveTextFile.Caption               =
+btnSaveTextFile.Hint                  =保存文本文件(Ctrl+S)
+actSaveBySelect.Caption               =保存文本
+btnhead.Caption                       =
+btnhead.Hint                          =第一页
+btnpre.Caption                        =
+btnpre.Hint                           =上一页
+btnnext.Caption                       =
+btnnext.Hint                          =下一页
+btntail.Caption                       =
+btntail.Hint                          =最后一页
+btnReduction.Caption                  =
+btnReduction.Hint                     =还原
+lblAddPDF.Caption                     ="点击打开demo"
+lblOpenDemo.Caption                   ="点击打开demo"
+btnRefresh.Caption                    =
+btnRefresh.Hint                       =刷新(F5)
+lblFontSize.Caption                   =文字大小：
+btnHelp.Caption                       =
+btnHelp.Caption                       =帮助
+btnGotoFirst.Caption                  =
+btnGotoFirst.Hint                     =第一页
+btnGotoPrivious.Caption               =
+btnGotoPrivious.Hint                  =上一页
+btnGotoNext.Caption                   =
+btnGotoNext.Hint                      =下一页
+btnGotoLast.Caption                   =
+btnGotoLast.Hint                      =最后一页
+actDelete.Caption                     =删除
+actClearAll.Caption                   =全部删除
+actAddImage.Caption                   =导入图片
+actScan.Caption                       =扫描
+actSelectScan.Caption                 =选择扫描仪扫描
+btnRoate.Hint                         =旋转图片
+btnDeskew.Hint                        =纠正图片
+btncrop.Hint                          =裁减图片
+btnSelPath.Caption                    =&...
+
+[frmSaveText]
+.Caption                              =保存文件
+tsConfig.Caption              				=配置
+lblProgress.Caption           				=进度:
+grpPageRange.Caption          				=页码范围
+lblexamplerange.Caption       				=示例：1,2,3-5,-2,-1
+rbOddPage.Caption             				=保存奇数页
+rbEvenPage.Caption            				=保存偶数页
+rbRangePage.Caption           				=保存页码范围
+rbAllPage.Caption             				=保存所有页面
+grpSaveType.Caption           				=保存类型/文件路径
+lblSavePath.Caption           				=保存文件：
+btnOpen.Caption               				=&...
+rbSaveAsZip.Caption           				=保存为ZIP
+rbSaveAsPDF.Caption                   =保存为PDF
+rbSaveAsText.Caption          				=保存为文本
+grpOpenway.Caption            				=打开方式
+rbOpenfile.Caption            				=打开文件
+rbOpenfolder.Caption          				=打开文件夹
+rbNotOpen.Caption             				=没有操作
+btnSave.Caption               				=保存
+btnCancel.Caption             				=取消
+
+[frmTranslating]
+btnCancel.Caption                     =取消
+
+[frmExtractText]
+btnCancel.Caption                     =取消
+
+[uFrmDownloadURL]
+lblURL.Caption                        =链接：
+lblSaveAs.Caption                     =下载到：
+lblProgress.Caption                   =进度：
+btnCancel.Caption                     =取消
+
+
+[STRINGS]
+ 1							= Thank you for registering
+ 2							= Invalid Register Key
+ 3							= The product has been licensed. 
+ 4							= The product has been licensed to:
+ 5							= Q: How to order||A: Click the "Online Purchase" button above, or visit our homepage(http://www.a-pdf.com) for more options. We will send your registration key after receiving your order. If you cannot access the Internet, please call our Toll Free number 1-877-353-7297, and give the operator the product number %s. The product price is %s.
+6	=This product is shareware. The trial period is %d days and %d days remain.
+7	=The trial period has ended. Further use requires registration.
+8	=If you ordered, you will get a register key (license code), after inputting the code below, the product can be used permanently. 
+
+
+31                             				=请选择一个文件夹:
+32                            				=需要Ghostscript，您想免费下载GPL Ghostscript吗？
+33                            				=http://www.a-pdf.com/convert-to-pdf/gs.htm
+34                            				=输入密码
+35                            				=输入文件%s的密码
+36                            				=%d/%d
+37                            				=这个文件已经有缓存了，您要从缓存中加载内容吗？
+38                            				=正在加载PDF文件[ %d / %d ]，请耐心等待！
+39                            				=您还没有注册， 只能添加3页！
+40                                    =第%d页
+41                                    =第%d页
+42                                    =OCR文本 - 第%d页
+43                                    =PDF OCR - %s
+44                                    =PDF
+45                                    =OCR文本
+46                                    =PDF OCR
+47                                    =正在从PDF文件中提取文字[ %d / %d ]，请耐心等待！
+48                                    =保存文字为"%s"成功！
+49                                    =保存文字为"%s"失败！
+50                                    =切换到PDF页
+51                                    =切换到OCR文本
+52                                    =中断提取，请稍候！
+53                                    =PDF没有完全被提取出来，你想提取剩下的页面吗？
+54                                    ="============================================第%d页=================================================="
+55                                    =将OCR语言路径从“%s”更改为“%s”成功！
+56                                    =更多...
+57                                    =下载OCR工具
+58                                    =下载OCR工具完成
+59                                    =下载OCR工具失败
+60                                    =下载中...

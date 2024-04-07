@@ -1,0 +1,184 @@
+###########################################################
+#
+#  Language:		Chinese
+#  Author:		Wanqing Huang
+#  Product Name:	OfficeBox Screen OCR
+#  Product Version:	1.2.0 
+#
+###########################################################
+[frmMain]
+.Caption                              =万彩办公大师-屏幕OCR
+tsConfig.Caption              				=配置
+lblLang.Caption               				=OCR语言：
+lblHotKey.Caption             				=热键：
+actOcr.Caption                				=截屏
+actOcr.hint                   			  =截取屏幕文字并OCR...
+btnOcr.Caption                        =截屏
+btnOcr.hint                   			  =截取屏幕文字并OCR...
+actHistory.Caption            				=历史
+actHistory.hint               				=查看历史
+btnHistory.Caption            				=历史
+btnHistory.hint               				=查看历史
+actHide.Caption               				=隐藏
+actHide.hint                  				=隐藏主窗口
+btnHide.Caption               				=隐藏
+btnHide.hint                  				=隐藏主窗口
+actHelp.Caption               				=帮助
+actHelp.hint                  				=帮助
+actAbout.Caption              				=关于
+actContactUs.Caption          				=联系我们...
+actExit.Caption               				=退出
+actShowMain.Caption           				=显示主窗口
+mniShowMain.Caption           				=显示主窗口
+mniOcr.Caption                				=OCR
+mniOcr.hint                   				=从屏幕OCR
+mniHistory.Caption            				=历史
+mniHistory.hint               				=查看历史
+mniHelp.Caption               				=帮助
+mniHelp.hint                  				=帮助
+mniAbout.Caption              				=关于
+mniContactUs.Caption          				=联系我们...
+mniExit.Caption               				=退出
+mniClosemenu.Caption          				=关闭菜单
+mniHelp1.Caption              				=帮助
+mniHelp1.hint                 				=帮助
+mniAbout1.Caption             				=关于
+mniContactUs1.Caption         				=联系我们...
+btnHelp.Caption                       =""
+btnHelp.Hint                          =帮助
+btnAttention.Caption                       =""
+btnAttention.Hint                       =关注我们
+btnSelPath.Caption                    =设置...
+
+[frmEdit]
+.Caption                              =OCR结果
+lblFontSize.Caption           				=文字大小:
+cbbZoom.text                  				=100%
+actFitToWidth.Caption         				=适应宽度
+actFitToWidth.hint            				=适应宽度
+actFitToHeight.Caption        				=适应高度
+actFitToHeight.hint           				=适应高度
+actOriginalSize.Caption       				=原始大小
+actOriginalSize.hint          				=原始大小
+actZoomOut.Caption            				=缩小
+actZoomOut.hint               				=缩小
+actZoomIn.Caption             				=放大
+actZoomIn.hint                				=放大
+actSelectAll.Caption          				=全部选择
+actSelectAll.hint             				=全部选择
+actCut.Caption                				=剪切
+actCut.hint                   				=剪切
+actCopy.Caption               				=复制
+actCopy.hint                  				=复制
+actPaste.Caption              				=粘贴
+actPaste.hint                 				=粘贴
+actUndo.Caption               				=回退
+actUndo.hint                  				=回退
+actSave.Caption               				=保存文本
+actSave.hint                  				=保存
+actSaveAs.Caption             				=保存文本为...
+actSaveAs.hint                				=保存文本为...
+actOpenHistory.Caption        				=历史
+actOpenHistory.hint           				=查看OCR历史
+btnHistory.Caption                    =历史
+btnHistory.hint                       =查看OCR历史
+actExit.Caption               				=退出
+actExit.hint                  				=退出
+actHelp.Caption               				=帮助
+actHelp.hint                  				=帮助
+actContact.Caption            				=联系我们...
+actContact.hint               				=联系我们...
+actAbout.Caption              				=关于
+actAbout.hint                 				=关于
+mniFile.Caption               				=文件
+mniOpenHistory.Caption        				=查看OCR历史
+mniOpenHistory.hint           				=查看OCR历史
+mniSave.Caption               				=保存文本
+mniSave.hint                  				=保存
+mniSaveAs.Caption             				=保存文本为...
+mniSaveAs.hint                				=保存文本为...
+mniExit2.Caption              				=退出
+mniExit2.hint                 				=退出
+mniEdit.Caption               				=编辑
+mniSelectAll.Caption          				=全部选择
+mniSelectAll.hint             				=全部选择
+mniCut.Caption                				=剪切
+mniCut.hint                   				=剪切
+mniCopy.Caption               				=复制
+mniCopy.hint                  				=复制
+mniPaste.Caption              				=粘贴
+mniPaste.hint                 				=粘贴
+mniUndo.Caption               				=回退
+mniUndo.hint                  				=回退
+mniImage.Caption              				=图片
+mniFitToWidth.Caption         				=适应宽度
+mniFitToWidth.hint            				=适应宽度
+mniFitToHeight.Caption        				=适应高度
+mniFitToHeight.hint           				=适应高度
+mniOriginalSize.Caption       				=原始大小
+mniOriginalSize.hint          				=原始大小
+mniZoomOut.Caption            				=缩小
+mniZoomOut.hint               				=缩小
+mniZoomIn.Caption             				=放大
+mniZoomIn.hint                				=放大
+mniHelp.Caption               				=帮助
+mniHelp1.Caption              				=帮助
+mniHelp1.hint                 				=帮助
+mniAbout.Caption              				=关于
+mniAbout.hint                 				=关于
+mniContact.Caption            				=联系我们...
+mniContact.hint               				=联系我们...
+btnFitw.Caption                       =""
+btnFit.Caption                        =""
+btnReduction.Caption                  =""
+btnZoomOut.Caption                    =""
+btnZoomIn.Caption                     =""
+btnHistory.Caption                    =历史
+btnSelAll.Caption                     =""
+btnSelAll.Hint                        =全部选择(Ctrl+A)
+btnCut.Caption                        =""
+btnCut.Hint                           =剪切(Ctrl+X)
+btnCopy.Caption                       =""
+btnCopy.Hint                          =复制 (Ctrl+C)
+btnPaste.Caption                      =""
+btnPaste.Hint                         =粘贴 (Ctrl+V)
+btnUndo.Caption                       =""
+btnUndo.Hint                          =回退 (Ctrl+Z)
+btnSave.Caption                       =""
+btnSave.Hint                          =保存文字(Ctrl+S) 
+btnSaveas.Caption                     =""
+btnSaveas.Hint                        =保存文字为...
+
+[frmShowHistory]
+.Caption                              =OCR历史
+btnFirst.hint                 				=第一页
+btnLast.hint                  				=最后一页
+btnNext.hint                  				=下一页
+btnPrevious.hint              				=上一页
+btnDelHistory.Caption         				=删除
+btnClearHistory.Caption               =清空
+
+[frmSelectScreenArea]
+.Caption                              =选择屏幕区域
+lblCtrl.Caption                       =按"Ctrl + 方向键"改变位置
+lblAlt.Caption                        =按"Shift + 方向键"改变大小
+lblSelect.Caption                     =按"Enter"OCR选择的文字, 按"Esc"退出
+btnExit.Caption                       =退出
+
+[STRINGS]
+ 1					= Thank you for registering
+ 2					= Invalid Register Key
+ 3					= The product has been licensed. 
+ 4					= The product has been licensed to:
+ 5					= Q: How to order||A: Click the "Online Purchase" button above, or visit our homepage(http://www.a-pdf.com) for more options. We will send your registration key after receiving your order. If you cannot access the Internet, please call our Toll Free number 1-877-353-7297, and give the operator the product number %s. The product price is %s.
+ 6	        = This product is shareware. The trial period is %d days and %d days remain.
+ 7	        = The trial period has ended. Further use requires registration.
+ 8	        = If you ordered, you will get a register key (license code), after inputting the code below, the product can be used permanently. 
+ 
+33                               =位置(左:%d, 上:%d)
+34                               =区域大小(宽度:%d, 高度:%d) 
+35                               =%d / %d
+36                               =[ %d ]
+37                               =您确定要删除OCR历史吗？
+38                               =改变OCR语言目录"%s"为"%s"成功！
+39                               =更多...

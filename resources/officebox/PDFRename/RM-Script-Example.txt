@@ -1,0 +1,97 @@
+//A-PDF Rename allows you to custom how the output files will be renamed by using Script. With the script editor you can 
+//add script to change 11 variables 
+//(newFilename,Filename,newSubject,Subject,newKeywords,Keywords,newAuthor,Author,newTitle,Title,Content tag).
+
+// Variable Name   Variable Type     Remark
+// newFilename     string            the new filename after script.
+// Filename        string            the original PDF filename.
+// newSubject      string            the new Subject after script.
+// Subject         string            the original PDF metadata-Subject .
+// newKeywords     string            the new Keywords after script.
+// Keywords        string            the original PDF metadata-Keywords .
+// newAuthor       string            the new Author after script.
+// Author          string            the original PDF metadata-Author .
+// Title           string            the original PDF metadata-Title .
+// newTitle        string            the new Title after script.
+// Content_tag     string            The Content_Tag macro 
+
+
+
+// This is script example for A-pdf Rename
+
+// example
+// Script code:
+begin
+newFilename:=trim(Filename)+'_'+'name';
+newSubject:='Subject:'+Subject;
+newKeywords:=trim(Keywords);
+newAuthor:='Author:'+Author;
+newTitle:='Title:'+Title;
+Content_newTag_1:=trim(Content_newTag_1);
+end.
+// example 
+
+
+// The script is based on Object Pascal, more about Object Pascal syntax please visit: http://en.wikipedia.org/wiki/Object_Pascal
+
+
+More function available...
+
+function Copy(S:string; Index, Count: Integer): string;
+function UpperCase(const S: string): string;
+function LowerCase(const S: string): string;
+function CompareStr(const S1, S2: string): Integer;
+function CompareText(const S1, S2: string): Integer;
+function SameText(const S1, S2: string): Boolean;
+function Trim(const S: string): string;
+function TrimLeft(const S: string): string;
+function TrimRight(const S: string): string;
+function QuotedStr(const S: string): string;
+function IntToStr(Value: Integer): string;
+function StrToInt(const S: string): Integer;
+function StrToIntDef(const S: string; Default: Integer): Integer;
+function StrToBool(const S: string): Boolean;
+function StrToBoolDef(const S: string; const Default: Boolean): Boolean;
+function BoolToStr(B: Boolean; UseBoolStrs: Boolean = False): string;
+function ExtractFilePath(const FileName: string): string;
+function ExtractFileDir(const FileName: string): string;
+function ExpandFileName(const FileName: string): string;
+function Format(const Format: string;  const Args: array of const): string;
+function StrToFloat(const S: string): Extended;
+function StrToFloatDef(const S: string;  const Default: Extended): Extended;
+function EncodeDate(Year, Month, Day: Word): TDateTime;
+function EncodeTime(Hour, Min, Sec, MSec: Word): TDateTime;
+function DayOfWeek(const DateTime: TDateTime): Word;
+function Date: TDateTime;
+function Time: TDateTime;
+function Now: TDateTime;
+function CurrentYear: Word;
+function IncMonth(const DateTime: TDateTime; NumberOfMonths: Integer = 1): TDateTime;
+
+function AnsiContainsStr(const AText, ASubText: string): Boolean;
+function AnsiStartsStr(const ASubText, AText: string): Boolean;
+function AnsiEndsStr(const ASubText, AText: string): Boolean;
+function AnsiReplaceStr(const AText, AFromText, AToText: string): string;
+function AnsiMatchStr(const AText: string; const AValues: array of string): Boolean;
+function AnsiIndexStr(const AText: string; const AValues: array of string): Integer;
+
+procedure ReplaceTime(var DateTime: TDateTime; const NewTime: TDateTime);
+procedure ReplaceDate(var DateTime: TDateTime; const NewDate: TDateTime);
+function IsLeapYear(Year: Word): Boolean;
+function DateToStr(const DateTime: TDateTime): string;
+function TimeToStr(const DateTime: TDateTime): string;
+function DateTimeToStr(const DateTime: TDateTime): string;
+function StrToDate(const S: string): TDateTime;
+function StrToDateDef(const S: string;  const Default: TDateTime): TDateTime;
+function StrToTime(const S: string): TDateTime;
+function StrToTimeDef(const S: string;  const Default: TDateTime): TDateTime; 
+function StrToDateTime(const S: string): TDateTime;
+function StrToDateTimeDef(const S: string;  const Default: TDateTime): TDateTime; 
+function IncludeTrailingPathDelimiter(const S: string): string;
+function SameFileName(const S1, S2: string): Boolean;
+function ReverseString(const AText: string): string;
+function StuffString(const AText: string; AStart, ALength: Cardinal;  const ASubText:string): string;
+function LeftStr(const AText: String; const ACount: Integer):String;
+function RightStr(const AText: String; const ACount: Integer): String; 
+function MidStr(const AText: String; const AStart, ACount: Integer): String;
+function PosEx(const SubStr, S: string; Offset: Integer): Integer;

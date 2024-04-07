@@ -1,0 +1,572 @@
+###########################################################
+#
+#  Language:		English
+#  Author:		Wanqing Huang
+#  Product Name:	Photo Slideshow
+#  Product Version:	1.0
+#
+###########################################################
+
+[Font]
+ Name 						=Tahoma
+ Size						=8
+ CharSet					=Default
+
+[frmAddDirProgressing]
+ lAdding.Caption				=Adding:
+ Button1.Caption				=&Stop
+
+ [frmSelectDir]
+ .Caption						=Select Directory
+ bCancel.Caption				=&Cancel
+ bOk.Caption					=&OK
+ bAdvanced.Caption				=&Advanced
+ cbIncSub.Caption				=Include sub folder(s)
+ lDesc.Caption					=Select directory:
+ lMask.Caption					=Filter:
+ lMaskDesc.Caption				=Split by comma, support *, and ? wide char
+
+ [frmAbout]
+ .Caption						=About
+ lblVersionName.Caption			=Version:
+ lblRegKey.Caption				=Have a key:
+ btnReg.Caption					=&Register
+ btnClose.Caption				=&Close
+ btnTry.Caption					=&Try
+ btnOrder.Caption				=&How to order
+ btnOlOrder.Caption				=Online Purchase
+ lblReg.Caption					=The product has been registered. Register key:
+
+	[frmMain]
+	.Caption                              =Photo Slideshow
+	tsimage.Caption               				=Images Thumbnail  
+	tslist.Caption                				=List
+	Labeltip.Caption              				=The list is empty. Please add some PDF documents to begin ...
+	lbltip.Caption                				=Drag and Drop to Re-order Images 
+	tsMusics.Caption              				=Musics
+	cbMusicLoop.Caption           				=Loop
+	sbtpiror.hint                 				=Piror
+	sbtnext.hint                  				=Next
+	sbtContrast1.hint             				=Enhance contrast
+	sbtContrast2.hint             				=Lower contrast
+	sbtbright1.hint               				=Improve the brightness
+	sbtbright2.hint               				=Weakened brightness
+	sbtbrightsharp.hint           				=Sharp more
+	sbtColor.hint                 				=Image Effects
+	TabSheet1.Caption             				=&Transition
+	lblStyle.Caption              				=Effect:
+	gbProgressControl.Caption     				= Progress Control 
+	lblProgressStep.Caption       				=Step (%):
+	lblProgressDelay.Caption      				=Interval (ms):
+	ckExactTiming.Caption         				=Preserve Exact Timing
+	ckThreaded.Caption            				=Use Separate Thread
+	cbImageLoop.Caption           				=Loop
+	TabSheet2.Caption             				=&Layout
+	gbBackground.Caption          				= Background 
+	lblBackgroundMode.Caption     				=Mode:
+	lblColor.Caption              				=Color:
+	btnChangeBackground.Caption   				=Change Background...
+	gbImagePlacement.Caption      				= Image Placement 
+	ckCenter.Caption              				=Center
+	ckProportional.Caption        				=Preserve Aspect Ratio
+	ckStretch.Caption             				=Stretch / Shrink
+	gbFrame.Caption               				= Frame 
+	lblFrameWidth.Caption         				=Width:
+	btnChangeFrameColor.Caption   				=Change Color...
+	TabSheet3.Caption             				=&Images
+	lblDisplayInterval.Caption    				=Display Interval:
+	lblDisplayIntervalValue.Caption				=[ 1000 Millisecond ]
+	ckOverDraw.Caption            				=Over Draw Images (same size only)
+	FileF1.Caption                				=&File
+	AddImage1.Caption             				=&Add Image(s)
+	InsertImages1.Caption         				=&Insert Image(s)
+	Addadirectiy1.Caption         				=Add a &Directory...
+	Action1.Caption               				=&Scan
+	Acquire2.Caption              				=Scan paper
+	SelectScannerandScanPaper1.Caption				=Select Scanner and Scan Paper
+	Openproject1.Caption          				=Open project
+	Saveproject1.Caption          				=Save project
+	actSaveProjectAs1.Caption     				=Save project as..
+	mniCurrentproject.Caption     				=Current project
+	Closeproject1.Caption         				=&Close project
+	Delete2.Caption               				=&Remove
+	Clearall1.Caption             				=&Clear
+	SaveJob1.Caption              				=I&mport List
+	Exportlist1.Caption           				=&Export List
+	Setting1.Caption              				=Se&tting
+	Quit1.Caption                 				=&Exit
+	ools1.Caption                 				=&Action
+	MoveFirst1.Caption            				=Move &Frist
+	Up1.Caption                   				=Move &Up
+	Down1.Caption                 				=Move &Down
+	MoveLast1.Caption             				=Move &Last
+	Sort2.Caption                 				=Sort
+	Sortbyname2.Caption           				=Sort by name
+	Sortbyfilesize2.Caption       				=Sort by file size
+	SortbyImagesize2.Caption      				=Sort by Image size
+	Sortbycreattime2.Caption      				=Sort by creat time
+	Rearrange2.Caption            				=Rearrange...
+	RearrangeUndo2.Caption        				=Undo rearrange
+	Images1.Caption               				=&Image
+	Reload2.Caption               				=&Reload
+	ZoomIn1.Caption               				=Zoom &In
+	ZoomOut1.Caption              				=Zoom &Out
+	Fit1.Caption                  				=&Actual Size
+	Fit2.Caption                  				=&Best Fit
+	Horizontalflip2.Caption       				=&Horizontal Flip
+	Verticalflip2.Caption         				=&Vertical Flip
+	Roate90Clockwise1.Caption     				=Roate &90 (Clockwise)
+	Roate90CounterClockwise1.Caption				=Roate &-90 (Counter Clockwise)
+	Roate1.Caption                				=&Roate ...
+	Crop1.Caption                 				=&Crop ...
+	Deskew1.Caption               				=&De-skew
+	ConverttoBlackWhite1.Caption  				=&Convert to Black/White
+	Grayscale3.Caption            				=&Gray Scale
+	Edgedetection3.Caption        				=&Edge Detection
+	Help1.Caption                 				=&Help
+	Help2.Caption                 				=Help
+	AboutImagetoPDF1.Caption      				=&About ...
+	Contactus1.Caption            				=&Contact us...
+	Addimage2.Caption             				=&Add Image(s)
+	Insertimage1.Caption          				=&Insert Image(s)
+	AddDirectory1.Caption         				=Add a &Directory...
+	MoveFirst2.Caption            				=Move &Frist
+	Moveup1.Caption               				=Move &Up
+	Movedown1.Caption             				=Move &Down
+	MoveLast2.Caption             				=Move &Last
+	Sort1.Caption                 				=Sort
+	Sortbyname1.Caption           				=Sort by name
+	Sortbyfilesize1.Caption       				=Sort by file size
+	SortbyImagesize1.Caption      				=Sort by Image size
+	Sortbycreattime1.Caption      				=Sort by creat time
+	Rearrange1.Caption            				=Rearrange...
+	RearrangeUndo1.Caption        				=Undo Rearrange 
+	SelectAll1.Caption            				=&Select All
+	InverseSelect1.Caption        				=&Inverse Select
+	Extract1.Caption              				=E&xtract Image
+	Delete1.Caption               				=&Remove
+	N32001.Caption                				=3200%
+	N24001.Caption                				=2400%
+	N16001.Caption                				=1600%
+	N8001.Caption                 				=800%
+	N4001.Caption                 				=400%
+	N2001.Caption                 				=200%
+	N1501.Caption                 				=150%
+	N1251.Caption                 				=125%
+	N1001.Caption                 				=100%
+	N501.Caption                  				=50%
+	N251.Caption                  				=25%
+	N1252.Caption                 				=12.5%
+	N8331.Caption                 				=8.33%
+	FitPage1.Caption              				=Fit &Page
+	ActualPage1.Caption           				=Act&ual Page
+	FitWidth1.Caption             				=Fit &Width
+	ConverttoBW1.Caption          				=&Convert to Black/White
+	Grayscale1.Caption            				=&Gray Scale
+	Edgedetection1.Caption        				=&Edge Detection
+	Reload1.Caption               				=&Reload
+	Rotate1.Caption               				=&Roate ...
+	Horizontalflip1.Caption       				=&Horizontal Flip
+	Verticalflip1.Caption         				=&Vertical Flip
+	Grayscale2.Caption            				=&Gray Scale
+	ConverttoBW2.Caption          				=&Convert to Black/White
+	Edgedetection2.Caption        				=&Edge Detection
+	open2.Caption                 				=&Open File
+	Add1.Caption                  				=&Add Image(s)
+	aListRemove1.Caption          				=&Remove
+	aListClear1.Caption           				=&Clear
+	Movef2.Caption                				=Move &Frist
+	Mup2.Caption                  				=Move &Up
+	mdown2.Caption                				=Move &Down
+	MoveLast3.Caption             				=Move &Last
+	aListPosDown1.Caption         				=&Select All
+	DeselectAll1.Caption          				=&Inverse Select
+	actAddImage.Caption           				=&Add Image(s)
+	actInsertImage.Caption        				=&Insert Image(s)
+	actAddDir.Caption             				=Add a &Directory...
+	actScan.Caption               				=Scan paper
+	actScanSelect.Caption         				=Select Scanner and Scan Paper
+	actMoveFirst.Caption          				=Move &Frist
+	actMoveUp.Caption             				=Move &Up
+	actMoveDown.Caption           				=Move &Down
+	actMoveLast.Caption           				=Move &Last
+	actRemove.Caption             				=&Remove
+	actSelectAll.Caption          				=&Select All
+	actImageReload.Caption        				=&Reload
+	actImageZoomIn.Caption        				=actImageZoomIn
+	actImageZoomOut.Caption       				=Zoom &Out
+	actImageActual.Caption        				=&Actual Size
+	actImageFit.Caption           				=&Best Fit
+	actImageFlipH.Caption         				=&Horizontal Flip
+	actImageFlipV.Caption         				=&Vertical Flip
+	actImageRotate90.Caption      				=Roate &90 (Clockwise)
+	actImageCRotate90.Caption     				=Roate &-90 (Counter Clockwise)
+	actImageRotate.Caption        				=&Roate ...
+	actImageCrop.Caption          				=&Crop ...
+	actImagedeskew.Caption        				=&De-skew
+	actImageBW.Caption            				=&Convert to Black/White
+	actImageGray.Caption          				=&Gray Scale
+	actImageEdge.Caption          				=&Edge Detection
+	actHelp.Caption               				=Help
+	actInverseSelect.Caption      				=&Inverse Select
+	actClear.Caption              				=&Clear
+	actRearrange.Caption          				=Rearrange...
+	actRearrangeUndo.Caption      				=Rearrange Undo
+	actExport.Caption             				=E&xport to Image(s)
+	actBuildToTiff.Caption        				=Build To Mutiple-Tiff
+	actSortByName.Caption         				=Sort by name
+	actSortByFileSize.Caption     				=Sort by file size
+	actSortByImageSize.Caption    				=Sort by Image size
+	actSortByCreatTime.Caption    				=Sort by creat time
+	actBuildSlideShowExe.Caption  				=Build SlideShow (&EXE)
+	actBuildSlideshowScr.Caption  				=Build SlideShow (&SCR)
+	actBurnCD.Caption             				=B&urn to CD
+	actHTMLPreview.Caption        				=Preview
+	actApplyToAll.hint            				=Apply to all
+	actAddMusic.hint              				=Add music
+	actDelMusic.hint              				=Delete music
+	actMusicUp.hint               				=Music up
+	actMusicDown.hint             				=Music down
+	actTestMusic.hint             				=Test music
+	actSaveProjectAs.Caption      				=Save project as..
+	actCloseProject.Caption       				=&Close project
+	actVideoSetting.Caption       				=Build as &video
+	actOpenProject.Hint                   =Open project
+	actSaveProject.Hint                   =Save current project
+	btnTestMusic.Caption                  =Verif&y
+btnAttention.Caption                          =Pay Attention
+
+ [frmBatchProcess]
+ lbangle.Caption				=&Angle:
+ BtnOk.Caption				        =&Batch Process
+ btnCancel.Caption				=&Cancel
+
+
+ [fConvBW]
+ Label2.Caption				=Converts image to black and white (1 bit) using a threshold algorithm.||All pixels which value is less than the threshold value will be black, otherwise will be white.
+ RadioGroup1.Caption				=Dithering 
+ Button1.Caption				=&OK
+ Button2.Caption				=&Cancel
+ GroupBox1.Caption				=Threshold parameters 
+ Label1.Caption				=Threshold val&ue (0..255)
+ Label24.Caption				=All levels that are less of Threshold will be || set to black, otherwise will be set to white
+ sbtAuto.Caption				=Auto
+ edtThreshold.text				=200
+ GroupBox2.Caption				=Preview
+ 
+
+
+[frmcrop]
+ GroupBoxZoom.Caption				=Zoom
+ sbtzoomin.hint				=Zoom in
+ sbtzoomout.hint				=Zoom out
+ sbtFit.hint				=Original
+ sbtStrech.hint				=Fit
+ BitBtn_crop.Caption				=&Crop
+ btnUndo.Caption				=&Undo
+ btnok.Caption				=&OK
+ BitBtn2.Caption				=&Cancel
+
+[fRotate]
+ GroupBox2.Caption				=&Angle
+ edtrota.text				=0
+ GroupBoxZoom.Caption				=&Zoom
+ sbtzoomin.hint				=Zoom in
+ sbtzoomout.hint				=Zoom out
+ sbtFit.hint				=Original
+ sbtStrech.hint				=Fit
+ btnOK.Caption				=&OK
+ btnCancel.Caption				=&Cancel
+ btnReset.Caption				=&Reset
+ CheckBox1.Caption				=A&nti aliasing
+ Button1.Caption				=Button1
+
+
+
+[frmExport]
+btnexport.Caption             				=E&xport
+btncancel.Caption             				=&Cancel
+TabSheet1.Caption             				=&General
+GroupBoxoutput.Caption        				=Output Settings
+Labeloutdir.Caption           				=Output Fo&lder:
+Labelbasename.Caption         				=N&ame for out Image:
+Labelnametip.Caption          				=Example:
+btnbrowse.Caption             				=&Browse...
+edtfilename.text              				={#:000}_{basename}
+GroupBox1.Caption             				=Export Range
+lblPages.Caption              				=&Pages
+cbpages.text                  				=All
+TabSheet2.Caption             				=&Image format for scanned documents
+GroupBoxcompress.Caption      				=Compress Setting
+Labeloutputformat.Caption     				=Output For&mat(for scan image):
+rgTiff.Caption                				=TI&F Compress:
+Labeljpghigh.Caption          				=High Quality
+Label1.Caption                				=Small Size
+LabelIT.Caption               				=&JEPG Quality:
+lbjpgeQ.Caption               				=90
+cmbformat.text                				=TIFF File format
+Label2.Caption                				=High Quality
+Label3.Caption                				=Small Size
+Label4.Caption                				=&Tiff JEPG Quality:
+lbTiffJepgQ.Caption           				=90
+rgtiff.items					=&UnCompressed (not commend)||&PACKBITS(commend)||&JPEG(for color image)
+
+
+[frmRearrange]
+BtnOk.Caption                 				=Rearrange
+BtnCancel.Caption             				=Cancel
+TabSheet1.Caption             				=Rearrange paper order
+LabelPagerange.Caption        				=Page range start &From image
+Labelto.Caption               				=&To
+GroupBox1.Caption             				=Mode
+rbmanual.Caption              				=&Manual:
+RbMode1.Caption               				=Mode &1:
+RbMode2.Caption               				=Mode &2:
+RbMode3.Caption               				=Mode &3:
+RbMode4.Caption               				=Mode &4:
+
+[frmoption]
+TabSheet1.Caption             				=General
+grp3.Caption                  				=Size && Quality
+lbl2.Caption                  				=Q&uality:
+lbl9.Caption                  				=Quality: High values produce better image quality but require more disk space.
+lbl5.Caption                  				=The recommended Quality is 90.
+lblPixel.Caption              				=pixel
+rbSizeTypeOrg.Caption         				=Original size
+rbSizeTypeSet.Caption         				=Resize to:
+grpHTML.Caption               				=Book Title
+lbl10.Caption                 				=&Book Title:
+lbl10.hint                    				=This value will become the title of index.html
+grp1.Caption                  				=Page Width and Height
+lblWidth.Caption              				=&Width:
+lblHeight.Caption             				=&Height:
+lbl6.Caption                  				=Width and Height are not the real page width and height, they are used to cacluate the ratio.
+rbPageWidthAndHeightTypeC.Caption				=Custo&mization
+rbPageWidthAndHeightTypeImg.Caption				=Use the &first image's width and height
+TabSheet2.Caption             				=Look&&feel
+grpTemplate.Caption           				=Template
+cbbTemplate.text              				=Default
+btnOk.Caption                 				=&Ok
+btnCancel.Caption             				=&Cancel
+
+[frmburn]
+.Caption                      				=Burn to CD
+TabSheet1.Caption             				=Burn to CD
+Label1.Caption                				=CD Writer
+Label2.Caption                				=Action
+Label3.Caption                				=Please Insert a CD to your CD write dirver, then Click Begin Burn
+grp1.Caption                  				=Output Type
+lblExeName.Caption            				=Exe &Name:
+rbHTML.Caption                				=&HTML
+rbExe.Caption                 				=&Exe
+grp2.Caption                  				=Disc Title
+lbl1.Caption                  				=&Disc title:
+btnBurn.Caption               				=Begin &Burn
+btnCancel.Caption             				=&Cancel Burn
+chkAutorun.Caption            				=&Make it automatically play the flipbook in CD
+
+[frmCapSetting]
+.Caption                              =Screen Capture Setting
+tsInput.Caption               				=&Input
+grpVideoSize.Caption          				=Video size
+lblWidth.Caption              				=Video &width:
+lblVideoHeight.Caption        				=Video &height:
+lblpx1.Caption                				=PX
+lblpx2.Caption                				=PX
+lblVideoFrameRate.Caption     				=Fra&me rate:
+chkCaptureMouse.Caption       				=&Capture Mouse Cursor
+lblInputDevice.Caption        				=Input &device:
+lblInputLine.Caption          				=Input &line:
+lblInputFormat.Caption        				=Input &format:
+chkUseBest.Caption            				=&Use best
+chkCaptureAutoplay.Caption    				=Auto &play
+chkRecordAudio.Caption        				=&Record audio
+tsOutput.Caption              				=&Output
+lblOutputFormat.Caption       				=Output format:
+btnSetAvi.Caption             				=&Setting
+btnSetWmv.Caption             				=&Setting
+btnSetMpeg.Caption            				=&Setting
+lblOutputFile.Caption         				=Output &file:
+btnSelOutputFile.Caption      				=&...
+rbOutputAvi.Caption           				=&AVI
+rbOutputWmv.Caption           				=&WMV
+rbOutputMpeg.Caption          				=&MPEG
+btnOk.Caption                 				=Ca&pture
+btnCancel.Caption             				=C&lose
+
+[frmAviSetting]
+.Caption                              =AVI Format Setting
+grpAVIVideo.Caption           				=Video
+lblAVIVideoCodec.Caption      				=&Video codec:
+chkVideoUncompress.Caption    				=&Uncompressed
+grpAVIAudio.Caption           				=Audio
+lblAudioCodec.Caption         				=&Audio codec:
+lblBPS.Caption                				=&BPS:
+lblSampleRate.Caption         				=&Sample rate:
+lblChannel.Caption            				=&Channels:
+chkAudioUncompress.Caption    				=U&ncompressed
+cbbAudioChannels.text         				=Stereo
+chkUseLame.Caption            				=Use LAME for audio encoding
+btnOK.Caption                 				=OK
+btnCancel.Caption             				=Cancel
+
+[frmWmvSetting]
+.Caption                              =WMV Format Setting
+grpWMVVideo.Caption           				=Video
+lblWMVVideoCodec.Caption      				=&Video codec:
+lblVideoBitRate.Caption       				=&Bit rate:
+lbl1.Caption                  				=Kbps
+lblWMVVideoFrameRate.Caption  				=Fra&me rate:
+lblFps.Caption                				=Fps
+grpWMVAudio.Caption           				=Audio
+lblWmvAudioCodec.Caption      				=&Audio codec:
+lblWmvAudioFormat.Caption     				=Audio &format:
+btnOK.Caption                 				=OK
+btnCancel.Caption             				=Cancel
+
+[frmMpegSetting]
+.Caption                              =MPEG Format Setting
+grpMPEGVideo.Caption          				=Video
+lblMpegVideoCodec.Caption     				=&Video codec:
+lblMpegVideoFormat.Caption    				=Video &format:
+lblMpegFrameRate.Caption      				=Fra&me rate:
+lblMpegAspectRatio.Caption    				=As&pect ratio:
+lblMpegVideoResolution.Caption				=&Resolution:
+lbl3.Caption                  				=x
+grpMPEGAudio.Caption          				=Audio
+lblMpegAudioCodec.Caption     				=&Audio codec:
+lblMpegAudioSampleRate.Caption				=&Sample rate:
+lblMpegAudioChannles.Caption  				=&Channles:
+lblMpegAudioBitRate.Caption   				=&Bit rate:
+lblKbps.Caption               				=Kbps
+lbl2.Caption                  				=HZ
+btnOK.Caption                 				=OK
+btnCancel.Caption             				=Cancel
+
+[frmDoCapture]
+lblShowTimeElapsed.Caption    				=00:00:00
+btnClose.Caption              				=Finish
+btnStart.Caption              				=&Start
+btnDefault.Caption                    =&Default
+
+[STRINGS]
+ 1					= Thank you for registering
+ 2					= Invalid Register Key
+ 3					= The product has been licensed. 
+ 4					= The product has been licensed to:
+ 5					= Q: How to order||A: Click the "Online Purchase" button above, or visit our homepage(http://www.a-pdf.com) for more options. We will send your registration key after receiving your order. If you cannot access the Internet, please call our Toll Free number 1-877-353-7297, and give the operator the product number %s. The product price is %s.
+ 6					= Note: The product is a try-before-buy product. The unregistered version has a limitation: adding a watermark into the output flip book files. If you ordered, you will get a register key (license code), after inputting the code below, the limitation will be removed, that means the output files will not be added a watermark.
+
+ 7					= Please Select a Directory:
+ 8					= Images:
+ 9					= No items!
+ 10					= Information
+ 11					= Are you sure to clear all items? 
+ 12					= Delete all items information
+ 13					= Modified
+ 14					= Reduce Colors
+ 15					= Insert colors of image:
+ 16					= Add a directory to list
+ 17					= Please wait...
+ 18					= Build file "%s" finish. Open it?
+ 19					= Warning
+ 20					= File "%s" already exists, overwrite it? 
+ 21					= Build file "%s" failed!
+ 22					= Processing
+ 23					= Please wait...
+ 24					= Building images to Flip Book document...
+ 25					= Building images
+ 26					= Building images to Flip Book Complete!
+ 27					= Please select an area to crop with your mouse first!
+ 28					= Zoom
+ 29					= Flip Book files has been created. Do you want to open the directory?
+ 30					= Images
+ 31					= Cannot find a scanner, Please check you have a scanner!
+ 32					= Cannot acquire data from scanner, Please check scanner!
+ 33                                     =Warning!
+ 34                                     =File load error!  "%s"
+ 35                                     =File password error "%s" !
+ 36                                     =File decrypt error "%s" !
+ 37                                     =Cannot apply text watermark "%s". '#13#10
+ 38                                     =Cannot apply image watermark "%s". '#13#10
+ 39                                     =Cannot save file to "%s". File may be in use. Retry?
+ 40                                     =Cannot save Flip Book to "%s".
+ 41                                     =Name is empty! Please enter a name for the watermark!
+ 42                                     =Edit Text Watermark
+ 43                                     =Edit Image Watermark
+ 44                                     =Images not loading!
+ 45                                     =Watermark name "%s" already exists. Please try a different name!
+ 46                                     =Add Image Watermark
+ 47                                     =Edit Image Watermark
+ 48                                     =Add Text Watermark
+ 49                                     =Add Text Watermark
+ 50                                     =The default page size is same as image size. You can not set the page layout to multiple images in one page, do you want to change the page size? 
+ 51                                     =Page layout settings
+ 52                                     =A-PDF Image to FlipBook have found last job, do you want to recover it?  
+ 53                                     =Open last job
+ 54                                     =Image Name
+ 55                                     =Image Type
+ 56                                     =Image Size
+ 57                                     =Modified Date
+ 58                                     =A-PDF Image to FlipBook does not support convert file: "%s" to Flip Book, such as .avi, .wmv, .mpg video file formats! 
+ 59                                     =Loading images in process...
+ 60                                     =Failed : The image file "%s" can't added into Flip Book. 
+61                            				= Output directory error: %s
+62                            				= Illegal base name: %s
+63                            				= Export image successful , do you want to open the directory?
+66                            				=Unsupported PDF [%s] Version
+67                            				=Input password
+68                            				=Please choose a valid PDF file to append.
+69					=PDF append success, Do you want to open the output PDF?
+70					=Batch Processing Completed!
+71					=Please enter a valid directory.
+72					=Illegal file name or file can not be created: %s
+73 					=%d of %d images processed
+74					=Build file(s) finish. Open the directory?
+75					=Remove the image(s)?
+80					=Finished, browse the file?
+81					=Failed to build multi-page tiff!
+
+90                            				=Please select a folder for result files
+91                            				=Finished converting. Open the it?
+92                            				=Finish process
+93                            				=>>> WRITE DONE.
+94                            				=>>> WRITE DONE WITH ERROR:%s.
+95                            				=Burn another disc? If yes, then please replace media in drive before proceeding.
+96                            				=Finished burning.
+97                            				=Disc title is empty!
+98                            				=Invalid Input
+99                            				=Exe name is empty!
+100                           				=Invalid Input
+101                           				=>>> DISC IS NOT Writable.
+102                           				=>>> DRIVE NOT READY.
+103                           				=Generating falsh...
+104                           				=Stating to burn...
+105                           				=Driver is busy, cannot exit.
+
+106                           				=Not all the images are the same width-height ratio, are you sure continue?
+107                           				=Sure to continue?
+108                           				=Failed to load the image
+
+109                                   =This project file "%s" is exists,are you sure you want to replace it?
+110                                   =Save project to %s success!
+111                                   =Project "%s" has changed. Do you want to save the changes?
+112                                   =Information
+113                                   =Build Slideshow as "EXE" success,do you want to open the directory?
+114                                   =Build Slideshow as "EXE" failed!
+115                                   =Build Slideshow as "SCR" success,do you want to open the directory?
+116                                   =Build Slideshow as "SCR" failed!
+117                                   =Current project path is '%s' , the project has been changed, do you want to save it?
+118                                   =Save project before opening another
+119                                   =video %s have bean saved,do you want to open the directory?
+120                                   =C&lose
+121                                   =F&inish
+122                                   =Music "%s" has no error
+123                                   =Music "%s" is not exist
+124                                   =Music "%s"  has not verified
+125                                   =You have not register,you can add only 3 images!
+126                                   =Are you sure you want to apply this effect "%s" to all of the image?
+127                                   =Are you sure you want to Set default path for video?
+128                                   =Unable to find audio input device,you can't record audio
+129                                   =Unable to find audio input line,you can't record audio 
+130                                   =Audio format is null,you can't record audio

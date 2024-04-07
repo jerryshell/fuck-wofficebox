@@ -1,0 +1,125 @@
+###########################################################
+#
+#  Language:		PDFToWord
+#  Author:		DongYin Cai
+#  Product Name:	
+#  Product Version:	1.0.0 
+#
+###########################################################
+
+[frmmsginfo]
+Memo1.lines =   目前本免费转换器只能转化有英文文字的PDF文档,开发人员在努力研发转换中文PDF文档到WORD的功能,请留意产品更新,谢谢!
+Button1.Caption    = 开始使用
+Button2.Caption    = 下载万彩PDF转换王
+.Caption    = 说明
+
+[frmProgressing]
+lblInfo.Caption   = 图片压缩处理中,请稍等...
+.Caption   =  图片压缩转换处理进度
+
+[frmgifToswf]
+.Caption            				=万彩办公大师 - 批量图片压缩工具 
+lbllbtitle.Caption            				=批量图片压缩监控目录设置. 
+lbllbdes.Caption              				=设置监控目录后，里面所有的文件将被转换
+tsMode.Caption                				=模式
+lblhot.Caption                				=在一个服务器上创建一个监控目录，然后把PDF文件复制进去，里面所有的PDF文件便会转换为Word文档，并自动保存到输出目录
+lbl1.Caption                  				=请选择一种模式，然后点击“下一步”开始， 或选择“退出”退出向导
+lblbatch.Caption              				=批量转换PDF文件到Word格式
+lblcommandline.Caption        				=命令行模式
+lblcmdtip.Caption             				=使用命令行转换PDF文件到Word格式， 更多信息请参考：
+              
+lblexample.caption  = 演示DEMO
+                                           
+lblcmdlink.Caption            				=使用命令行执行批量图片压缩
+rbrdohotdir.Caption           				=监控目录模式
+rbtbatch.Caption              				=批量转换模式
+btn1.Caption                  				=关于
+btnexit.Caption               				=退出
+tsConvert.Caption             				=压缩
+lbl5.Caption                  				=目录为空。 请添加多个图片文件开始压缩... 
+
+btnHelp.Caption               				=帮助
+btnAbout.Caption              				=关于
+btnOpenLog.Caption            				=显示日志...
+btnStopConvert.Caption        				=停止转换
+pnlLog.Caption                				=pnlLog
+mmolog.Lines                  				=mmolog||
+tsHotDirectory.Caption        				=监控目录
+grp1.Caption                  				=监控目录设置
+lbl2.Caption                  				=输入目录:
+lbl3.Caption                  				=日志文件路径:
+lbl4.Caption                  				=输出目录:
+chksubdir.Caption             				= 包含子目录
+lbl6.Caption                  				=在一个服务器上创建一个监控目录，然后把图片文件复制进去，里面所有的图片文件便会压缩，并自动保存到输出目录
+mniImport.Caption             				=输入目录
+mniExportList1.Caption        				=输出目录
+mniShow.Caption               				=显示
+mniOption.Caption             				=选项
+mniAbout.Caption              				=关于
+mniClose.Caption              				=关闭
+mniModifyOption.Caption       				=打开文件夹
+mniAdd.Caption                				=添加
+mniAddFolder.Caption          				=添加文件夹
+mniSelectAll.Caption          				=选中所有
+mniRemove.Caption             				=删除
+mniClearr.Caption             				=清除
+mniRemoveFailedItems.Caption  				=删除失败目录
+mniRemoveSuccededItems.Caption				=删除成功目录
+actNext.Caption               				=下一步
+actHotDir.Caption             				=监控目录模式
+actReturnBatchMode.Caption    				=返回批量转换模式
+actConvert.Caption            				=压缩
+actOption.Caption             				=选项
+actSelectIndir.Caption        				=浏览..
+actSelectOutdir.Caption       				=浏览..
+actSelectLogpath.Caption      				=浏览..
+actOpenIndir.Caption          				=打开目录
+actOpenOutdir.Caption         				=打开目录
+actOpenLogDir.Caption         				=打开日志目录
+actImport.Caption             				=输入目录
+actExport.Caption             				=输出目录
+actOpenFolder.Caption         				=打开文件夹
+actRemveFaile.Caption         				=删除失败目录
+actRemoveSuccess.Caption      				=删除成功目录
+[frmoption]
+lblloop.Caption               				=Loop:
+lblpixelx.Caption             				=像素 (宽度):
+lblpixely.Caption             				=像素 (高度):
+lblverbose.Caption            				=明细 (等级):
+cbblevel.text                 				=调试
+chkoption.Caption             				=使用选项
+btnok.Caption                 				=完成
+btncancel.Caption             				=取消
+[STRINGS]
+1							= Thank you for registering
+ 2							= Invalid Register Key
+ 3							= The product has been licensed. 
+ 4							= The product has been licensed to:
+ 5							= Q: How to order||A: Click the "Online Purchase" button above, or visit our homepage (http://www.boxoft.com) for more options. We will send your registration key after receiving your order. If you cannot access the Internet, please call our Toll  Free number 1-877-353-7297, and give the operator the product number %s. The product price is %s.
+ 6							=This product is shareware. The trial period is  %d days and %d days remain.
+ 7							=The trial period has ended. Further use requires registration.
+ 8							=If you ordered, you will get a register key  (license code), after inputting the code below, the product can be used permanently.
+
+11                            				=请选择文件夹
+12                            				=文件另存为...
+13                            				=导入文件不存在
+14                            				=图片压缩已完成， 是否打开文件夹查看？
+15                            				=请选择输入路径
+16                            				=输入目录与输出目录相同
+17                            				=请选择输出路径
+18                            				=输出目录与输入目录相同
+19                            				=日志文件路径不存在
+20                            				=不能设置相同的路径  
+21                            				=停止压缩...
+ 
+22                           				=文件名
+23                           				=信息
+24                           				=文件尺寸
+25                           				=文件全名
+26                           				=输出文件名
+
+27                          				=显示日志
+28                           				=隐藏日志
+
+
+

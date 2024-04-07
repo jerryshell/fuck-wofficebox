@@ -1,0 +1,127 @@
+###########################################################
+#
+#  Language:		English
+#  Author:		Wanqing Huang
+#  Product Name:	F:\A-PDF\Work\PDFOCR\English.lng
+#  Product Version:	1.0.0 
+#
+###########################################################
+[frmMain]
+tsPDF.Caption                 				=
+cbbZoom.text                  				=100%
+File1.Caption                 				=&File
+mniOpenPDF.Caption            				=&Open PDF
+mniClosePDF.Caption           				=&Close PDF
+mniExit.Caption               				=Exit
+Action1.Caption               				=&Action
+mniGotoFirst.Caption          				=First page
+mniGotoFirst.hint             				=First page
+mniGotoPrivious.Caption       				=Privious page
+mniGotoPrivious.hint          				=Privious page
+mniGotoNext.Caption           				=Next page
+mniGotoNext.hint              				=Next page
+mniGotoLast.Caption           				=Last page
+mniGotoLast.hint              				=Last page
+Edit1.Caption                 				=&Edit
+mniSaveText2.Caption          				=Save
+mniSelectAll.Caption          				=Select All
+Help1.Caption                 				=&Help
+Help2.Caption                 				=Help
+About1.Caption                				=About
+Contackus1.Caption            				=Contact us..
+actSave.Caption               				=Save
+actHelp.Caption               				=&Help
+actAbout.Caption              				=&About
+actContact.Caption            				=&Contact us..
+actClosePDF.Caption           				=&Close PDF
+actExit.Caption               				=Exit
+actGotoFirst.Caption          				=First page
+actGotoFirst.hint             				=First page
+actGotoPrivious.Caption       				=Privious page
+actGotoPrivious.hint          				=Privious page
+actGotoNext.Caption           				=Next page
+actGotoNext.hint              				=Next page
+actGotoLast.Caption           				=Last page
+actGotoLast.hint              				=Last page
+btnhead.Caption                       =
+btnhead.Hint                          =First page
+btnpre.Caption                        =
+btnpre.Hint                           =Privious page
+btnnext.Caption                       =
+btnnext.Hint                          =Next page
+btntail.Caption                       =
+btntail.Hint                          =Last page
+btnReduction.Caption                  =
+btnReduction.Hint                     =Reduction
+lblAddPDF.Caption                     ="Click  to open demo"
+lblOpenDemo.Caption                   ="Click  to open demo"
+btnRefresh.Caption                    =
+btnRefresh.Hint                       =Refresh (F5)
+btnHelp.Caption                       =
+btnHelp.Caption                       =Help
+btnGotoFirst.Caption                  =
+btnGotoFirst.Hint                     =First page
+btnGotoPrivious.Caption               =
+btnGotoPrivious.Hint                  =Privious page
+btnGotoNext.Caption                   =
+btnGotoNext.Hint                      =Next page
+btnGotoLast.Caption                   =
+btnGotoLast.Hint                      =Last page
+actDelete.Caption                     =Delete
+actClearAll.Caption                   =Clear all
+actAddImage.Caption                   =Import &image(s)
+actScan.Caption                       =&Scan
+actSelectScan.Caption                 =Select scaner and scan
+btnRoate.Hint                         =Rotate image
+btnDeskew.Hint                        =Deskew image
+btncrop.Hint                          =Crop image
+btnSelPath.Caption                    =&...
+actZoomout.Caption                    =Zoomout
+actZoomout.Hint                       =Zoomout
+actZoomin.Caption                     =Zoomin
+actZoomin.Hint                        =Zoomin
+lblImageWidth.Caption                 =Width
+lblImageHeight.Caption                =Height
+actResizeImage.Caption                =Resize
+actResizeImage.Hint                   =Resize
+actStartCrop.Caption                  =Crop
+actStartCrop.Hint                     =Crop
+actApplyCrop.Caption                  =Apply
+actApplyCrop.Hint                     =Apply
+actCancelCrop.Caption                 =Cancel
+actCancelCrop.Hint                    =Cancel
+actSaveImage.Caption                  =Save Image
+actSaveAllImages.Caption              =Save All Images
+btnReload.Caption                     =
+btnReload.Hint                        =Reload Image
+
+[frmOverwriteImage]
+.Caption                              =Overwrite Image
+chkApplyToAll.Caption                 =Apply To All
+btnYes.Caption                        =Yes
+btnNo.Caption                         =No
+
+[STRINGS]
+ 1							= Thank you for registering
+ 2							= Invalid Register Key
+ 3							= The product has been licensed. 
+ 4							= The product has been licensed to:
+ 5							= Q: How to order||A: Click the "Online Purchase" button above, or visit our homepage(http://www.a-pdf.com) for more options. We will send your registration key after receiving your order. If you cannot access the Internet, please call our Toll Free number 1-877-353-7297, and give the operator the product number %s. The product price is %s.
+6	=This product is shareware. The trial period is %d days and %d days remain.
+7	=The trial period has ended. Further use requires registration.
+8	=If you ordered, you will get a register key (license code), after inputting the code below, the product can be used permanently. 
+
+
+32                                                       =Requires Ghostscript. Do you want to get a free GPL Ghostscript?
+33                                                       =http://www.wancaiinfo.com/convert-to-pdf/gs.htm
+34                                                       =Input password
+35                                                       =Input password for %s
+36                                                       =%d/%d
+37                                                       =This file has been cached, do you want to reload it?
+38                                                       =Save image as "%s" successfully!
+39                                                       =Save image as "%s" failed!
+40                                                       =Information
+41                                                       =Save Image %s (%d/%d)
+42                                                       =Save sll of the images successfully!
+43                                                       =Image %s is already exists, do you want to overwrite it?
+44                                                       =Start:(%d, %d), Width:%d, Height:%d

@@ -1,0 +1,169 @@
+###########################################################
+#
+#  Language:		English
+#  Author:		Winston Zhang, Andy Bowers
+#  Product Name:	A-PDF Split
+#  Product Version:	2.6.0
+#
+###########################################################
+
+[frmExpress]
+.caption		                                =万彩办公大师- PDF分割
+btndemo.Caption			= Demo演示
+ gbSelectFile.Caption			= 1 选择文件 
+ lFileName.Caption			=文件名: 
+ bBrowseFile.Caption			=浏览...
+ gbRange.Caption			= 2 选择分割范围 
+ rbAllPages.Caption			=所有页面
+ rbPartPages.Caption			=部分页面:
+ lFrom.Caption				=从
+ lTo.Caption				=到
+ gbSelectMethod.Caption			= 3 选择分割方式
+ lpage.Caption				=页
+ lPage2.Caption				=页
+ rbEveryPage.Caption			=一个文档
+ rbBookMark.Caption			=按照书签来分割
+ rbRange.Caption			=撷取页面, 格式为： 10,20,24-32,12-31
+ rbCustom.Caption			=高级设置
+ rbRemove.Caption			=移除页面, 格式为： 10,20,24-32,12-31
+ rbCollate.Caption			=依次数第
+ bBookmarkAdvanced.Caption		=高级...
+ bDefine.Caption			=设置...
+ gbOutput.Caption			= 4 输出
+
+ lOutputFolder.Caption			=输出文件夹:
+ bFilenameDefault.Caption		=默认
+ bBrowsefolder.Caption			=浏览...
+ bFolderDefault.Caption			=默认
+ 
+ bStop.Caption				=停止
+ bHelp.Caption				=帮助
+ bQuit.Caption				=关闭
+ bExpress.Caption			=分割
+ bAbout.Caption				=关于
+
+ lNamePattern.Caption			=命名模式:
+ lExample.Caption			=示例:
+ bSetting.Caption			=设置
+ bList.Caption				=列表...
+
+[frmSetting]
+ .Caption				=设置
+ TabGeneral.Caption			=常规
+ lDefaultOD.Caption			=默认输出目录
+ chkExplorerRightClickMenu.Caption	=右键菜单
+ tabProperties.Caption			=输出属性
+ lblTitle.Caption			=标题:
+ lblSubject.Caption			=主题
+ lblKeyword.Caption			=关键词
+ lblAuthor.Caption			=作者
+ btnMacroKeyword.Caption		=宏
+ btnMacroTitle.Caption			=宏
+ btnMacroSubject.Caption		=宏
+ btnMacroAuthor.Caption			=宏
+
+ tabSecurity.Caption			=输出安全
+ chkSame.Caption			=与原文件一样
+ gbSecurity.Caption			=特别安全
+ lblOpenPassword.Caption		=文档打开口令:
+ chkSecurity.Caption			=增加安全性
+ chkOpenPassword.Caption		=要求打开文档的口令
+ grpPermissions.Caption			=许可
+ lblPermissionsPassword.Caption		=更改许可口令: 
+ lblPermissionsPrint.Caption		=允许打印:
+ lblPermissionsChange.Caption		=允许更改:
+ chkPermissionsPassword.Caption		=改变这些许可设置需要口令
+ cbbPermissionsPrint.Items		=无||低分辨率||高分辨率
+ cbbPermissionsChange.Items		=无||插入, 删除, 以及旋转页面||评论, 填写表单域和签名现有的签名域||评论, 填写表单域和签名现有的签名域||任何
+ chkPermissionsCopy.Caption		=启用复制文本，图像和其他文档内容
+
+ tabSequence.Caption			=顺序
+ rbCommon.Caption			=一般
+ rbAdvanced.Caption			=高级
+ lStart.Caption				=开始
+ lInterval.Caption			=间隔
+
+ btnOk.Caption				=确定
+ btnCancel.Caption			=取消
+
+[frmAbout]
+ .Caption				=关于
+ lTitle.Caption				=万彩PDF大师- PDF分割
+ lVersion.Caption			=版本:
+ lblReg.Caption				=产品已注册. 注册码:
+ lblUnReg.Caption			=注意: 这个产品是试用产品. 未注册的版本功能上有限制: 输出的文件(PDF 文件)会有水印.如果你下单购买了这个产品, 你会收到一个注册码(许可码). 在下方输入注册码后， , 功能限制就没有了，输出的文件不会带有水印.
+ lblRegKey.Caption			=有注册码:
+ btnReg.Caption				=注册
+ btnOrder.Caption			=如何下单
+ btnOlOrder.Caption			=在线购买
+ bQuit.Caption				=终止
+ bOk.Caption				=试用
+
+[frmBMSetting]
+ .Caption				=书签设置
+ lMessage.Caption			=检索书签, 按 ESC 停止检索.
+ lSelect.Caption			=请选择分割水平:
+ bOk.Caption				=确定
+ bCancel.Caption			=取消
+ cbUsePosition.Caption			=如果书签不指向顶部，则页面将分为两部分
+[frmCustom]
+ .Caption				=高级设置
+ lPageRange.Caption			=页码范围:
+ lSaveTo.Caption			=文件名:
+ lList.Caption				=列表:
+ aListAdd.Caption			=添加 (F2)
+ aListRemove.Caption			=去除
+ aListClear.Caption			=清空
+ aLoad.Caption				=上传
+ aSave.Caption				=保存
+ aHelp.Caption				=帮助
+ bOk.Caption				=确定
+ bCancel.Caption			=取消
+
+ aMoveUp.Caption			=上移
+ aMoveDown.Caption			=下移
+ aMoveFirst.Caption			=移到顶部
+ aMoveLast.Caption			=移到底部
+
+[frmDlgSucc]
+ .Caption				=成功
+ bClose.Caption				=退出
+ bShowFileList.Caption			=显示输出文件列表
+ bOpenOPDir.Caption			=打开输出文件夹
+ bCopy.Caption				=复制
+
+[STRINGS]
+ 1					= Thank you for registering
+ 2					= Invalid Register Key
+ 3					= The product has been licensed. 
+ 4					= The product has been licensed to:
+ 5					= Q: How to order||A: Click the "Online Purchase" button above, or visit our homepage(http://www.a-pdf.com) for more options. We will send your registration key after receiving your order. If you cannot access the Internet, please call our Toll Free number 1-877-353-7297, and give the operator the product number %s. The product price is %s.
+ 6					= Note: The product is a try-before-buy product. The unregistered version has a limitation: adding a watermark into the output PDF files. If you ordered, you will get a register key (license code), after inputing the code below, the limitation will remove, that means the output files will not be added a watermark.
+
+ 11					= 无法加载文件: %s. %s
+ 12					= 发生未知错误!
+ 13					= %s 打开需要密码 :
+ 14					= 解密失败. %s
+ 15					= 用户停止.
+ 16					= 文件不存在. 需要创建吗?
+ 17					= 不能创建文件: %s
+ 18					= 保存文件出错. %s
+
+ 31					= 页面解析出错. %s
+ 32					= 分割方法出错. 文件不能被分割.
+ 33					= 文件 %d 成功分割
+ 34					= 页码范围无效. 不能少于 1 或者 多于 %d. 格式必须是: 10,20,24-32,12-31
+ 35					= 文件名不能为空或者包含下列任意一个字符: \n \/:*?"<>|
+ 36					= 页码数无效.不能小于1或者大于 %d
+ 37					= 请先下定义.
+ 38					= 至少有一个定义是错误的. 请修正红线标记的内容
+ 39					= 排序设置无效. 不能小2或者大于n %d
+ 40					= [未设置列表]
+
+ 51					= 页数:
+ 52					= 范围必须在 1 到 %d之间. 格式为： 10,20,24-32,12-31
+ 53					= 页码范围
+ 54					= 名称
+ 55					= 用万彩PDF大师- PDF分割打开
+ 56					= <无法使用>
+

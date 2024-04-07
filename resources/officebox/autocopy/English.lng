@@ -1,0 +1,150 @@
+###########################################################
+#
+#  Language:		English
+#  Author:		Winston Zhang
+#  Product Name:	
+#  Product Version:	0.0.0 
+#
+###########################################################
+[frmSecondCopy]
+btnRunProfileSelect.hint      				=运行配置文件
+mniFile.Caption               				=文件
+mniClose.Caption              				=关闭
+mniEdit.Caption               				=编辑
+mniSelectAll.Caption          				=选中全部
+mniView.Caption               				=查看
+mniHelp.Caption               				=帮助
+actNewProfile.Caption         				=添加文件
+actDeleteProfile.Caption      				=删除文件
+actCopyNow.Caption            				=复制
+actProfileProperty.Caption    				=属性
+actSuspend.Caption            				=暂停
+actDuplicateProfile.Caption   				=复制文件..
+actClearLog.Caption           				=清空日志
+actViewLog.Caption            				=查看日志
+actRunAllProfile.Caption      				=运行所有文件
+actRun.Caption                				=运行
+actSourceFile.Caption         				=源文件
+actDestinationFile.Caption    				=目标文件
+mniShowProfile.Caption        				=显示文件
+mniHelpTray.Caption           				=帮助
+mniAbout.Caption              				=关于
+mniExit1.Caption              				=退出
+[frmProfilePreview]
+.Caption                              =预览文件
+lbl1.Caption                  				=源文件:  
+lbl2.Caption                  				=目标文件:  
+lblSource.Caption             				=
+lblDestination.Caption        				=
+btnOK.Caption                 				=确认
+btnCancel.Caption             				=取消
+[frmLogView]
+.Caption                              =查看日志
+lblFindText.Caption           				=查找文本:  
+btnFindText.Caption           				=查找
+btnSaveAs.Caption             				=另存为..
+btnClearLog.Caption           				=清空
+btnRefresh.Caption            				=刷新
+btnClose.Caption              				=关闭
+[frmProfileProperty]
+.Caption                              =任务创建向导
+tsSource.Caption              				=源文件
+lblSourceFolder.Caption       				=你想要复制哪个文件夹？  
+btnOpenSource.Caption         				=浏览
+chkOverWrite.Caption                  =覆盖已有文件
+chkSubSourceFolder.Caption    				=包括子文件夹
+btnSourceNext.Caption         				=下一步 >
+btnSourceCancel.Caption       				=取消
+tsFilter.Caption              				=筛选文件
+lbl1.Caption                  				=包括将要被复制的文件的详细信息 
+lbl2.Caption                  				=排除将要被复制的文件的详细信息
+btnFilterBack.Caption         				=取消
+btnFilterNext.Caption         				=< 返回
+btnFilterCancel.Caption       				=下一步 >
+rbAllFile.Caption             				=所有文件与文件夹
+rbSelectFile.Caption          				=仅选中的文件与文件夹
+btnOpenInclude.Caption        				=选中..
+btnOpenExclude.Caption        				=选中..
+tsTarget.Caption              				=目标
+lbl4.Caption                  				=目标文件夹:  
+lbl3.Caption                  				=源文件夹:  
+btnTargetCancel.Caption       				=取消
+btnTargetNext.Caption         				=下一步 >
+btnTargetBack.Caption         				=< 返回
+btnOpenTargetFolder.Caption   				=浏览
+tsFrequency.Caption           				=频率
+btnFreqBack.Caption           				=取消
+btnFreqNext.Caption           				=下一步 >
+btnFreqCancel.Caption         				=< 返回
+grpFrequency.Caption          				=频率
+lblTime.Caption               				=时:  
+lblStartTime.Caption          				=起始时间:  
+lblTips.Caption               				=该配置文件不会定期运行
+cbbFrequency.text             				=每隔几个小时
+chkDoNotRun.Caption           				=在这之前不要运行   
+grpRunAt.Caption              				=也运行在
+chkStartUp.Caption            				=启动
+chkShutDown.Caption           				=关闭
+grpDoNotRunDay.Caption        				=不要在这些日子运行
+chkSunday.Caption             				=星期天
+chkMonday.Caption             				=星期一
+chkTuesday.Caption            				=星期二
+chkWednesday.Caption          				=星期三
+chkThursday.Caption           				=星期四
+chkFriday.Caption             				=星期五
+chkSaturday.Caption           				=星期六
+tsFinish.Caption              				=完成
+lblProfileName.Caption        				=新配置文件已经创建成功。输入合适的名称以标识此配置文件。  
+btnFinishBack.Caption         				=< 返回
+btnFinish.Caption             				=完成
+btnFinishCancel.Caption       				=取消
+chkShowPreview.Caption        				=每次运行前显示复制路径预览  
+When you want to run the
+profile,select it on the main
+window and click the Run 
+button.
+  
+Source folder:
+[STRINGS]
+1							= Thank you for registering
+ 2							= Invalid Register Key
+ 3							= The product has been licensed. 
+ 4							= The product has been licensed to:
+ 5							= Q: How to order||A: Click the "Online Purchase" button above, or visit our homepage(http://www.boxoft.com) for more options. We will send your registration key after receiving your order. If you cannot access the Internet, please call our Toll Free number 1-877-353-7297, and give the operator the product number %s. The product price is %s.
+6	=This product is shareware. The trial period is %d days and %d days remain.
+7	=The trial period has ended. Further use requires registration.
+8	=If you ordered, you will get a register key (license code), after inputting the code below, the product can be used permanently.
+20                            				=复制文件…
+21                            				=文件夹: "%s" 成功创建!
+22                            				=复制 "%s" 从 "%s" 到 "%s" 成功!
+23                            				=无法复制 "%s". 出错: %s.
+24                            				=完成
+25                            				=终止
+26                            				=请选择源文件夹.
+27                            				=源文件夹不存在!
+28                            				=请选择要囊括的文件夹.
+29                            				=请选择要排除的文件夹.
+30                            				=你没有添加任何要囊括和排除的文件夹.是否要选择全部?
+31                            				=请选择目标文件夹.
+32                            				=你必须输入目标文件夹.
+33                            				=目标文件夹不存在.
+34                            				=你必须输入时间如同: HH:MM.
+35                            				=开始时间错误.
+36                            				=你输入的分钟数值必须在1到60之间.
+37                            				=你输入的小时数值必须在1到23之间.
+38                            				=请输入文件名.
+39                            				=文件名已存在!
+40                                    =文件夹不存在, 是否创建文件夹?
+41                            				=复制 "%s" 从 "%s" 到 "%s" 失败.
+42                                                      =选择的任务
+43                                                      =创建任务
+44                                                      =查看日志
+45                                                      =扫描文件
+46                                                      =暂停
+47                                                      =属性
+48                                                      =任务
+49                                                      =重复的任务
+50                                                      =预览
+51                                                      =信息
+52                                                      =错误
+53                                                      =任务正在执行，您要停止这个任务吗？

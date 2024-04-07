@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<croptypes>
+	<cropgroup name="常用">
+		<croptype name="一寸" width="295" height="413" ></croptype>
+		<croptype name="小一寸" width="260" height="378" ></croptype>
+		<croptype name="大一寸" width="390" height="567" ></croptype>
+		<croptype name="小二寸" width="413" height="531" ></croptype>
+		<croptype name="二寸" width="413" height="579" ></croptype>	
+		<croptype name="正方形" width="200" height="200" ></croptype>
+	</cropgroup>
+	<cropgroup name="公务员">
+		<croptype name="公务员1" width="413" height="531" ></croptype>
+		<croptype name="公务员2" width="168" height="218" ></croptype>
+		<croptype name="公务员3" width="100" height="140" ></croptype>
+		<croptype name="公务员4" width="99" height="128" ></croptype>
+	</cropgroup>
+	<cropgroup name="考试与证书">
+		<croptype name="会计" width="114" height="156" ></croptype>
+		<croptype name="护士" width="160" height="210" ></croptype>
+		<croptype name="建造师" width="100" height="140" ></croptype>
+		<croptype name="司法考试" width="413" height="626" ></croptype>
+		<croptype name="四六级/计算机" width="144" height="192" ></croptype>
+		<croptype name="英语四六级" width="240" height="320" ></croptype>
+		<croptype name="日语能力测试" width="360" height="480" ></croptype>
+	</cropgroup>
+	<cropgroup name="其他">
+		<croptype name="社保证" width="114" height="156" ></croptype>
+	</cropgroup>
+</croptypes>

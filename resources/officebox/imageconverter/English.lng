@@ -1,0 +1,158 @@
+###########################################################
+#
+#  Language:		English
+#  Author:		Winston Zhang
+#  Product Name:	Image Converter
+#  Product Version:	2.0.0 
+#
+###########################################################
+[frmMain]
+Label6.Caption                				=列表为空，请添加一些图片...
+lblexample.Caption            				=示例
+lblImgTip.Caption             				=0 of 0
+sbtAbout.Caption              				=关于
+sbtHelp.Caption               				=帮助
+Label3.Caption                				=格式:
+cbbOutputformat.text          				=.bmp
+GroupBox3.Caption             				=目录设置
+Label4.Caption                				=输入目录:
+Label1.Caption                				=日志文件路径:
+Label2.Caption                				=输出目录:
+chksubdir.Caption             				=包括子目录
+btnselectlogfile.Caption      				=浏览..
+btnselectlogfile.hint         				=浏览...
+btnviewlog.Caption            				=打开日志目录
+btnopeninputdir.Caption       				=打开目录
+btnopenoutputdir.Caption      				=打开目录
+sbtreturn.Caption             				=返回批量转换模式
+sbtreturn.hint                				=返回批量转换模式
+sbtrun.hint                   				=开始热目录服务
+sbtend.hint                   				=停止热目录服务
+btnmin.hint                   				=窗口最小化
+lbl1.Caption                  				=监视服务器中的目录，当有人复制图像时，该图像会被转换成其他格式并自动发送到输出目录中
+Labelhot.Caption              				=监视服务器中的目录，当有人复制图像时，该图像会被转换成其他格式并自动发送到输出目录中
+Label8.Caption                				=请选择一个模式并点击'下一步 >' 开始. 或点击'退出'.
+Labelbatch.Caption            				=把图像批量转换成其他的图像格式
+labelcommandline.Caption      				=命令行模式
+Labelcmdtip.Caption           				=使用命令行来转换图像格式，了解更多信息，请参考:
+labelcmdlink.Caption          				=在命令行种使用万彩办公大师-全能图片转换
+rdohotdir.Caption             				=热目录模式
+sbtexit.Caption               				=退出
+rbtbatch.Caption              				=批量转换模式
+BitBtn2.Caption               				=关于
+lbtitle.Caption               				=PDF转换成图像热目录设置 
+lbdes.Caption                 				=设置受监视的目录，所有写入的文件都将被转换
+mniOpen.Caption               				=打开
+mniOpenFolder1.Caption        				=打开文件夹
+mniAdd.Caption                				=添加
+mniAddFolder.Caption          				=添加文件夹
+SelectAll1.Caption            				=选择全部
+mniRemove.Caption             				=删除
+mniClear.Caption              				=清空
+mniRemoveFailedItems.Caption  				=删除转换失败文件
+mniRemoveSuccededItems.Caption				=删除转换成功文件
+mniSaveLogAs.Caption          				=日志另存为...
+mniImport.Caption             				=导入列表
+mniExport.Caption             				=导出列表
+mnishow.Caption               				=展示
+mniSettings.Caption           				=质量
+mniAbout.Caption              				=关于...
+mniExit.Caption               				=关闭
+actRemoveFailedItems.Caption  				=删除转换失败文件
+actRemoveSuccededItems.Caption				=删除转换成功文件
+actSaveLogAs.Caption          				=日志另存为...
+actNext.Caption               				=下一个>
+actAdd.Caption                				=添加
+actAddFolder.Caption          				=添加文件夹
+actRemove.Caption             				=删除
+actClear.Caption              				=清空
+actSetting.Caption            				=质量
+actConvert.Caption            				=转换
+actOption.Caption             				=选项
+actHotDir.Caption             				=热目录模式
+actSelectOutDir.Caption       				=浏览..
+actSelectInDir.Caption        				=浏览..
+actImport.Caption             				=导入列表
+actExport.Caption             				=导出列表
+actOpenFolder.Caption         				=打开文件夹
+actImgBack.Caption            				=返回
+actImgNext.Caption            				=下一步
+actImgActual.Caption          				=实际尺寸
+actImgFit.Caption             				=适应
+
+[frmoption]
+tsoutname.Caption             				=输出文件名称
+grpoutname.Caption            				=输出文件名称
+lblexample.Caption            				=(示例:example.jpg)
+lblexample2.Caption           				=(示例:example.bmp.jpg)
+rboriginaltitle.Caption       				=使用原始文件标题作为新的文件标题
+rboriginal.Caption            				=使用原始文件标题作为新的文件标题
+rbnewname.Caption             				=生成序列文件名称
+lblprefix.Caption             				=前缀的地方:
+lblnumber.Caption             				=每一步:
+lblexample3.Caption           				=(示例:NewImage1.jpg NewImage2.jpg)
+lblStep.Caption               				=每N步:
+TabSheet1.Caption             				=调整图像大小
+chkResize.Caption             				=调整图像大小
+gbResize.Caption              				=调整参数
+Label1.Caption                				=压缩过滤:
+Label2.Caption                				=宽度像素:
+Label3.Caption                				=高度像素:
+rbCropSel.Caption             				=裁剪图像到选定的大小
+rbShrink.Caption              				=将图像缩小或放大至所选大小
+rbFit.Caption                 				=使图像适应选定的尺寸
+cbbFilter.text                				=Nearest (最快、最低质量)
+TabSheet2.Caption             				=旋转图像
+chkFlip.Caption               				=翻转图像
+grpFlip.Caption               				=方向
+rbCounterclockwise.Caption    				=逆时针90度 
+rbdeg180.Caption              				=180度
+rbDegclockwise.Caption        				=顺时针90度 
+rbHorizontally.Caption        				=水平
+rbVertically.Caption          				=垂直
+BitBtn1.Caption               				=确认
+BitBtn2.Caption               				=取消
+[STRINGS]
+1							= Thank you for registering
+ 2							= Invalid Register Key
+ 3							= The product has been licensed. 
+ 4							= The product has been licensed to:
+ 5							= Q: How to order||A: Click the "Online Purchase" button above, or visit our homepage( http://www.a-pdf.com) for more options. We will send your registration key after receiving your order. If you cannot access the Internet, please call our Toll Free number 1-877-353-7297, and give the operator the product number %s. The product price is %s.
+ 6							=This product is shareware. The trial period is %d days and %d days remain.
+ 7							=The trial period has ended. Further use requires registration.
+ 8							=If you ordered, you will get a register key (license code), after inputting the code below, the product can be used permanently. 
+11                            				=将图像转换成其他类型
+12                            				=这可能需要几分钟，请等待...
+13                            				=将图像转成其他类型失败
+14                            				=图像转换成功。你要打开文件夹吗？
+15                            				=选择图像路径
+16                            				=请选择输入路径...
+17                            				=请选择输出路径
+18                            				=输入目录与输出目录相同。
+19                            				=与输入目录相同。
+20                            				=输出目录与输入目录相同。
+21                            				=与输出目录相同。
+22                            				=将图像缩小至所选大小
+23                            				=将图像适应至所选大小
+24                            				=顺时针90度
+25                            				=逆时针90度
+26                            				=180度
+27                            				=水平翻转图像...
+28                            				=垂直翻转图像...
+29                            				=输入目录路径不存在
+30                            				=输出目录路径不存在
+31                            				=日志文件路径不存在
+32                            				=无法设置相同的路径
+33                            				=成功
+34                            				= 失败
+
+
+35				=文件名
+36                           				=文件信息
+37                         				=文件尺寸
+38                          				=修改日期
+39                       				=文件全名
+
+40                       				=您是否想删除 
+41                      				= 图片项
+42	=确定要删除所有图片?

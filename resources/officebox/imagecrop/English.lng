@@ -1,0 +1,85 @@
+###########################################################
+#
+#  Language:		English
+#  Author:		Wanqing Huang
+#  Product Name:	
+#  Product Version:	1.0.0 
+#
+###########################################################
+
+[frmMain]
+ lbl6.Caption                  				=点击打开
+ lblDemo.Caption               				=示例
+ lblCropTip.Caption            				=[请在图片中拖拽鼠标，选择要裁剪的区域。]
+ mniFile.Caption               				=文件(&X)
+ N8.Caption                    				=视图(&Y)
+ N15.Caption                   				=编辑
+ N22.Caption                   				=帮助(&Z)
+ actAddImage.Caption           				=添加图片
+ actAddImage.Hint              				=添加图片
+ actAddDirectory.Caption       				=添加目录
+ actAddDirectory.Hint          				=添加目录
+ actExit.Caption               				=退出
+ actExit.Hint                  				=退出
+ actFitToWidth.Caption         				=适应宽度
+ actFitToWidth.Hint            				=适应宽度
+ actFitToHeight.Caption        				=适应高度
+ actFitToHeight.Hint           				=适应高度
+ actOriginalSize.Caption       				=原始大小
+ actOriginalSize.Hint          				=原始大小
+ actZoomout.Caption            				=缩小视图
+ actZoomout.Hint               				=缩小视图
+ actZoomin.Caption             				=放大视图
+ actZoomin.Hint                				=放大视图
+ actHelp.Caption               				=帮助
+ actHelp.Hint                  				=帮助
+ actAbout.Caption              				=关于我们
+ actAbout.Hint                 				=关于我们
+ actChangeImageSize.Caption    				=改变尺寸
+ actChangeImageSize.Hint       				=改变尺寸
+ actFlipH.Caption              				=水平翻转
+ actFlipH.Hint                 				=水平翻转
+ actFlipV.Caption              				=垂直翻转
+ actFlipV.Hint                 				=垂直翻转
+ actRotateL.Caption            				=逆时针旋转
+ actRotateL.Hint               				=逆时针旋转
+ actRotateR.Caption            				=顺时针旋转
+ actRotateR.Hint               				=顺时针旋转
+ actSaveImage.Caption          				=保存图片
+ actSaveImage.Hint             				=保存图片的裁剪图到本地目录
+ actContact.Caption            				=联系我们
+ actContact.Hint               				=联系我们
+ actImageMoveUp.Caption        				=图片上移
+ actImageMoveUp.Hint           				=图片上移
+ actImageMoveDown.Caption      				=图片下移
+ actImageMoveDown.Hint         				=图片下移
+ actDeleteImage.Caption        				=删除图片
+ actDeleteImage.Hint           				=删除图片
+ actClearImages.Caption        				=清空图片
+ actClearImages.Hint           				=清空图片
+ actSaveAllImages.Caption      				=保存所有图片
+ actSaveAllImages.Hint         				=保存所有图片的裁剪图到本地目录
+ actCropImage.Caption          				=裁剪图片
+ actCropImage.Hint             				=将选择的区域裁剪为新的图片
+ actDeleteSelCrops.Caption     				=删除选择的图片
+ actDeleteSelCrops.Hint        				=删除选择的裁剪图
+ actClearCrops.Caption         				=清除所有图片
+ actClearCrops.Hint            				=清除所有裁剪图
+
+[STRINGS]
+31                            				=请选择一个目录
+32                            				=%d/%d
+33                            				=这个文件被缓存了，您想重新加载吗？
+34                            				=保存图片到 "%s" 成功！
+35                            				=保存图片到 "%s" 失败！
+36                            				=信息
+37                            				=保存图片 %s (%d/%d)
+38                            				=保存所有图片成功！
+39                            				=图片已经存在，您想覆盖它吗？
+40                            				=开始:(%d, %d), 宽度:%d, 高度:%d
+41                            				=图片宽度：%d 图片高度：%d 视图缩放比例：%d%
+42                            				=温馨提示
+43                            				=删除图片会同时清除为这张图片裁剪的小图片，您确定要删除这张图片吗？
+44                            				=清空图片会同时清除裁剪的小图片，您确定要清空图片吗？
+45                            				=保存裁剪图片成功，您想打开目录查看保存的图片吗？
+46                                                      =关闭应用时会清空裁剪的图片，您确定要关闭应用吗？

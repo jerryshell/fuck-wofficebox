@@ -1,0 +1,188 @@
+###########################################################
+#
+#  Language:		English
+#  Author:		Wanqing Huang
+#  Product Name:	F:\A-PDF\Work\PDFOCR\English.lng
+#  Product Version:	1.0.0 
+#
+###########################################################
+[frmMain]
+lblLang.Caption               				=&Language:
+tsPDF.Caption                 				=PDF
+cbbZoom.text                  				=100%
+tsTEXT.Caption                				=OCR Text
+File1.Caption                 				=&File
+mniOpenPDF.Caption            				=&Open PDF
+mniClosePDF.Caption           				=&Close PDF
+mniExit.Caption               				=Exit
+Action1.Caption               				=&Action
+mniGotoFirst.Caption          				=First page
+mniGotoFirst.hint             				=First page
+mniGotoPrivious.Caption       				=Privious page
+mniGotoPrivious.hint          				=Privious page
+mniGotoNext.Caption           				=Next page
+mniGotoNext.hint              				=Next page
+mniGotoLast.Caption           				=Last page
+mniGotoLast.hint              				=Last page
+mniSaveZip1.Caption           				=Sa&ve text
+Edit1.Caption                 				=&Edit
+mniCut.Caption                				=Cut
+mniCopy.Caption               				=Copy
+mniPaste.Caption              				=Paste
+mniUndo.Caption               				=Undo
+mniSaveText2.Caption          				=Save
+mniSelectAll.Caption          				=Select All
+Help1.Caption                 				=&Help
+Help2.Caption                 				=Help
+About1.Caption                				=About
+Contackus1.Caption            				=Contact us..
+actOpenPDF.Caption            				=&Open PDF
+actCut.Caption                				=Cut
+actSaveZip.Caption            				=Save as ZIP
+actCopy.Caption               				=Copy
+actPaste.Caption              				=Paste
+actUndo.Caption               				=Undo
+actSave.Caption               				=Save
+actHelp.Caption               				=&Help
+actAbout.Caption              				=&About
+actContact.Caption            				=&Contact us..
+actClosePDF.Caption           				=&Close PDF
+actExit.Caption               				=Exit
+actGotoFirst.Caption          				=First page
+actGotoFirst.hint             				=First page
+actGotoPrivious.Caption       				=Privious page
+actGotoPrivious.hint          				=Privious page
+actGotoNext.Caption           				=Next page
+actGotoNext.hint              				=Next page
+actGotoLast.Caption           				=Last page
+actGotoLast.hint              				=Last page
+actExtractText.Caption        				=OCR &Selected
+actSelectAll.Caption          				=Select All
+actSaveBySelect.Caption       				=&OCR and Save
+actSaveText.Caption           				=Save as Text
+actExtractAllText.Caption     				=OCR all &Pages
+actExchangeTab.Caption        				=
+mniSaveZip.Caption            				=Save as ZIP
+mniSaveText.Caption           				=Save as Text
+btnSelAll.Caption                     =
+btnSelAll.Hint                        =Select All (Ctrl+A)
+btnCut.Caption                        =
+btnCut.Hint                           =Cut (Ctrl+X)
+btnCopy.Caption                       =
+btnCopy.Hint                          =Copy (Ctrl+C)
+btnPaste.Caption                      =
+btnPaste.Hint                         =Paste (Ctrl+V)
+btnUndo.Caption                       =
+btnUndo.Hint                          =Undo (Ctrl+Z)
+btnSaveTextFile.Caption               =
+btnSaveTextFile.Hint                  =Save text file (Ctrl+S)
+actSaveBySelect.Caption               =Save text
+btnhead.Caption                       =
+btnhead.Hint                          =First page
+btnpre.Caption                        =
+btnpre.Hint                           =Privious page
+btnnext.Caption                       =
+btnnext.Hint                          =Next page
+btntail.Caption                       =
+btntail.Hint                          =Last page
+btnReduction.Caption                  =
+btnReduction.Hint                     =Reduction
+lblAddPDF.Caption                     ="Click  to open demo"
+lblOpenDemo.Caption                   ="Click  to open demo"
+btnRefresh.Caption                    =
+btnRefresh.Hint                       =Refresh (F5)
+lblFontSize.Caption                   =Fo&nt size:
+btnHelp.Caption                       =
+btnHelp.Caption                       =Help
+btnGotoFirst.Caption                  =
+btnGotoFirst.Hint                     =First page
+btnGotoPrivious.Caption               =
+btnGotoPrivious.Hint                  =Privious page
+btnGotoNext.Caption                   =
+btnGotoNext.Hint                      =Next page
+btnGotoLast.Caption                   =
+btnGotoLast.Hint                      =Last page
+actDelete.Caption                     =Delete
+actClearAll.Caption                   =Clear all
+actAddImage.Caption                   =Import &image(s)
+actScan.Caption                       =&Scan
+actSelectScan.Caption                 =Select scaner and scan
+btnRoate.Hint                         =Rotate image
+btnDeskew.Hint                        =Deskew image
+btncrop.Hint                          =Crop image
+btnSelPath.Caption                    =&...
+
+[frmSaveText]
+tsConfig.Caption              				=Config
+lblProgress.Caption           				=Progress:
+grpPageRange.Caption          				=Page range
+lblexamplerange.Caption       				=Example: 1,2,3-5,-2,-1
+rbOddPage.Caption             				=Save &odd pages
+rbEvenPage.Caption            				=Save &even pages
+rbRangePage.Caption           				=Save page &range
+rbAllPage.Caption             				=Save &all pages
+grpSaveType.Caption           				=Save type and path
+lblSavePath.Caption           				=Save &path:
+btnOpen.Caption               				=&...
+rbSaveAsZip.Caption           				=Save as &zip
+rbSaveAsText.Caption          				=Save as t&ext
+grpOpenway.Caption            				=Open way
+rbOpenfile.Caption            				=Open f&ile
+rbOpenfolder.Caption          				=Open &folder
+rbNotOpen.Caption             				=&No operate
+btnSave.Caption               				=Save
+btnCancel.Caption             				=Cancel
+
+[frmTranslating]
+btnCancel.Caption                     =Cancel
+
+[frmExtractText]
+btnCancel.Caption                     =Cancel
+
+[uFrmDownloadURL]
+lblURL.Caption                        =URL:
+lblSaveAs.Caption                     =Save As:
+lblProgress.Caption                   =Progress:
+btnCancel.Caption                     =Cancel
+
+[STRINGS]
+ 1							= Thank you for registering
+ 2							= Invalid Register Key
+ 3							= The product has been licensed. 
+ 4							= The product has been licensed to:
+ 5							= Q: How to order||A: Click the "Online Purchase" button above, or visit our homepage(http://www.a-pdf.com) for more options. We will send your registration key after receiving your order. If you cannot access the Internet, please call our Toll Free number 1-877-353-7297, and give the operator the product number %s. The product price is %s.
+6	=This product is shareware. The trial period is %d days and %d days remain.
+7	=The trial period has ended. Further use requires registration.
+8	=If you ordered, you will get a register key (license code), after inputting the code below, the product can be used permanently. 
+
+
+31                             				=Please Select a Directory:
+32                            				=Requires Ghostscript. Do you want to get a free GPL Ghostscript?
+33                            				=http://www.a-pdf.com/convert-to-pdf/gs.htm
+34                            				=Input password
+35                            				=Input password for %s
+36                            				=%d/%d
+37                            				=This file has been cached, do you want to load file from cache?
+38                            				=Loading PDF file  [ %d / %d ] , please wait!
+39                            				=You have not register, you can add only 3 pages!
+40                                    =Page %d
+41                                    =Page %d
+42                                    =OCR Text - Page %d
+43                                    =PDF OCR - %s
+44                                    =PDF
+45                                    =OCR Text
+46                                    =PDF OCR
+47                                    =Extracting text from PDF file [ %d / %d ] , please wait!
+48                                    =Save text as "%s" success!
+49                                    =Save text as "%s" failed!
+50                                    =Switch to PDF page
+51                                    =Switch to OCR Text
+52                                    =Interrupted extraction, please wait!
+53                                    =PDF is not extracted completely, do you want to extract the remaining pages?
+54                                    ="============================================Page %d=================================================="
+55                                    =Change ocr language path from "%s" to "%s" success!
+56                                    =More...
+57                                    =Download OCR Tool
+58                                    =Download OCR Tool Completely.
+59                                    =Download OCR Tool Failed.
+60                                    =Downloading...

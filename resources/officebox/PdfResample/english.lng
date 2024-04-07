@@ -1,0 +1,148 @@
+###########################################################
+#
+#  Language:		English
+#  Author:		Winston Zhang
+#  Product Name:	A-PDF Downsample
+#  Product Version:	1.8.0
+#
+###########################################################
+
+[Font]
+ Name 						=Tahoma
+ Size						=8
+ CharSet					=Default
+
+[frmMain]
+sbtSetting.Caption=设置
+Labellink.Caption=打开
+ImportList1.caption=导入列表
+ExportList1.caption=导出列表
+Labellink1.Caption=Demo演示
+ actinputpassword.Caption				=输入密码
+ btnadd.Caption				=添加
+ btnadddir.Caption				=添加文件夹
+ actRemove.Caption				=移除
+ actClear.Caption				=清空
+ sbtDeskew.Caption				=压缩
+ sbtDeskewAs.Caption				=压缩并另存为
+ sbtSet.Caption				    =设置
+ sbtHelp.Caption				=帮助
+ sbtAbout.Caption				=关于
+ sbtQuit.Caption				=放弃
+ actOpen1.Caption				=打开
+ Inputpassword1.Caption				=输入密码
+ Add1.Caption				=添加
+ AddFolder1.Caption				=添加文件夹
+ Remove1.Caption				=移除
+ Clear1.Caption				=清空
+ Labeltip.Caption                       =列表为空. 请先添加PDF文档 ...
+
+
+
+[frmSelectDir]
+ .Caption						=选择文件夹
+ bCancel.Caption				=取消
+ bOk.Caption					=确定
+ bAdvanced.Caption				=高级
+ cbIncSub.Caption				=包括子文件夹
+ lDesc.Caption					=选择文件夹:
+ lMask.Caption					=过滤:
+ lMaskDesc.Caption				=用逗号分开, 支持*，？宽字符
+ cbMask.Text					=*.pdf
+ cbMask.Items					=*.pdf
+
+[frmSetting]                
+ TabSheet2.Caption				=常规
+ rbExt.Caption				=备份到原文件夹（把原文件名加上BAK）
+ rbDir.Caption				=备份到文件夹
+ bBrowse.Caption				=浏览...
+ GroupBox3.Caption				=图片压缩过滤
+ Label7.Caption				=图片宽度:
+ Label8.Caption				=图片高度:
+ Label6.Caption				=OR
+ Label9.Caption				=会被忽略
+ Label10.Caption				=像素
+ Label11.Caption				=像素
+ Label1.Caption				=图片宽度:
+ Label2.Caption				=图片高度:
+ Label3.Caption				=多于
+ Label4.Caption				=像素
+ Label5.Caption				=像素
+ Label12.Caption				=会被压缩
+ Label16.Caption				=页面
+ Label17.Caption				=到
+ chkDeskewrange.Caption				=压缩范围
+ cbBackup.Caption				=压缩备份文件
+ GroupBox2.Caption				=压缩质量
+ LabelSmall.Caption				=小尺寸
+ LabelHi.Caption				=高品质
+ LabelIT.Caption				=&JPEG 质量:
+ LabelResample.Caption				=压缩过滤
+ LabelColor.Caption				=颜色
+ cmbFilter.text				=FastLinear
+ cmbFilter.hint				=目标过滤
+ cmbOutputColor.text				=256 种颜色
+ cmbOutputColor.hint				=目标文件颜色
+ bOk.Caption				=确定
+ bCancel.Caption				=取消
+ btnReset.Caption                         =重置
+chkDownsample.Caption                         =图片压缩参数
+grpMethod.Caption                         =压缩方法
+cbIgnoreUnsup.Caption                         =忽视不支持的图片
+
+[STRINGS] 
+ 1					= Thank you for registering
+ 2					= Invalid Register Key
+ 3					= The product has been licensed. 
+ 4					= The product has been licensed to:
+ 5					= Q: How to order||A: Click the "Online Purchase" button above, or visit our homepage (http://www.a-pdf.com) for more options. We will send your registration key after receiving your order. If you cannot access the Internet, please call our Toll Free number 1-877-353-7297, and give the operator the product number %s. The product price is %s.
+ 6					= Note: The product is a try-before-buy product. The unregistered version has a limitation: adding a watermark into the output PDF files. If you ordered, you will get a register key (license code), after inputting the code below, the limitation will remove, that means the output files will not be added a watermark...
+
+ 11					= 文件无法加载: %s. %s
+ 12					= 发生未知错误!
+ 13					= 文件密码不正确: %s      
+ 14					= 解密失败. %s
+ 15					= 用户停止.
+ 16					= 文件夹 %s 不存在. 需要创建吗?
+ 17					= 文件夹无法创建: %s
+ 18					= 文件保存出错. %s
+
+ 20                     = N/A 
+ 21                     = 未知                         
+ 22                     = 需要                             
+ 23                     = 无 
+ 24                     = 标题
+ 25                     = 作者
+ 26                     = 主题
+ 27                     = 关键词 
+ 28                     = 文件 
+ 29                     = 在此输入密码: 
+ 30                     = 密码                         
+                      
+81		=请等待...
+82		=项目列表为空
+
+110                     =选中项
+111                     =项目
+115                     =总计
+
+120                     =无效文件夹 "%s"
+121                        =文件加载错误
+122                        =出错 (文件加载错误!)
+123                        =不支持
+124                        =这个过程可能要花几分钟. 请等待...
+125                        =正在压缩PDF...
+126                        =正在压缩PDF...
+127                        =至少有一个文件需要打开密码, 如果你没设密码, 这些PDF文档无法被压缩 .继续操作?
+128                        =压缩PDF文档
+129                        =PDF文档压缩完成.要打开文档所在文件夹吗?
+130                        =信息
+131                        =正在压缩PDF. 想要中止并放弃吗?
+132                        =名称||密码||大小||修改日期||文件名
+
+
+133				=文件名
+134                           				=需要密码
+135                         				=文件尺寸
+136                          				=修改日期
+137                       				=文件全名

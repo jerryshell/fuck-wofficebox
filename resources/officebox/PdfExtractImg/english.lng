@@ -1,0 +1,228 @@
+###########################################################
+#
+#  Language:		English
+#  Author:		Winston Zhang
+#  Product Name:	A-PDF Image Extrator
+#  Product Version:	1.5.0
+#
+###########################################################
+
+[Font]
+ Name 						=Tahoma
+ Size						=8
+ CharSet					=Default
+
+[frmMain]
+.caption                                                                  =万彩办公大师-PDF图片抽取
+ sbtDelPdf.hint				=把选中项目从列表中移除
+ sbtDelAllPdf.hint			=清空所有项目
+ sbtAddDir.hint				=添加文件夹
+ sbtaddpdf.hint				=添加PDF文档
+ sbtUnlock.hint				=给选中的PDF文档设置密码
+ Label1.Caption				=PDF文档
+ sbtExtractAll.Caption		=抽取所有文档的图片
+ sbtExtractSelected.Caption	=抽选选中文档的图片
+ Label3.Caption				=抽取
+ GroupBox1.Caption			=大小限制
+ rbExtractall.Caption		=抽取所有图片
+ rbExtractsmall.Caption		=只抽取小图
+ rbExtractlarge.Caption		=只抽取大图
+ Label2.Caption				=抽取选项
+ sbtDelimg.hint				=把选中图片从列表中移除
+ sbtClearAll.hint			=清空所有图片
+ sbtImgsaveall.hint			=保存所有图片 ... 
+ sbtSaveas1.hint			=保存选中图片 ...
+ sbtView.hint				=查看选中图片
+ Label4.Caption				=预览抽取出的图片
+ FileF1.Caption				=文件
+ Addpdf.Caption				=添加PDF文档
+ Addadirectiy.Caption		=添加文件夹
+ Delete2.Caption			=移除
+ Clearall1.Caption			=清空
+ Quit1.Caption				=退出
+ ools1.Caption				=操作
+ Extractallpdf.Caption		=抽取所有文档的图片
+ ExtractSelected.Caption	=抽选选中文档的图片
+ Images1.Caption			=图片
+ View2.Caption				=查看
+ Saveall1.Caption			=保存所有
+ SaveastiffFileFormat1.Caption				=另存为TIFF文件格式 
+ SaveasjpegFileFormat1.Caption				=另存为JPEG文件格式
+ SaveasgifFileFormat2.Caption				=另存为GIF文件格式
+ SaveasbmpFileFormat2.Caption				=另存为BMP文件格式
+ SaveaspngFileFormat2.Caption				=另存为PNG文件格式
+ SaveastgaFileFormat1.Caption				=另存为TGA文件格式
+ SaveasicoFileFormat3.Caption				=另存为ICO文件格式
+ Saveasjp2FileFormat1.Caption				=另存为JPEG 2000文件格式
+ SaveasdcxFileFormat1.Caption				=另存为DCX文件格式
+ SaveaspcxFileFormat2.Caption				=另存为PCX文件格式
+ Saveas1.Caption				=保存选中的
+ s1.Caption				=另存为&TIFF文件格式
+ SaveasjpegFileFormat2.Caption				=另存为&JPEG文件格式
+ SaveasgifFileFormat3.Caption				=另存为&GIF文件格式
+ SaveasbmpFileFormat3.Caption				=另存为&BMP文件格式
+ SaveaspngFileFormat3.Caption				=另存为&PNG文件格式
+ SaveastgaFileFormat2.Caption				=另存为&TGA文件格式
+ SaveasicoFileFormat4.Caption				=另存为&ICO文件格式
+ Saveasjp2FileFormat2.Caption				=另存为J&PEG 2000文件格式
+ SaveasdcxFileFormat2.Caption				=另存为&DCX文件格式
+ SaveaspcxFileFormat3.Caption				=另存为&PCX文件格式
+
+ Remove1.Caption				=移除
+ ClearAll2.Caption				=清空所有
+ Help1.Caption					=帮助
+ SaveasgifFileFormat1.Caption		=另存为TIFF文件格式
+ SavetoJPEGfile1.Caption			=另存为JPEG文件格式
+ SaveasbmpFileFormat1.Caption		=另存为GIF File Format 
+ Saveasbmp1.Caption					=另存为BMP文件格式
+ SaveaspngFileFormat1.Caption		=另存为PNG文件格式
+ SaveasicoFileFormat2.Caption		=另存为TGA文件格式
+ SaveaspcxFileFormat1.Caption		=另存为PCX文件格式
+ SaveasicoFileFormat1.Caption		=另存为ICO文件格式
+ SaveasFileFormat1.Caption			=另存为JPEG 2000文件格式
+ Save1.Caption				=另存为DCX文件格式
+ View1.Caption				=查看
+ saveasimage1.Caption		=保存选中的...
+ Delete1.Caption			=移除
+ popclearall.Caption		=清空所有
+ SortBySize1.Caption		=按大小排列
+ Open1.Caption				=打开
+ popinputpass.Caption		=输入密码
+ popdelpdf.Caption			=移除
+ popClearallpdf.Caption		=清空所有
+ ExtraxtSelected1.Caption	=抽选选中的
+ ExtraxtAll1.Caption		=抽取所有
+ aHelp.Caption				=帮助
+ aAbout.Caption				=关于...
+
+Option1.Caption				=选项
+Settings1.Caption				=设置...
+RecentFiles1.Caption				=最近打开的文件
+ImportList1.Caption				=导入列表
+ExportList1.Caption				=导出列表
+Saveasori1.Caption				=图片保存为原始格式
+SelectAll1.Caption				=全选
+DeselectAll1.Caption				=反选
+
+Label6.Caption				=列表为空,请加入PDF文件
+Labellink.Caption				=打开
+Labellink1.Caption				=演示DEMO
+
+
+[frmSettings]
+.Caption	=设置
+GroupBox1.Caption= 图片转换
+Label1.Caption= 旋转:
+Label2.Caption= 翻转:
+TabSheet1.Caption= 转换
+
+[frmImageview]
+ sbtpiror.hint				=之前
+ sbtnext.hint				=之后
+ sbtFit.hint				=最初
+ sbtStrech.hint				=适合
+ sbtzoomin.hint				=放大
+ sbtzoomout.hint			=缩小
+ edtzoom.Caption			=100%
+ N32001.Caption				=3200%
+ N24001.Caption				=2400%
+ N16001.Caption				=1600%
+ N8001.Caption				=800%
+ N4001.Caption				=400%
+ N2001.Caption				=200%
+ N1501.Caption				=150%
+ N1251.Caption				=125%
+ N1001.Caption				=100%
+ N501.Caption				=50%
+ N251.Caption				=25%
+ N1252.Caption				=12.5%
+ N8331.Caption				=8.33%
+ FitPage1.Caption			=适合页面
+ ActualPage1.Caption		=实际页面
+ FitWidth1.Caption			=适合宽度
+
+[frmAddDirProgressing]
+ lAdding.Caption				=添加:
+ Button1.Caption				=隐藏
+
+ [frmSelectDir]
+ .Caption						=选择目录
+ bCancel.Caption				=取消
+ bOk.Caption					=确定
+ bAdvanced.Caption				=高级
+ cbIncSub.Caption				=包括子文件夹
+ lDesc.Caption					=选择目录:
+ lMask.Caption					=过滤:
+ lMaskDesc.Caption				=用逗号分隔, 支持*和?等宽字节
+ cbMask.Text					=*.pdf
+ cbMask.Items					=*.pdf
+
+ [frmAbout]
+ .Caption						=关于
+ lblVersionName.Caption			=版本:
+ lblRegKey.Caption				=有秘钥:
+ btnReg.Caption					=注册
+ btnClose.Caption				=关闭
+ btnTry.Caption					=试用
+ btnOrder.Caption				=如何下单
+ btnOlOrder.Caption				=在线购买
+ lblReg.Caption					=产品已注册. 注册码:
+
+ 
+ 
+[STRINGS]
+ 1					= Thank you for registering
+ 2					= Invalid Register Key
+ 3					= The product has been licensed. 
+ 4					= The product has been licensed to:
+ 5					= Q: How to order||A: Click the "Online Purchase" button above, or visit our homepage(http://www.a-pdf.com) for more options. We will send your registration key after receiving your order. If you cannot access the Internet, please call our Toll Free number 1-877-353-7297, and give the operator the product number %s. The product price is %s.
+ 6					= Note: The product is a try-before-buy product. The unregistered version has a limitation: adding a watermark into the output image files. If you ordered, you will get a register key (license code), after inputing the code below, the limitation will remove, that means the output files will not be added a watermark.
+
+ 11					= 文件无法加载: %s. %s
+ 12					= 发生未知错误!
+ 13					= %s 需要打开密码:
+ 14					= 解密失败. %s
+ 15					= 用户停止.
+ 16					= 文件夹 %s 不存在. 需要创建吗?
+ 17					= 文件夹无法创建: %s
+ 18					= 文件保存出错. %s
+
+ 31					=在此输入密码:
+ 32					=密码
+ 33					=文件密码错误: %s
+ 34					=没有选择任何图片!
+ 35					=信息
+ 36					=PDF文档正在加载...
+ 37					=请稍等...
+ 38					=没有项目!
+ 39					=确定要清空所有项目吗? 
+ 40					=删除所有项目信息
+ 41					=图片文件已保存!
+ 42					=图片抽取完毕!
+ 43					=张图片抽取完毕!
+ 44					=总计
+ 45					=抽取图片中...
+ 46					=这个过程需要花费几分钟. 请耐心等待...
+ 47					=张图片被选中
+ 48					=个项目被选中
+ 49					=不能抽取文件: [
+ 50					=需要密码
+ 51					=需要打开密码!
+ 52					=选择一个目录保存 
+ 53					=保存文件:  
+ 54					=抽取( 
+ 55					=图片来自 
+ 56					=图片
+ 57					=项目
+ 58					=抽取所有
+ 59					=抽取选中的
+ 60					=至少有一个文件需要打开密码, 如果你没设密码,你不能从这些文档中抽取图片.||||继续操作?
+ 61					=抽取图片
+ 62					=图片文件已保存.要打开文件所在目录吗? 
+ 63					=用户停止.
+
+65                           				=文件名
+66                           				=路径
+67                           				=需要密码
+
+

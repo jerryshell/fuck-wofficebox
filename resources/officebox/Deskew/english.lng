@@ -1,0 +1,150 @@
+###########################################################
+#
+#  Language:		English
+#  Author:		Winston Zhang
+#  Product Name:	A-PDF Deskew
+#  Product Version:	1.5.0
+#
+###########################################################
+
+[Font]
+ Name 						=Tahoma
+ Size						=8
+ CharSet					=Default
+
+[frmMain]
+ .caption                                                                           = '万彩办公大师-PDF偏斜纠正工具(扫描PDF)'; 
+ actinputpassword.Caption				=输入密码(&I)
+ btnadd.Caption				=添加PDF(&A)
+ btnadddir.Caption				=从目录添加(&F)
+ actRemove.Caption				=删除
+ actClear.Caption				=清空
+ sbtDeskew.Caption				=执行纠偏
+ sbtDeskewAs.Caption				=执行纠偏并另存为
+ sbtSet.Caption				=设置
+ sbtHelp.Caption				=帮助
+ sbtAbout.Caption				=关于
+ sbtQuit.Caption				=退出
+ actOpen1.Caption				=打开
+ Inputpassword1.Caption				=&输入密码
+ Add1.Caption				=添加
+ AddFolder1.Caption				=从目录添加(&F)
+ Remove1.Caption				=删除
+ Clear1.Caption				=清空
+ Labeltip.Caption	               =当前列表是空的. 添加一些          PDFs文件 or Tiff 图片 开始
+
+sbtSetting.Caption= 设置
+Labellink.Caption= 打开
+Labellink1.Caption= DEMO演示
+
+
+[frmSelectDir]
+ .Caption						=选择一个目录
+ bCancel.Caption				=取消
+ bOk.Caption					=取消
+ bAdvanced.Caption				=高级
+ cbIncSub.Caption				=包含子目录
+ lDesc.Caption					=选择一个目录:
+ lMask.Caption					=文件后缀名:
+ lMaskDesc.Caption				=根据通配符分割, 支持 *, 和 ? 符号
+ cbMask.Text					=*.pdf
+ cbMask.Items					=*.pdf
+
+[frmSetting]
+ rbExt.Caption				=保留 .BAK 备份文件
+ rbDir.Caption				=备份到目录
+ bBrowse.Caption				=浏览...
+ cbBackup.Caption				=纠偏前备份原始文件
+ bCancel.Caption				=取消
+ bOk.Caption				=确定
+ GroupBox2.Caption				=纠偏参数
+ Label1.Caption				=角度范围:
+ Label2.Caption				=度数
+ Label3.Caption				=&JPEG 质量:
+ Label4.Caption				=小尺寸
+ Label5.Caption				=高质量
+ GroupBox3.Caption				=纠偏过滤参数
+ Label7.Caption				=图片宽度:
+ Label8.Caption				=图片高度:
+ Label6.Caption				=小于
+ Label9.Caption				=将要被忽视
+ Label10.Caption				=像素
+ Label11.Caption				=像素
+ Label16.Caption				=页范围从 
+ Label17.Caption				=到
+ chkDeskewrange.Caption			=纠偏范围
+
+cbSkipNonSupport.Caption= 跳过不支持的图片
+cbSkewtext.Caption= 纠正倾斜的文字(10度以内)
+chkmidlineCaption= 从中线纠偏(Deskew by midline)
+chkcroppage.Caption= 切割页面(Crop pages)
+
+
+
+ [frmAddDirProgressing]
+ FileName.Caption				=处理中,可能需要花费一些时间. 请耐心等待处理...
+ LabelCurrentprogress.Caption				=当前进度
+ Button1.Caption				=取消
+ Labeltotalprogress.Caption				=总进度
+
+
+
+
+[STRINGS] 
+ 1					= Thank you for registering
+ 2					= Invalid Register Key
+ 3					= The product has been licensed. 
+ 4					= The product has been licensed to:
+ 5					= Q: How to order||A: Click the "Online Purchase" button above, or visit our homepage(http://www.a-pdf.com) for more options. We will send your registration key after receiving your order. If you cannot access the Internet, please call our Toll Free number 1-877-353-7297, and give the operator the product number %s. The product price is %s.
+ 6					= Note: The product is a try-before-buy product. The unregistered version has a limitation: adding a watermark into the output PDF files. If you ordered, you will get a register key (license code), after inputting the code below, the limitation will remove, that means the output files will not be added a watermark..
+
+ 11					= 不能加载文件: %s. %s
+ 12					= 未命名错误!
+ 13					= 文件密码错误: %s      
+ 14					= 解密失败. %s
+ 15					= 用户终止.
+ 16					= 目录 %s 不存在,是否要创建它?
+ 17					= 不能创建目录: %s
+ 18					= 保存文件错误. %s
+
+ 20                     = N/A 
+ 21                     = 未知                          
+ 22                     = 需要                             
+ 23                     = 无
+ 24                     = 标题 
+ 25                     = 作者 
+ 26                     = 主题 
+ 27                     = 关键词 
+ 28                     = 文件 
+ 29                     = 在这里输入密码: 
+ 30                     = 密码                      
+
+31                          				=文件名
+32                         				=密码
+33                       				=文件尺寸
+34                          				=修改信息
+35                         				=文件全名
+
+
+   
+                      
+81		=请等待...
+82		=栏目是空的
+99		=选择输出目录
+
+110                     =选中项目
+111                     =项目
+115                     =总数
+
+120                     =无效路径 "%s"
+121                        =加载文件错误
+122                        =错误
+123                        =不支持
+124                        =这可能要几分钟，请等待...
+125                        =纠偏PDFs/TIFF进行中...
+126                        =正在纠偏
+127                        =至少有一个文件要用密码打开，如果您不设置密码，PDF文件将不能被纠偏。要继续吗？
+128                        =纠偏
+129                        =文件纠偏完成。您想打开目录吗？
+130                        =通知
+131                        =PDF/TIFF文件纠偏正在进行中.你想中止并退出吗？

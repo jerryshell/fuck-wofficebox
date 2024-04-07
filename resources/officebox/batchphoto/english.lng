@@ -1,0 +1,296 @@
+###########################################################
+#
+#  Language:		English
+#  Author:		Winston Zhang
+#  Product Name:	
+#  Product Version:	0.0.0 
+#
+###########################################################
+[frmMain]
+Panel5.Caption                				=面板4
+Label1.Caption                				=添加图片
+lbemptytip.Caption            				=列表为空，请先添加图片 ...
+Label8.Caption                				=查看
+Label9.Caption                				=示例
+Label5.Caption                				=添加滤镜
+TabSheet1.Caption             				=原图
+TabSheet2.Caption             				=效果图
+
+btnSaveFile.Caption           				=保存
+btnDeleteFile.Caption         				=删除
+Panel7.Caption                				=面板4
+Label3.Caption                				=批量处理 
+mniOpenPdf1.Caption           				=打开
+mniAddPdf1.Caption            				=添加文件
+mniAddFolder1.Caption         				=添加文件夹
+mniDelPdf1.Caption            				=移除
+mniDelAllPdf1.Caption         				=清空所有
+MenuItem1.Caption             				=文件
+mniOpenPdf.Caption            				=打开
+mniAddPdf.Caption             				=添加图片
+mniAddFolder.Caption          				=添加文件夹
+mniDelPdf.Caption             				=删除
+mniDelAllPdf.Caption          				=清空所有
+ImportList1.Caption           				=导入列表
+ExportList1.Caption           				=导出列表
+mniexit.Caption               				=退出
+MenuItem11.Caption            				=操作
+mniSplit.Caption              				=批量处理...
+mnistop.Caption               				=停止
+MenuItem15.Caption            				=帮助
+mnihelp.Caption               				=帮助
+mniabout.Caption              				=关于...
+mnicontact.Caption            				=联系我们...
+
+actOpenPdf.Caption            				=打开
+actSelectOutputFileFolder.Caption			=浏览
+actSelecteOutputFolderDefault.Caption			=默认
+
+actSettingCfg.Caption         				=设置
+actSelectAll.Caption          				=选择全部
+actSplit.Caption              				=批量处理...
+actStopSplit.Caption          				=停止
+
+actMemoSave.hint              				=将文本保存到文件.
+
+actMemoCopy.hint              				=把框中的文本复制到右侧..
+actHelp.Caption               				=帮助
+
+
+actSplitSelected.Caption      				=已选择批量处理  
+
+[frmbactheditor]
+Label79.Caption               				=数值:
+Label80.Caption               				=0%
+Label81.Caption               				=100%
+Label2.Caption                				=效果图
+Label1.Caption                				=原图
+tbComment.Caption             				=批注
+Label3.Caption                				=文本:
+Label4.Caption                				=位置:
+Label5.Caption                				=左侧:
+Label6.Caption                				=顶端:
+lbOpacity.Caption             				=透明度:
+Label10.Caption               				=0%
+Label12.Caption               				=100%
+lblCommentOpacity.Caption     				=50%
+mmoComment.Text              				=在此输入文本
+btnCommentMacro.Caption       				=宏
+cmbCommalign.text             				=居中对齐
+cmbcommplace.text             				=底端
+gpreperties.Caption           				=文本属性
+Label7.Caption                				=字体:
+LabelSize.Caption             				=大小:
+Label8.Caption                				=风格:
+Label9.Caption                				=颜色:
+cbcommBold.Caption            				=粗体
+cbcommItalic.Caption          				=斜体
+cbcommUnderLine.Caption       				=下划线
+chkCommentShadow.Caption      				=阴影
+tbDate.Caption                				=日期
+Label11.Caption               				=位置:
+Label13.Caption               				=显示:
+Label14.Caption               				=日期格式:
+Label15.Caption               				=时间格式:
+Label20.Caption               				=透明度:
+Label21.Caption               				=0%
+Label22.Caption               				=100%
+lblDateOpacity.Caption        				=90%
+cmbdateplace.text             				=右下角
+cmbdateDate.text              				=图片日期
+cbDatedateformat.text         				=MMM-DD-YYYY
+cbDatetimeformat.text         				=AM/PM
+GroupBox1.Caption             				=文本属性
+Label16.Caption               				=字体:
+Label17.Caption               				=大小:
+Label18.Caption               				=风格:
+Label19.Caption               				=颜色:
+cbDateBold.Caption            				=粗体
+cbdateItaliy.Caption          				=斜体
+cbDateunline.Caption          				=下划线
+chkDateShadow.Caption         				=阴影
+tbWatermarktext.Caption       				=水印文本内容
+Label23.Caption               				=文本:
+Label24.Caption               				=位置:
+Label25.Caption               				=左侧:
+Label26.Caption               				=顶端:
+Label31.Caption               				=透明度:
+Label32.Caption               				=0%
+Label33.Caption               				=100%
+Label34.Caption               				=旋转(度):
+lblWatermarktextopacity.Caption				=90%
+cbwatermarkplace.text         				=右下角
+GroupBox2.Caption             				=文本属性
+Label27.Caption               				=字体:
+Label28.Caption               				=大小:
+Label29.Caption               				=风格:
+Label30.Caption               				=颜色:
+cbwatermarkbold.Caption       				=粗体
+cbwatermarkitaliy.Caption     				=斜体
+cbwatermarkunderline.Caption  				=下划线
+btnWatermarkTextMacro.Caption 				=宏
+chktextwatermarkShadow.Caption				=阴影
+tbwatermarkimage.Caption      				=水印图片
+Label35.Caption               				=图片:
+Label36.Caption               				=位置:
+Label37.Caption               				=顶端:
+Label38.Caption               				=透明度:
+Label39.Caption               				=0%
+Label40.Caption               				=100%
+Label41.Caption               				=旋转(度):
+Label43.Caption               				=比例(%):
+Label99.Caption               				=左侧:
+lblWatermarkImageOpacity.Caption				=50%
+cbimgwatermarkplace.text      				=右下角
+BitBtn5.Caption               				=浏览
+tbrotate.Caption              				=旋转
+Label46.Caption               				=度:
+bitrotateleft.Caption         				=向左旋转
+bitrotateright.Caption        				=向右旋转
+tbflip.Caption                				=翻转
+chkflipV.Caption              				=垂直翻转图片
+chkflipH.Caption              				=水平翻转图片
+tbcrop.Caption                				=裁剪
+Label47.Caption               				=原图大小:
+Label48.Caption               				=左侧:
+Label49.Caption               				=顶端:
+Label50.Caption               				=宽:
+Label51.Caption               				=高:
+rbCroppixel.Caption           				=数值（单位：像素）
+rbCropPercent.Caption         				=数值（单位：百分数）
+tbthumbnail.Caption           				=缩略图
+Label57.Caption               				=缩略图大小（单位：像素）
+Label58.Caption               				=宽:
+Label59.Caption               				=高:
+Label60.Caption               				=调整大小方式:
+cmbthumbnailmodthed.text      				=调整大小以适合
+tbcontrast.Caption            				=对比度
+Label61.Caption               				=数值:
+tbbrightness.Caption          				=亮度
+Label64.Caption               				=亮度:
+lbl11.Caption                 				=饱和度:
+tbcolorbalance.Caption        				=色彩平衡
+Label68.Caption               				=红:
+Label70.Caption               				=绿:
+Label73.Caption               				=蓝:
+tbsharp.Caption               				=锐化
+Label76.Caption               				=数额:
+Label77.Caption               				=0%
+Label78.Caption               				=100%
+lblSharpenAmount.Caption      				=0%
+tbblur.Caption                				=模糊
+Label82.Caption               				=100%
+Label83.Caption               				=值:
+Label84.Caption               				=0%
+lblBlurValue.Caption          				=0%
+tbshade.Caption               				=阴影
+Label85.Caption               				=方位角:
+Label86.Caption               				=海拔:
+Label87.Caption               				=0%
+Label88.Caption               				=0%
+Label89.Caption               				=100%
+Label90.Caption               				=100%
+lblShadeAzimuth.Caption       				=36%
+lblShadeElevation.Caption     				=36%
+cbshadegray.Caption           				=灰度阴影
+tbedge.Caption                				=边缘
+Label91.Caption               				=半径:
+tbBW.Caption                  				=黑白
+Label94.Caption               				=阈值 (0...255)
+sbtBWAuto.Caption             				=自动
+Label95.Caption               				=所有阈值较低的等级将被设置为黑色，否则将被设置为白色
+ lbl12.Caption                 				=这个滤镜没有设置选项
+tbBorder.Caption              				=边框
+Label96.Caption               				=左侧:
+Label97.Caption               				=顶端:
+lbl5.Caption                  				=右侧:
+lbl6.Caption                  				=底端:
+lbl7.Caption                  				=颜色:
+lbl8.Caption                  				=推荐数值范围 :(0——999)
+rbborderpixel.Caption         				=尺寸（单位：像素）
+rbborderpercent.Caption       				=尺寸（单位：百分数）
+chkborderSymmetirc.Caption    				=对称 
+tbresize.Caption              				=调整大小
+lbl1.Caption                  				=宽:
+lbl2.Caption                  				=原图大小:
+lbl4.Caption                  				=高:
+lbl3.Caption                  				=推荐数值范围 :(0——2000)
+rbResizepixel.Caption         				=数值（单位：像素）
+rbResizepercent.Caption       				=数值（单位：像素）
+chkResizeRreserve.Caption     				=保留原始的宽高比
+btnCancel.Caption             				=取消
+btnOk.Caption                 				=确定
+btnReset.Caption              				=重置
+N1.Caption                    				={Titlename}
+Foldername1.Caption           				={Foldername}
+N2.Caption                    				={FilePath}
+FileExtension1.Caption        				={FileExtension}
+
+[frmFileName]
+lbl1.Caption                  				=文件名:
+lbl2.Caption                  				=.xml
+btnok.Caption                 				=确定
+btncancel.Caption             				=取消
+
+[frmLogPath]
+lbl1.Caption                  				=文件路径:
+btnSelect.Caption             				=.....
+btnCancel.Caption             				=取消
+btnOk.Caption                 				=确定
+btnOpen.Caption               				=打开
+
+[frmOutput]
+btnOk.Caption                 				=开始
+btnCancel.Caption             				=取消
+grp1.Caption                  				=名称
+lbl1.Caption                  				=名称:
+lbl2.Caption                  				=预览:
+lbl5.Caption                  				=注意: 如果你不输入文件名,||将会使用源照片的文件名.
+chkChangeCases.Caption        				=改为
+cbbChangeCases.text           				=小写字母
+grp2.Caption                  				=文件夹或格式
+lbl3.Caption                  				=保存路径:
+lbl4.Caption                  				=输出格式:
+cbbOutputformat.text          				=与原文件相同
+btnSelect.Caption             				=选择
+btnOpen.Caption               				=打开
+btnSettings.Caption           				=设置
+btnUsedefault.Caption         				=默认
+grp3.Caption                  				=设置
+chkRemove.Caption             				=处理后删除源图片
+Filename1.Caption             				={Titlename}
+Foldername1.Caption           				={Foldername}
+Filesize1.Caption             				={Filesize}
+Date1.Caption                 				={Date}
+ime1.Caption                  				={Time}
+          
+
+[STRINGS]
+1							=Thank you for registering
+2							=Invalid Register Key
+3							=The product has been licensed. 
+4							=The product has been licensed to:
+5							=Q: How to order||A: Click the "Online Purchase" button above, or visit our homepage(http://www.boxoft.com) for more options. We will send your registration key after receiving your order. If you cannot access the Internet, please call our Toll Free number 1-877-353-7297, and give the operator the product number %s. The product price is %s.
+6	=This product is shareware. The trial period is %d days and %d days remain.
+7	=The trial period has ended. Further use requires registration.
+8	=If you ordered, you will get a register key (license code), after inputting the code below, the product can be used permanently. 
+
+30                            				=警告!
+31                            				=把选中图片从列表中移除?
+32                            				=把所有图片从列表中移除?
+33                            				=请添加图片!
+34                            				=请选择子项目!
+35                            				=选择图片保存路径
+36                            				=文件名不能为空!
+37                            				=文件已存在!
+38                            				=没有指定正确的文件格式!
+39                            				=确定删除文件吗?
+40                            				=请选择一个滤镜!
+41                            				=已经是第一个了!
+42                            				=这是最后一个!
+43                            				= 文件无法加载, 要删除文件吗? ||如果不删除文件, 文件名会被改动!
+44                            				= 无法加载! 文件 '%s' 不符合要求, 
+45                            				=请选择输出目录!
+46                            				=请选择日志目录!
+47                                                      =打开输出目录?
+

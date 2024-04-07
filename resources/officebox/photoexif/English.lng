@@ -1,0 +1,100 @@
+###########################################################
+#
+#  Language:		English
+#  Author:		Winston Zhang
+#  Product Name:	
+#  Product Version:	0.0.0 
+#
+###########################################################
+[frmmain]
+sbtzoomin.Caption             				=放大
+sbtFit.Caption                				=使适合宽度
+sbtStrech.Caption             				=使适合高度
+btnSaveProject.Caption        				=保存
+btnOpenProject.Caption        				=打开
+btnSaveas.Caption             				=另存为
+sbtDelimg.Caption             				=清除Exif
+btnImport.Caption             				=导入
+btnExport.Caption             				=导出
+btnmodify.Caption             				=修改
+btnUndelete.Caption           				=取消删除
+SpeedButton5.Caption          				=标志删除
+FileF1.Caption                				=文件
+mniOpenImage.Caption          				=打开
+mniSave.Caption               				=保存
+mniSaveas.Caption             				=另存为
+mniImport.Caption             				=导入
+mniExport.Caption             				=导出
+mniClose.Caption              				=退出
+ools1.Caption                 				=操作
+mniRemoveExif.Caption         				=清除Exif
+mniEditExif1.Caption          				=编辑Exif
+Help1.Caption                 				=帮助
+Help2.Caption                 				=帮助
+AboutImagetoPDF1.Caption      				=关于
+Contactus1.Caption            				=联系我们
+actOpenImage.Caption          				=打开
+actFit.Caption                				=使适合宽度
+actStrech.Caption             				=使适合高度
+actZoomin.Caption             				=放大
+actFresh.Caption              				=刷新
+actmodify.Caption             				=修改
+actRemoveExif.Caption         				=清除Exif
+actMarkDel.Caption            				=标志删除
+actSave.Caption               				=保存
+actSaveas.Caption             				=另存为
+actZoom1.Caption              				=100%
+actZoom2.Caption              				=80%
+actImport.Caption             				=导入
+actExport.Caption             				=导出
+actUndelete.Caption           				=取消删除
+actZoom3.Caption              				=50%
+actZoom4.Caption              				=30%
+actSBTUP.Caption              				=设置
+actClose.Caption              				=退出
+N1001.Caption                 				=100%
+mniZoom2.Caption              				=80%
+mniZoom3.Caption              				=50%
+mniZoom4.Caption              				=30%
+
+[frmPreviewSave]
+btnContinue.Caption           				=继续
+btnCancel.Caption             				=取消
+
+[frmEdit]
+tsstring.Caption              				=编辑
+Label1.Caption                				=类型:
+Label2.Caption                				=数值:
+cbbType.text                  				=ASCII
+cbbValue.text                 				=佳能IXUS 70
+tsinter.Caption               				=编辑
+lbltype.Caption               				=类型:
+lblval.Caption                				=数值:
+tstime.Caption                				=编辑
+Label3.Caption                				=类型:
+Label4.Caption                				=数值:
+btnok.Caption                 				=确认
+BitBtn2.Caption               				=取消
+
+[frmexiflist]
+btnok.Caption                 				=确认
+btnCancel.Caption             				=取消
+btnOpenProject.Caption        				=从图片添加
+btnExifTemplete.Caption       				=从Exif模板添加
+btnCheckall.Caption           				=全选
+btnUncheckall.Caption         				=取消全选
+actCheckall.Caption           				=全选
+actFromimage.Caption          				=从图片添加
+actUncheckall.Caption         				=取消全选
+actOK.Caption                 				=确认
+actCancel.Caption             				=取消
+actExifTemplete.Caption       				=从Exif模板添加
+[STRINGS]
+ 1							= Thank you for registering
+ 2							= Invalid Register Key
+ 3							= The product has been licensed. 
+ 4							= The product has been licensed to:
+ 5							= Q: How to order||A: Click the "Online Purchase" button above, or visit our homepage( http://www.a-pdf.com) for more options. We will send your registration key after receiving your order. If you cannot access the Internet, please call our Toll Free number 1-877-353-7297, and give the operator the product number %s. The product price is %s.
+ 6							=This product is shareware. The trial period is %d days and %d days remain.
+ 7							=The trial period has ended. Further use requires registration.
+ 8							=If you ordered, you will get a register key (license code), after inputting the code below, the product can be used permanently. 

@@ -1,0 +1,40 @@
+###########################################################
+#
+#  Language:		English
+#  Author:		Wanqing Huang
+#  Product Name:	
+#  Product Version:	1.0.0 
+#
+###########################################################
+
+[frmMain]
+ .Caption                      				=自动关机助手
+ tsOnTime.Caption              				=指定时间
+ lblOnTime.Caption             				=时间点：
+ lblClose1.Caption             				=关机
+ lblTimeError.Caption          				=(*)关机时间不能比当前时间早
+ chkEveryDay.Caption           				=每天重复
+ tsAfterTime.Caption           				=倒计时
+ lblAfterTime.Caption          				=倒计时：
+ lblClose2.Caption             				=关机
+ lblCDError.Caption            				=(*)倒计时不能设置为00:00:00
+ lblCurrentDateTime.Caption    				=2018-01-22 00:00:00
+ actHelp.Caption               				=帮助
+ actContact.Caption            				=联系我们
+ actAbout.Caption              				=关注万彩
+ actExit.Caption               				=退出
+ actActiveTime.Caption         				=开启定时关机
+ actCloseTime.Caption          				=取消定时关机
+ actActiveCD.Caption           				=开启倒计时
+ actCloseCD.Caption            				=取消倒计时
+ actShowFromNotify.Caption     				=显示窗口
+ 
+ [frmShutdownTip]
+ .Caption                      				=自动关机提示
+ lblTip.Caption                				=您的系统将在 30 秒后自动关机，请注意保存重要的资料和工作内容。
+ lblCancelTip.Caption          				=若要解除自动关机，请点击取消按钮。
+ btnCancel.Caption             				=取消
+ 
+[STRINGS]
+31                            				=请选择一个目录
+32                            				=您的系统将在 %d 秒后自动关机，请注意保存重要的资料和工作内容。

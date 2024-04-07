@@ -1,0 +1,168 @@
+###########################################################
+#
+#  Language:		English
+#  Author:		Wanqing Huang
+#  Product Name:	Boxoft Screen OCR
+#  Product Version:	1.2.0 
+#
+###########################################################
+[frmMain]
+.Caption                              =Screen OCR
+tsConfig.Caption              				=Config
+lblLang.Caption               				=&Language:
+lblHotKey.Caption             				=Hotkey:
+actOcr.Caption                				=Capture
+actOcr.hint                   			  =Capture screen text and OCR...
+actHistory.Caption            				=History
+actHistory.hint               				=View OCR history
+actHide.Caption               				=Hide
+actHide.hint                  				=Hide the main window
+actHelp.Caption               				=Help
+actHelp.hint                  				=Help
+actAbout.Caption              				=About
+actContactUs.Caption          				=Contact us...
+actExit.Caption               				=Exit
+actShowMain.Caption           				=Show main window
+mniShowMain.Caption           				=Show main window
+mniOcr.Caption                				=OCR
+mniOcr.hint                   				=OCR from screen
+mniHistory.Caption            				=History
+mniHistory.hint               				=View history
+mniHelp.Caption               				=Help
+mniHelp.hint                  				=Help
+mniAbout.Caption              				=About
+mniContactUs.Caption          				=Contact us...
+mniExit.Caption               				=Exit
+mniClosemenu.Caption          				=Close menu
+mniHelp1.Caption              				=Help
+mniHelp1.hint                 				=Help
+mniAbout1.Caption             				=About
+mniContactUs1.Caption         				=Contact us...
+btnHelp.Caption                       =""
+btnHelp.Hint                          =Help
+btnAttention.Caption                       =""
+btnAttention.Hint                       =Pay Attention
+btnSelPath.Caption                    =Settings...
+
+[frmEdit]
+.Caption                              =OCR result
+lblFontSize.Caption           				=Fo&nt size:
+cbbZoom.text                  				=100%
+actFitToWidth.Caption         				=Fit to width
+actFitToWidth.hint            				=Fit to width
+actFitToHeight.Caption        				=Fit to height
+actFitToHeight.hint           				=Fit to height
+actOriginalSize.Caption       				=Original size
+actOriginalSize.hint          				=Original size
+actZoomOut.Caption            				=Zoom out
+actZoomOut.hint               				=Zoom out
+actZoomIn.Caption             				=Zoom in
+actZoomIn.hint                				=Zoom in
+actSelectAll.Caption          				=Select All
+actSelectAll.hint             				=Select All
+actCut.Caption                				=Cut
+actCut.hint                   				=Cut
+actCopy.Caption               				=Copy
+actCopy.hint                  				=Copy
+actPaste.Caption              				=Paste
+actPaste.hint                 				=Paste
+actUndo.Caption               				=Undo
+actUndo.hint                  				=Undo
+actSave.Caption               				=Save text
+actSave.hint                  				=Save
+actSaveAs.Caption             				=Save text as..
+actSaveAs.hint                				=Save text as..
+actOpenHistory.Caption        				=View OCR history
+actOpenHistory.hint           				=View OCR history
+actExit.Caption               				=Exit
+actExit.hint                  				=Exit
+actHelp.Caption               				=Help
+actHelp.hint                  				=Help
+actContact.Caption            				=Contact us..
+actContact.hint               				=Contact us..
+actAbout.Caption              				=About
+actAbout.hint                 				=About
+mniFile.Caption               				=&File
+mniOpenHistory.Caption        				=View OCR history
+mniOpenHistory.hint           				=View OCR history
+mniSave.Caption               				=Save text
+mniSave.hint                  				=Save
+mniSaveAs.Caption             				=Save text as..
+mniSaveAs.hint                				=Save text as..
+mniExit2.Caption              				=Exit
+mniExit2.hint                 				=Exit
+mniEdit.Caption               				=&Edit
+mniSelectAll.Caption          				=Select All
+mniSelectAll.hint             				=Select All
+mniCut.Caption                				=Cut
+mniCut.hint                   				=Cut
+mniCopy.Caption               				=Copy
+mniCopy.hint                  				=Copy
+mniPaste.Caption              				=Paste
+mniPaste.hint                 				=Paste
+mniUndo.Caption               				=Undo
+mniUndo.hint                  				=Undo
+mniImage.Caption              				=&Image
+mniFitToWidth.Caption         				=Fit to width
+mniFitToWidth.hint            				=Fit to width
+mniFitToHeight.Caption        				=Fit to height
+mniFitToHeight.hint           				=Fit to height
+mniOriginalSize.Caption       				=Original size
+mniOriginalSize.hint          				=Original size
+mniZoomOut.Caption            				=Zoom out
+mniZoomOut.hint               				=Zoom out
+mniZoomIn.Caption             				=Zoom in
+mniZoomIn.hint                				=Zoom in
+mniHelp.Caption               				=&Help
+mniHelp1.Caption              				=Help
+mniHelp1.hint                 				=Help
+mniAbout.Caption              				=About
+mniAbout.hint                 				=About
+mniContact.Caption            				=Contact us..
+mniContact.hint               				=Contact us..
+btnFitw.Caption                       =""
+btnFit.Caption                        =""
+btnReduction.Caption                  =""
+btnZoomOut.Caption                    =""
+btnZoomIn.Caption                     =""
+btnHistory.Caption                    =&History
+btnSelAll.Caption                     =""
+btnSelAll.Hint                        =Select all (Ctrl+A)
+btnCut.Caption                        =""
+btnCut.Hint                           =Cut (Ctrl+X)
+btnCopy.Caption                       =""
+btnCopy.Hint                          =Copy (Ctrl+C)
+btnPaste.Caption                      =""
+btnPaste.Hint                         =Paste (Ctrl+V)
+btnUndo.Caption                       =""
+btnUndo.Hint                          =Undo (Ctrl+Z)
+btnSave.Caption                       =""
+btnSave.Hint                          =Save text (Ctrl+S) 
+btnSaveas.Caption                     =""
+btnSaveas.Hint                        =Save text as..
+
+[frmShowHistory]
+.Caption                              =OCR History
+btnFirst.hint                 				=First page
+btnLast.hint                  				=Last page
+btnNext.hint                  				=Next page
+btnPrevious.hint              				=Previous page
+btnDelHistory.Caption         				=Delete
+
+[STRINGS]
+ 1					= Thank you for registering
+ 2					= Invalid Register Key
+ 3					= The product has been licensed. 
+ 4					= The product has been licensed to:
+ 5					= Q: How to order||A: Click the "Online Purchase" button above, or visit our homepage(http://www.a-pdf.com) for more options. We will send your registration key after receiving your order. If you cannot access the Internet, please call our Toll Free number 1-877-353-7297, and give the operator the product number %s. The product price is %s.
+ 6	        = This product is shareware. The trial period is %d days and %d days remain.
+ 7	        = The trial period has ended. Further use requires registration.
+ 8	        = If you ordered, you will get a register key (license code), after inputting the code below, the product can be used permanently. 
+ 
+33                               =Position (Left:%d, Top:%d)
+34                               =Area size (Width:%d, Height:%d) 
+35                               =%d / %d
+36                               =[ %d ]
+37                               =Are you sure you want to delete the OCR history?
+38                               =Change ocr language path from "%s" to "%s" success!
+39                               =More...

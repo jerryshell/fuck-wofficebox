@@ -1,0 +1,177 @@
+###########################################################
+#
+#  Language:		English
+#  Author:		XianCai Huang
+#  Product Name:	A-PDF Page Crop
+#  Product Version:	2.4.0
+#
+###########################################################
+
+[Font]
+ Name 																=Tahoma
+ Size																	=8
+ CharSet															=Default
+
+
+
+[frmPageRange]
+.Caption				=选择页面范围去应用设置
+TabSheet1.Caption				=选择页面范围去应用设置
+lbl1.Caption				=页面范围:
+lbl2.Caption				=页面方向
+btnOK.Caption				=应用所有
+btnCancel.Caption				=取消
+
+
+[frmCutEditor]
+
+.caption                                            =万彩办公大师-页面修剪											
+btnAddRect.hint               				=绘制一个裁剪框
+
+btnAddDir.hint                				=打开PDF文件进行裁剪
+
+Label1.Caption                				=左边:
+Label1.hint                   				=英寸
+Label2.Caption                				=顶部:
+Label2.hint                   				=英寸
+Label3.Caption                				=宽度:
+Label3.hint                   				=英寸
+Label4.Caption                				=高度:
+Label4.hint                   				=英寸
+Label5.Caption                				=页码:
+Label6.Caption                				=右边距:
+Label6.hint                   				=PDF文本区与纸张右边缘的距离
+Label7.Caption                				=底边距:
+Label7.hint                   				=PDF文本区与纸张底部边缘的距离
+
+
+Labellink.Caption				=打开
+Labellink1.Caption				=演示DEMO
+Rule1.Caption				=规则
+ExportRule1.Caption				=导出规则
+ImportRule1.Caption				=导入规则
+Options1.Caption				=选项
+Settings1.Caption				=设置
+
+actBrowsePDFFile.hint         				=打开文件
+actNextPage.hint              				=下一页
+actPrePage.hint               				=上一页
+actFirstPage.hint             				=首页
+actLastPage.hint              				=末页
+actZoomToFit.hint             				=适合高度
+actZoomToFitWidth.hint        				=适合宽度
+actDeleteLines.hint           				=删除选中的框
+actCmdHistRedo.hint           				=重做
+actCmdHisUnDo.hint            				=撤销
+actApplyRulesToAllPage.Caption				=应用
+actApplyRulesToAllPage.hint   				=应用到所有.
+
+actCutAndSaveAs.Caption       				=裁剪并保存...
+actCutAndSaveAs.hint          				=裁剪文件并保存...
+actCancelCut.Caption          				=结束
+actCancelCut.hint             				=停止裁剪
+actExit.Caption               				=退出
+actCopyGraph.hint             				=复制
+actPastGraph.hint             				=粘贴
+
+mniFileF1.Caption             				=文件
+mniOpenPdfFile1.Caption       				=打开
+mniOpenPdfFile1.hint          				=打开文件
+mniStop1.Caption              				=裁剪并保存
+mniStop1.hint                 				=裁剪文件并保存...
+
+mniRecentFiles1.Caption       				=最近打开的文件
+
+
+mniQuit1.Caption              				=关闭
+mniools1.Caption              				=操作
+mniAddRect.Caption            				=添加裁剪框
+
+Copy1.Caption                 				=复制
+Copy1.hint                    				=复制
+Parste1.Caption               				=粘贴
+Parste1.hint                  				=粘贴
+
+mniDeleteRule1.Caption        				=删除裁剪框
+
+
+mniUndo1.Caption              				=撤销
+mniUndo1.hint                 				=撤销
+mniCmdHistRedo.Caption        				=重做
+mniCmdHistRedo.hint           				=重做
+mniHelp1.Caption              				=帮助
+mniHelp2.Caption              				=帮助
+mniRegirst1.Caption           				=关于...
+
+mniContractus1.Caption        				=联系我们
+
+
+[frmOption]
+ts1.Caption                   				=裁剪空白区域
+chkAutoSclaeWhenDraw.Caption  				=自动裁剪空白区域
+grp1.Caption                  				=非空白区域的边距
+lbl1.Caption                  				=顶部:
+lbl2.Caption                  				=底部:
+lbl3.Caption                  				=左边:
+lbl4.Caption                  				=右边:
+lbl5.Caption                  				=英寸
+lbl6.Caption                  				=英寸
+lbl7.Caption                  				=英寸
+lbl8.Caption                  				=英寸
+btnReset.Caption              				=重置 
+ts2.Caption                   				=分辨率
+lbl9.Caption                  				=分辨率:
+lbl10.Caption                 				=分辨率越高，运行越慢||建议把分辨率设为144，分辨率太低（71）则比较模糊.
+ts3.Caption                   				=页面大小
+grp2.Caption                  				=页面大小
+rbPageSizeTypeSame.Caption    				=与裁剪区相同.
+rbPageSizeTypeSet.Caption     				=自定义页面大小:
+lbl19.Caption                 				=宽度:
+lbl21.Caption                 				=英寸
+lbl20.Caption                 				=高度:
+lbl22.Caption                 				=英寸
+grpPosition.Caption           				=页面内容的位置
+lbl11.Caption                 				=点击左侧选项设置PDF页面内容的位置||.
+btnLT.hint                    				=左上
+btnMT.hint                    				=中上
+btnRT.hint                    				=右上
+btnRM.hint                    				=右中
+btnMM.hint                    				=正中
+btnLM.hint                    				=左中
+btnLB.hint                    				=左下
+btnMB.hint                    				=正下
+btnRB.hint                    				=右下
+btnSave.Caption               				=保存
+btnCancel.Caption             				=取消
+
+ 
+[STRINGS]
+ 1					= Thank you for registering
+ 2					= Invalid Register Key
+ 3					= The product has been licensed. 
+ 4					= The product has been licensed to:
+ 5					= Q: How to order||A: Click the "Online Purchase" button above, or visit our homepage(http://www.a-pdf.com) for more options. We will send your registration key after receiving your order. If you cannot access the Internet, please call our Toll Free number 1-877-353-7297, and give the operator the product number %s. The product price is %s.
+ 6					= Note: The product is a try-before-buy product. The unregistered version has a limitation: adding a watermark into the output PDF files. If you ordered, you will get a register key (license code), after inputting the code below, the limitation will remove, that means the output files will not be added a watermark..
+
+20                            				=无法打开PDF文件.
+21                            				=打开文件需要密码
+22                            				=解析文件发生错误.
+23                            				=未知错误.
+24                            				=打开文件错误.
+29                            				=没有绘制图形，无法裁剪PDF文件.
+30                            				=不能裁剪
+31                            				=您设置了一个页面的裁剪规则，是否应用于所有页面?
+32                            				=应用剪裁规则至其他页面?
+33                            				=打开默认文件?
+34                            				=打开文件
+35                            				=正在进行剪裁，退出前请确保结束裁剪.
+36                            				=不能退出
+37                            				=退出前是否保存当前内容?
+38                            				=是否保存规则?
+39                            				=当前页面没有裁剪图形，此操作将删除其他页面的图形，是否继续?
+40                            				=是否清除所有页面的设置?
+41                            				=此文件没有页面编码 '%d'.
+42                            				=找不到该页面
+43                            				=页码: %d/%d
+44                            				=导出成功!
+45                            				=导出完成

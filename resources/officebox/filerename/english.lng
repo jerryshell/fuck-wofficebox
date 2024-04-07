@@ -1,0 +1,327 @@
+###########################################################
+#
+#  Language:		English
+#  Author:		Winston Zhang
+#  Product Name:	A-PDF Rename
+#  Product Version:	2.4
+#
+###########################################################
+
+[Font]
+ Name 							=Tahoma
+ Size							=8
+ CharSet						=Default
+
+[frmMain]
+TabSheet1.Caption             				=基础
+LbRenamefilename.Caption      				=重命名文件名:
+LbRenameTitle.Caption         				=新标题:
+LbRenameAuthor.Caption        				=新作者:
+Label4.Caption                				=新主题:
+Label5.Caption                				=新关键字:
+LbCreator.Caption					=新创建工具:
+LbProducer.Caption					=新创建者:
+BtnMacrotitle.Caption         				=宏
+BtnMacroAuthor.Caption        				=宏
+BtnMacroSubject.Caption       				=宏
+BtnMacroKeywords.Caption      				=宏
+LbSampleMacrolist.Caption     				=宏列表:||%Filename%  :  源文件不包含后缀名的文件名||%Filesize% : 源文件的文件大小(KB)||%Filefullname% : 源文件的完整文件名||%Foldername% : 源文件的文件夹名||%No:000%  : 为文件名后面添加001，002...这样的数字||%Date% : 文件创建时间的日期(YYYY-MM-DD)||%Time% : 文件创建时间的时间(HH-NN-SS)||%CreateTime% : 文件的完整创建时间(YYYY-MM-DD HH-NN-SS)||%ModifyTime% : 文件的完整修改时间(YYYY-MM-DD HH-NN-SS) 
+CbModify.Caption              				=修改元数据
+BtnMacrofilename.Caption      				=宏
+TabSheet2.Caption             				=高级
+BtnRun.Caption                				=运行
+BtnRun.hint                   				=测试脚本
+BtnSaveas.Caption             				=另存为...
+BtnSaveas.hint                				=另存脚本为 (*.txt)
+sbtLoad.Caption               				=下载...
+sbtLoad.hint                  				=从本地下载脚本...
+btnExample.Caption            				=脚本例子...
+btnExample.hint               				=展示脚本例子...
+btnContact.Caption            				=联系我们...
+btnContact.hint               				=联系我们 
+btnModifyOk.Caption           				=完成
+btnReturn.Caption             				=返回
+Labeladdtip.Caption           				=列表为空，请选择文件添加到列表
+BtnAddpdf.Caption             				=添加文件
+BtnAddpdf.hint                				=添加文件
+BtnAddDir.Caption             				=添加文件夹
+RemoveRenamedfile1.Caption            =移除已经重命名的文件
+BtnAddDir.hint                				=添加目录到列表
+BtnDelPdf.Caption             				=删除
+BtnDelPdf.hint                				=从列表中移除被选中的项目
+BtnDelAllPdf.Caption          				=清除所有
+BtnDelAllPdf.hint             				=清除所有项目
+Label1.Caption                				=添加文件
+Label2.Caption                				=重命名方式
+Label3.Caption                				=重命名
+BtnRename.Caption             				=重命名
+BtnRename.hint                				=开始重命名
+BtnRenameSel.Caption					=已选重命名
+BtnPreview.Caption            				=预览
+BtnPreview.hint               				=预览结果
+sbthelp.Caption               				=帮助
+filename1.Caption             				=%Filename%
+filesize1.Caption             				=%Filesize%
+
+title1.Caption                				=%Title%
+N2.Caption                    				=%Author%
+Subject1.Caption              				=%Subject%
+Keyword1.Caption              				=%Keywords%
+
+N4.Caption                    				=%Date%
+ime1.Caption                  				=%Time%
+
+SelectTag1.Caption            				=内容标签...
+AddFile1.Caption              				=添加文件
+Open1.Caption                 				=打开
+
+popdelpdf.Caption             				=移除
+popClearallpdf.Caption        				=清除所有
+
+SelectAll1.Caption            				=选中所有
+FileF1.Caption                				=文件
+Addpdf.Caption                				=添加文件
+Addadirectiy.Caption          				=添加文件
+
+Delete2.Caption               				=移除
+Clearall1.Caption             				=清除
+
+OpenFile1.Caption             				=打开文件
+openthefolder1.Caption					=浏览原始文件
+Quit1.Caption                 				=退出
+ools1.Caption                 				=处理
+mpreview.Caption              				=预览
+
+mRename.Caption               				=重命名
+Options1.Caption              				=宏操作
+Settings1.Caption             				=选项
+
+NewContentTag1.Caption        				=内容标签 Macro...
+Help1.Caption                 				=帮助
+Help2.Caption                 				=帮助
+Regirst1.Caption              				=关于...
+
+Contactus1.Caption            				=联系我们...
+
+[frmContant]
+.Caption						=内容标签
+Label3.Caption                				=文件例子
+btnhead.hint                  				=第一页
+btnpre.hint                   				=前一页
+btntail.hint                  				=最后一页
+btnnext.hint                  				=下一页
+btnFitw.hint                  				=合适宽度
+btnFit.hint                   				=合适页
+Label1.Caption                				=文件:
+BtnopenPdf.Caption            				=浏览文件...
+Label4.Caption                				=例子:
+Labeltagtip.Caption           				=内容标签编辑器
+lbCurContent.Caption          				=当前内容:
+BtnSave.Caption               				=保存
+BtnCancel.Caption             				=取消
+Getcontentbyposition1.Caption 				=按位置获取内容
+GetcontentbyKeyword1.Caption  				=按关键词获取内容
+actRename.Caption             				=重命名
+actDel.Caption                				=删除
+actEdit.Caption               				=编辑
+actAddPosition.Caption        				=按位置获取内容
+actAddKeyword.Caption         				=按关键词获取内容
+
+[frmGetKeyword]
+btnCancel.Caption             				=取消
+btnOk.Caption                 				=完成
+TabSheet1.Caption             				=按关键词获取内容
+lbContentName.Caption         				=标签名:
+LbFindword.Caption            				=查词
+LbGetWord.Caption             				=获取文本，直到
+LbIfyouonly.Caption           				=如果你只需要一个词，将此框设置为空白
+LabelDeviation.Caption        				=位置偏差:
+lboffx.Caption                				=&X:
+lboffy.Caption                				=&Y:
+lbalign.Caption               				=样本对齐:
+
+[frmDateTimeSetting]
+BtnOk.Caption                 				=完成
+BtnCancel.Caption             				=取消
+TabSheet1.Caption             				=格式设置
+lbdatexp.Caption              				=日期格式 (例如 月-日-年)
+lbtimexp.Caption              				=时间格式 (例如 时-分-秒)
+Labelex.Caption               				=例如:
+Label1.Caption                				=例如:
+TabSheet2.Caption             				=替换无效的字符
+lblConvertmsg.Caption         				=当获取文件页面文本形式的文件内容作为文件名时，一些像\ / : * ? " < >的字符将会被替换：
+
+[frmLog]
+btnOK.Caption                 				=退出
+btnSave.Caption               				=保存日志到...
+btncopy.Caption               				=复制到剪贴板
+
+[FrmCustomProperties]
+BtnOk.Caption                 				=完成
+BtnCancel.Caption             				=取消
+GroupBox1.Caption             				=提示
+TabSheet1.Caption             				=自定义属性
+LbSampleMacrolist.Caption     				=%Custom_Name% 通过命名获取值||设置值为零表示删除命名
+GbCustom.Caption              				=自定义属性
+LbCustom.Caption              				=命名:
+LbValue.Caption               				=数值:
+BtnAdd.Caption                				=添加
+BtnDelete.Caption             				=删除
+BtnMacrotitle.Caption         				=Macro
+ChkCustom.Caption             				=更改自定义属性
+
+[frmDetail]
+.Caption						=详情
+TabSheet1.Caption             				=描述
+Label1.Caption                				=原始
+Label2.Caption                				=新建
+lbf_.Caption                  				=文件:
+lbt_.Caption                  				=标题:
+lba_.Caption                  				=作者:
+lbs_.Caption                  				=主题:
+lbK_.Caption                  				=关键词:
+lbC_.Caption                  				=创建工具:
+lbP_.Caption                  				=发行者:
+TabSheet2.Caption             				=自定义
+Label3.Caption                				=原始
+Label4.Caption                				=新建
+BtnClose.Caption              				=关闭
+
+[frmAbout]
+ .Caption						=关于
+ lblVersionName.Caption					=版本:
+ lblRegKey.Caption					=Have a key:
+ btnReg.Caption						=&Register
+ btnClose.Caption					=&Close
+ btnTry.Caption						=&Try
+ btnOrder.Caption					=&How to order
+ btnOlOrder.Caption					=Online Purchase
+ lblReg.Caption						=The product has been registered. Register key: 
+
+
+[STRINGS]
+ 1							= Thank you for registering
+ 2							= Invalid Register Key
+ 3							= The product has been licensed. 
+ 4							= The product has been licensed to:
+ 5							= Q: How to order||A: Click the "Online Purchase" button above, or visit our homepage(http://www.a-pdf.com) for more options. We will send your registration key after receiving your order. If you cannot access the Internet, please call our Toll Free number 1-877-353-7297, and give the operator the product number %s. The product price is %s.
+6	=This product is shareware. The trial period is %d days and %d days remain.
+7	=The trial period has ended. Further use requires registration.
+8	=If you ordered, you will get a register key (license code), after inputting the code below, the product can be used permanently. 
+
+ 11							= 无法下载文件: %s. %s
+ 12							= 未知错误!
+ 13							= %s需要密码才能打开:
+ 14							= 解密失败 %s
+ 15							= 用户停止
+ 16							= 文件夹 %s 不存在。 是否要创建?
+ 17							= 无法创建文件夹: %s
+ 18							= 保存文档出错 %s
+
+ 20                     = N/A 
+ 21                     = 未知                        
+ 22                     = 需要                            
+ 23                     = 否 
+ 24                     = 标题 
+ 25                     = 作者 
+ 26                     = 主题
+ 27                     = 关键词 
+ 28                     = 文件
+ 29                     = 在此输入密码: 
+ 30                     = 密码  
+ 31			= 文件 "%s" 需要密码才能打开或是已被损坏。 无法添加到文件列表. |||| 是否继续添加剩余的文件？
+
+ 34					=没有文件样本打开，请先打开文件样本！
+ 35					=信息
+ 36					=正在下载PDF文档...
+ 37					=请等待...
+ 38					=没有项目!
+ 39					=你确定要清除所有项目吗? 
+ 40					=删除所有项目信息
+ 41					=警告!
+ 42					=需要规则名称
+ 43					=规则名称已存在
+ 44					=全部
+ 45					=文件无法保存: %s
+ 46					=需要几分钟， 请等待...
+ 47					= 文件未找到: "%s"
+ 48					= 选中的项目
+ 49					=打开文件 "%s" 失败. 代码: %d
+ 50					=需要密码
+ 51					=需要密码才能打开!
+ 52					=选择一个目录保存
+ 53					=保存文件:  
+ 54					=没有选中拆分规则
+ 55					=编辑规则
+ 56					=示例文本: %s, 来自页面: %d)
+ 57					=项目
+ 58					=拆分所有 
+ 59					=已选中拆分规则: 
+ 60					=至少要有一个文档需要密码来打开，如果没有设置密码，文档将不能被拆分。||||是否继续?
+ 61					=添加新规则
+ 62					=在标签列表中没有标签, 请先添加标签!
+ 63                                     =没有选中PDF文件!
+ 64                                     =页码: %d
+ 65                                     =例子: %s
+ 66                                     =位置: (%d, %d)
+ 67                                     =添加例子到拆分标签列表
+ 68                                     =更改拆分标签 
+ 69                                     =是否确定要删除规则
+ 70                                     = 删除规则
+ 71                                     =下载文档 "%s" 失败
+ 72                                     =输出文档"%s" 失败。该文档可能正在使用。 
+ 73                                     =选择替代目录
+ 74                                     =非法目录%s
+ 75                                     =无法保存文档 %s, 是否重试?
+ 76                                     =脚本失败: %s	
+
+ 80                                     =任务开始
+ 81                                     =任务结束
+ 82                                     =操作开始 %s
+ 83                                     =操作结束 %s
+ 84                                     ="  导入文件: %s"
+ 85                                     ="  使用规则: %s"
+ 86                                     ="  下载导入文件..."
+ 87                                     ="  分析导入文件..."
+ 88                                     ="  成功"
+ 89                                     ="  失败"
+ 90                                     ="  拆分 %s..."
+ 91                                     ="  全部拆分 %d 文件."
+ 92                                     ="  完成."
+ 93                                     ="  输出目录: %s"
+ 94                                     =空代码 
+ 95                                     =选择一个输出目录
+ 96                                     =选择一个目录
+ 97                                     =先预览结果
+ 98                                     =不允许字符: /\:*?"<>|'
+ 99                                     ='/\:*?"<>|'
+ 100                                    =保存失败! 命名 "%s" 包含一些无效字符.
+ 101                                    =保存失败! 命名 "%s" 已经被使用.
+ 102                                    =格式无效
+ 103                                    =你可以使用 %%Content_%s%% 作为 macro 在你保存的时候
+ 104                                    ='无法打开 "%s", 因为它可能是不受支持的文件，或是需要密码才能打开，或者因为文件已损坏（例如，它是作为电子邮件附件发送的，未正确解码。）
+ 105                                    =文件:  
+ 106                                    =文件未找到
+ 107                                    =编辑内容标签
+ 108                                    =添加内容标签
+ 109                                    =请输入一个新的内容 macro 名称 
+ 110                                    =保存失败! 命名 "%s" 包含一些无效字符。
+ 111                                    =编译器: 
+ 112                                    =编译成功!
+ 113                                    =成功执行!
+ 114                                    =编译失败!
+ 115                                    =请输入内容 macro 名称! 
+ 120					=命名 "%s" 包含无效字符。
+ 121					=重复命名 "%s" 发现.
+ 122					=重命名完成. 是否打开输出目录 %s?
+ 125					=成功- 文件 "%s" 更名为 "%s" 成功。
+ 126					=失败 - 文件 "%s" 更名为 "%s" 失败。 信息: %s
+ 127					= 属性更改成功
+ 128					= 属性更改失败
+ 129					=添加PDF %s 失败, 是否继续?
+ 130					=文件名||新文件名||文件目录||文件大小||创建时间||修改时间  
+ 131					=选择输出目录:
+ 132					=标签命名 [%s] 已存在.
+ 135					=添加
+ 136					=更改
+ 137					=%d of %d 文件重命名.

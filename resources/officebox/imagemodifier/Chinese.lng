@@ -1,0 +1,136 @@
+###########################################################
+#
+#  Language:		Chinese
+#  Author:		Wanqing Huang
+#  Product Name:	F:\A-PDF\Work\PDFOCR\Chinese.lng
+#  Product Version:	1.0.0 
+#
+###########################################################
+[frmMain]
+tsPDF.Caption                 				=
+cbbZoom.text                  				=100%
+File1.Caption                 				=文件
+mniFile.Caption                       =文件
+mniExit.Caption               				=退出
+Action1.Caption               				=动作
+mniGotoFirst.Caption          				=第一页
+mniGotoFirst.hint             				=第一页
+mniGotoPrivious.Caption       				=上一页
+mniGotoPrivious.hint          				=上一页
+mniGotoNext.Caption           				=下一页
+mniGotoNext.hint              				=下一页
+mniGotoLast.Caption           				=最后一页
+mniGotoLast.hint              				=最后一页
+Edit1.Caption                 				=编辑
+mniSaveText2.Caption          				=保存
+mniSelectAll.Caption          				=选择所有
+Help1.Caption                 				=帮助
+Help2.Caption                 				=帮助
+About1.Caption                				=关于
+Contackus1.Caption            				=联系我们..
+btnAttention.Caption                  =关注我们
+actSave.Caption               				=保存
+actHelp.Caption               				=帮助
+actAbout.Caption              				=关于
+actContact.Caption            				=联系我们
+actExit.Caption               				=退出
+actGotoFirst.Caption          				=第一页
+actGotoFirst.hint             				=第一页
+actGotoPrivious.Caption       				=上一页
+actGotoPrivious.hint          				=上一页
+actGotoNext.Caption           				=下一页
+actGotoNext.hint              				=下一页
+actGotoLast.Caption           				=最后一页
+actGotoLast.hint              				=最后一页
+btnhead.Caption                       =
+btnhead.Hint                          =第一页
+btnpre.Caption                        =
+btnpre.Hint                           =上一页
+btnnext.Caption                       =
+btnnext.Hint                          =下一页
+btntail.Caption                       =
+btntail.Hint                          =最后一页
+btnReduction.Caption                  =
+btnReduction.Hint                     =换云
+lblAddPDF.Caption                     ="点击打开示例"
+lblOpenDemo.Caption                   ="点击打开示例"
+btnRefresh.Caption                    =
+btnRefresh.Hint                       =刷新 (F5)
+btnHelp.Caption                       =
+btnHelp.Caption                       =帮助
+btnGotoFirst.Caption                  =
+btnGotoFirst.Hint                     =第一页
+btnGotoPrivious.Caption               =
+btnGotoPrivious.Hint                  =上一页
+btnGotoNext.Caption                   =
+btnGotoNext.Hint                      =下一页
+btnGotoLast.Caption                   =
+btnGotoLast.Hint                      =最后一页
+actDelete.Caption                     =删除
+mniDelete.Caption                     =删除
+actClearAll.Caption                   =清除全部
+actAddImage.Caption                   =添加图片
+actScan.Caption                       =扫描
+popScanMain.Caption                   =扫描
+mniScanMenu.Caption                   =扫描
+actSelectScan.Caption                 =选择扫描仪并扫描
+btnRoate.Hint                         =渲染图片
+actSelectScan.Caption                 =选择扫描仪扫描
+btnRoate.Hint                         =旋转图片
+btnDeskew.Hint                        =纠正图片
+btncrop.Hint                          =裁减图片
+btnSelPath.Caption                    =&...
+actZoomout.Caption                    =缩小
+actZoomout.Hint                       =缩小
+actZoomin.Caption                     =放大
+actZoomin.Hint                        =放大
+lblImageWidth.Caption                 =宽度：
+lblImageHeight.Caption                =高度：
+actResizeImage.Caption                =调整大小
+actResizeImage.Hint                   =调整大小
+actStartCrop.Caption                  =裁剪
+actStartCrop.Hint                     =裁剪
+actApplyCrop.Caption                  =确定裁剪
+actApplyCrop.Hint                     =确定裁剪
+actCancelCrop.Caption                 =取消裁剪
+actCancelCrop.Hint                    =取消裁剪
+actSaveImage.Caption                  =保存图片
+actSaveAllImages.Caption              =保存所有图片
+btnCommon.Caption                     =常用
+btnCommon.Hint                        =常用裁剪类型
+btnReload.Caption                     =
+btnReload.Hint                        =撤销改动
+Reload1.Caption                       =撤销改动
+
+[frmOverwriteImage]
+.Caption                              =覆盖图片
+chkApplyToAll.Caption                 =应用到所有图片
+btnYes.Caption                        =是
+btnNo.Caption                         =否
+
+
+[STRINGS]
+ 1							= Thank you for registering
+ 2							= Invalid Register Key
+ 3							= The product has been licensed. 
+ 4							= The product has been licensed to:
+ 5							= Q: How to order||A: Click the "Online Purchase" button above, or visit our homepage(http://www.a-pdf.com) for more options. We will send your registration key after receiving your order. If you cannot access the Internet, please call our Toll Free number 1-877-353-7297, and give the operator the product number %s. The product price is %s.
+6	=This product is shareware. The trial period is %d days and %d days remain.
+7	=The trial period has ended. Further use requires registration.
+8	=If you ordered, you will get a register key (license code), after inputting the code below, the product can be used permanently. 
+
+
+32                                                       =需要Ghostscript. 您想下载免费的GPL Ghostscript吗?
+33                                                       =http://www.wancaiinfo.com/convert-to-pdf/gs.htm
+34                                                       =输入密码
+35                                                       =为%s输入密码
+36                                                       =%d/%d
+37                                                       =这个文件已经缓存， 您要重新加载吗?
+38                                                       =保存图片到 %s 成功！
+39                                                       =保存图片到 %s 失败！
+40                                                       =信息
+41                                                       =保存图片%s (%d/%d)
+42                                                       =保存所有图片成功
+43                                                       =图片 %s 已经存在，您希望覆盖它吗？
+44                                                       =起始点：(%d, %d)，宽度：%d，高度：%d
+                                                    

@@ -1,0 +1,61 @@
+这是示例的作用是能将Memo中的文字内容生成一个Jpeg图片进行保存！
+
+下面是完整的源码
+
+
+
+unit Unit1;
+
+interface
+
+uses
+Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+Dialogs, StdCtrls,jpeg;
+
+type
+TForm1 = class(TForm)
+Button1: TButton;
+Memo1: TMemo;
+procedure Button1Click(Sender: TObject);
+private
+{ Private declarations }
+public
+{ Public declarations }
+end;
+
+var
+Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.Button1Click(Sender: TObject);
+var
+vBitmap: TBitmap;
+vJpegImage: TJpegImage;
+vOldHeight: Integer;
+begin
+Canvas.Font.Assign(Memo1.Font);
+vOldHeight := Memo1.Height;
+Memo1.ClientHeight := Canvas.TextHeight('|') * Memo1.Lines.Count + 2;
+vBitmap := TBitmap.Create;
+vJpegImage := TJpegImage.Create;
+try
+vBitmap.Height := Memo1.ClientHeight;
+vBitmap.Width := Memo1.ClientWidth;
+Memo1.PaintTo(vBitmap.Canvas, -2, -2);
+vJpegImage.Assign(vBitmap);
+vJpegImage.CompressionQuality := 75;
+vJpegImage.Compress;
+vJpegImage.SaveToFile('c:\输出.jpg');
+// Image1.Picture.Graphic := vJpegImage;
+finally
+vBitmap.Free;
+Memo1.Height := vOldHeight;
+FreeAndNil(vJpegImage);
+end;
+
+end;
+
+end.

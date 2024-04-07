@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<effects>
+  <effect caption="从右侧展开">
+  	Expand from right
+  </effect>
+  <effect caption="从左侧展开">
+  	Expand from left
+  </effect>
+  <effect caption="从右侧滑入">
+  	Slide in from right
+  </effect>
+  <effect caption="从左侧滑入">
+  	Slide in from left
+  </effect>
+  <effect caption="向右擦除">
+  	Reveal from left
+  </effect>
+  <effect caption="向左擦除">
+  	Reveal from right
+  </effect>
+  <effect caption="从右扩展">
+  	Expand in from right
+  </effect>
+  <effect caption="从左扩展">
+  	Expand in from left
+  </effect>
+  <effect caption="扩展到中央">
+  	Expand in to middle
+  </effect>
+  <effect caption="从中央扩展">
+  	Expand out from middle
+  </effect>
+  <effect caption="中央向左右展开">
+  	Reveal out from middle
+  </effect>
+  <effect caption="左右向中央收缩">
+  	Reveal in from sides
+  </effect>
+  <effect caption="从左右扩展">
+  	Expand in from sides
+  </effect>
+  <effect caption="从左侧卷入">
+  	Unroll from left
+  </effect>
+  <effect caption="从右侧卷入">
+  	Unroll from right
+  </effect>
+  <effect caption="从右侧创建">
+  	Build up from right
+  </effect>
+  <effect caption="从左侧创建">
+  	Build up from left
+  </effect>
+  <effect caption="从底部展开">
+  	Expand from bottom
+  </effect>
+  <effect caption="从顶部展开">
+  	Expand from top
+  </effect>
+  <effect caption="从底部滑入">
+  	Slide in from bottom
+  </effect>
+  <effect caption="从顶部滑入">
+  	Slide in from top
+  </effect>
+  <effect caption="向下擦除">
+  	Reveal from top
+  </effect>
+  <effect caption="向上擦除">
+  	Reveal from bottom
+  </effect>
+  <effect caption="从底部扩展">
+  	Expand in from bottom
+  </effect>
+  <effect caption="从顶部扩展">
+  	Expand in from top
+  </effect>
+  <effect caption="扩展到中间 (纵向)">
+  	Expand in to middle (horiz)
+  </effect>
+  <effect caption="从中间扩展 (纵向)">
+  	Expand out from middle (horiz)
+  </effect>
+  <effect caption="向上下擦除 (从中央)">
+  	Reveal from middle (horiz)
+  </effect>
+  <effect caption="上下向中央收缩">
+  	Slide in from top / bottom
+  </effect>
+  <effect caption="上下向中央扩展">
+  	Expand in from top / bottom
+  </effect>
+  <effect caption="从顶部卷入">
+  	Unroll from top
+  </effect>
+  <effect caption="从底部卷入">
+  	Unroll from bottom
+  </effect>
+  <effect caption="从底部展开">
+  	Expand from bottom
+  </effect>
+  <effect caption="从顶部展开">
+  	Expand in from top
+  </effect>
+  <effect caption="从右下展开">
+  	Expand from bottom right
+  </effect>
+  <effect caption="从右上展开">
+  	Expand from top right
+  </effect>
+  <effect caption="从左上展开">
+  	Expand from top left
+  </effect>
+  <effect caption="从左下展开">
+  	Expand from bottom left
+  </effect>
+  <effect caption="从右下滑入">
+  	Slide in from bottom right
+  </effect>
+  <effect caption="从右上滑入">
+  	Slide in from top right
+  </effect>
+  <effect caption="从左上滑入">
+  	Slide in from top left
+  </effect>
+  <effect caption="从左下滑入">
+  	Slide in from bottom left
+  </effect>
+  <effect caption="向右下擦除">
+  	Reveal from top left
+  </effect>
+  <effect caption="向右上擦除">
+  	Reveal from bottom left
+  </effect>
+  <effect caption="向左上擦除">
+  	Reveal from bottom right
+  </effect>
+  <effect caption="向左下擦除">
+  	Reveal from top right
+  </effect>
+  <effect caption="放大然后向左上收缩">
+  	Appear and Contract to top left
+  </effect>
+  <effect caption="放大然后向左下收缩">
+  	Appear and Contract to bottom left
+  </effect>
+  <effect caption="放大然后向右下收缩">
+  	Appear and Contract to bottom right
+  </effect>
+  <effect caption="放大然后向右上收缩">
+  	Appear and Contract to top right
+  </effect>
+  <effect caption="放大然后向中央收缩">
+  	Appear and Contract to middle
+  </effect>
+  <effect caption="由远及近">
+  	Expand out from centre
+  </effect>
+  <effect caption="盒状展开">
+  	Reveal out from centre
+  </effect> 
+  <effect caption="盒状收缩">
+  	Reveal in to centre
+  </effect>
+  <effect caption="加号收缩渐入">
+  	Quarters Reveal in to middle
+  </effect>
+  <effect caption="加号收缩飞入">
+  	Quarters Expand to middle
+  </effect>
+  <effect caption="双L状滑入">
+  	Quarters Slide in to middle
+  </effect>
+  <effect caption="曲线向右擦除">
+  	Curved Reveal from left
+  </effect>
+  <effect caption="曲线向左擦除">
+  	Curved Reveal from right
+  </effect>
+  <effect caption="水平梳理向左展开">
+  	Bars in from right
+  </effect>
+  <effect caption="水平梳理向右展开">
+  	Bars in from left
+  </effect>
+  <effect caption="从左梳理向左展开">
+  	Bars left then right
+  </effect>
+  <effect caption="从右梳理向右展开">
+  	Bars right then left
+  </effect>
+  <effect caption="从左右梳理向左右展开">
+  	Bars from both sides
+  </effect>
+  <effect caption="不规则碎片向左">
+  	Uneven shred from right
+  </effect>
+  <effect caption="不规则碎片向右">
+  	Uneven shred from left
+  </effect>
+  <effect caption="不规则碎片向两边（横向）">
+  	Uneven shred out from middle (horiz)
+  </effect>
+  <effect caption="不规则碎片向中央 (横向)">
+  	Uneven shred in to middle (horiz)
+  </effect>
+  <effect caption="曲线向下擦除">
+  	Curved Reveal from top
+  </effect>
+  <effect caption="曲线向上擦除">
+  	Curved Reveal from bottom
+  </effect>
+  <effect caption="垂直梳理向上展开">
+  	Bars from bottom
+  </effect>
+  <effect caption="垂直梳理向下展开">
+  	Bars from top
+  </effect>
+  <effect caption="从上梳理向下展开">
+  	Bars top then bottom
+  </effect>
+  <effect caption="从下梳理向上展开">
+  	Bars bottom then top
+  </effect>
+  <effect caption="从上下梳理向上下展开">
+  	Bars from top and bottom
+  </effect>
+  <effect caption="不规则碎片向上">
+  	Unven shred from bottom
+  </effect>
+  <effect caption="不规则碎片向下">
+  	Uneven shred from top
+  </effect>
+  <effect caption="不规则碎片状从中央向上下展开">
+  	Uneven shred from horizon
+  </effect>
+  <effect caption="不规则碎片状从上下向中央展开">
+  	Uneven shred in to horizon
+  </effect>
+  <effect caption="曲线向右下擦除">
+  	Curved reveal from top left
+  </effect>
+  <effect caption="曲线向左下擦除">
+  	Curved reveal from top right
+  </effect>
+  <effect caption="曲线向右上擦除">
+  	Curved reveal from bottom left
+  </effect>
+  <effect caption="曲线向左上擦除">
+  	Curved reveal from bottom right
+  </effect>
+  <effect caption="椭圆展开">
+  	Elliptic reveal out from centre
+  </effect>
+  <effect caption="椭圆收缩">
+  	Elliptic reveal in to centre
+  </effect>
+  <effect caption="棋盘式向左上">
+  	Criss Cross reveal from bottom right
+  </effect>
+  <effect caption="棋盘式向左下">
+  	Criss Cross reveal from top right
+  </effect>
+  <effect caption="棋盘式向右上">
+  	Criss Cross reveal from bottom left
+  </effect>
+  <effect caption="棋盘式向右下">
+  	Criss Cross reveal from top left
+  </effect>
+  <effect caption="棋盘式向右下然后左上展开">
+  	Criss Cross reveal bounce from top left
+  </effect>
+  <effect caption="棋盘式向右上然后左下展开">
+  	Criss Cross reveal bounce from bottom left
+  </effect>
+  <effect caption="棋盘式向左下然后右上展开">
+  	Criss Cross reveal bounce from top right
+  </effect>
+  <effect caption="棋盘式向左上然后右下展开">
+  	Criss Cross reveal bounce from bottom right
+  </effect>
+  <effect caption="棋盘式从右，上，下">
+  	Criss Cross reveal from right top and bottom
+  </effect>
+  <effect caption="棋盘式从左，上，下">
+  	Criss Cross reveal from left top and bottom
+  </effect>
+  <effect caption="棋盘式从左，右，下">
+  	Criss Cross reveal from left right and bottom
+  </effect>
+  <effect caption="棋盘式从左，右，上">
+  	Criss Cross reveal from left right and top
+  </effect>
+  <effect caption="棋盘式从上，左，右，下">
+  	Criss Cross reveal from top left right and bottom
+  </effect>
+  <effect caption="棋盘式从下，左，右，上">
+  	Criss Cross reveal from bottom left top right
+  </effect>
+  <effect caption="不规则碎片向左上">
+  	Uneven shred from bottom and right
+  </effect>
+  <effect caption="不规则碎片向左下">
+  	Uneven shred from top and right
+  </effect>
+  <effect caption="不规则碎片向右上">
+  	Uneven shred from bottom and left
+  </effect>
+  <effect caption="不规则碎片向右下">
+  	Uneven shred from top and left
+  </effect>
+  <effect caption="不规则碎片向上下左">
+  	Uneven shred from horiz and right
+  </effect>
+  <effect caption="不规则碎片向上下右">
+  	Uneven shred from horiz and left
+  </effect>
+  <effect caption="不规则碎片向左右上">
+  	Uneven shred from bottom and vert middle
+  </effect>
+  <effect caption="不规则碎片向左右下">
+  	Uneven shred from top and vert middle
+  </effect>
+  <effect caption="不规则碎片向四周">
+  	Uneven shred from centre
+  </effect>
+  <effect caption="不规则碎片向中央">
+  	Uneven shred to centre
+  </effect>
+  <effect caption="对角线向右下擦除">
+  	Reveal diagonal from top left
+  </effect>
+  <effect caption="R对角线向左下擦除">
+  	Reveal diagonal from top right
+  </effect>
+  <effect caption="对角线向右上擦除">
+  	Reveal diagonal from bottom left
+  </effect>
+  <effect caption="对角线向左上擦除">
+  	Reveal diagonal from bottom right
+  </effect>
+  <effect caption="两条对角线分别从左上，右下，移动且逆时针旋转">
+  	Diagonal sweep from top left bottom right anticlockwise
+  </effect>
+  <effect caption="两条对角线分别从左上，右下，移动且顺时针旋转">
+  	Diagonal sweep from top left bottom right clockwise
+  </effect>
+  <effect caption="两条对角线分别从左上，右下，移动且顺时针旋转">
+  	Diagonal sweep from top left bottom right clockwise
+  </effect>
+  <effect caption="顺时针回旋，四根轮辐">
+  	Starburst clockwise from center
+  </effect>
+  <effect caption="逆时针回旋，四根轮辐">
+  	Starburst anticlockwise from center
+  </effect>
+  <effect caption="三角碎片">
+  	Triangular shred
+  </effect>
+  <effect caption="淡出">
+  	Fade
+  </effect>
+  <effect caption="左下旋转进入">
+  	Pivot from top left
+  </effect>
+  <effect caption="左上旋转进入">
+  	Pivot from bottom left
+  </effect>
+  <effect caption="右下旋转进入">
+  	Pivot from top right
+  </effect>
+  <effect caption="右上旋转进入">
+  	Pivot from bottom right
+  </effect>
+  <effect caption="闪光点向左">
+  	Speckle appear from right
+  </effect>
+  <effect caption="闪光点向右">
+  	Speckle appear from left
+  </effect>
+  <effect caption="闪光点向上">
+  	Speckle appear from bottom
+  </effect>
+  <effect caption="闪光点向下">
+  	Speckle appear from top
+  </effect>
+  <effect caption="方形溶解">
+  	Random squares appear
+  </effect>
+  <effect caption="向右推出">
+  	Push right
+  </effect>
+  <effect caption="向左推出">
+  	Push left
+  </effect>
+  <effect caption="向右推挤">
+  	Push and squeeze right
+  </effect>
+  <effect caption="向左推挤">
+  	Push and squeeze left
+  </effect>
+  <effect caption="向下推出">
+  	Push down
+  </effect>
+  <effect caption="向上推出">
+  	Push up
+  </effect>
+  <effect caption="向下推挤">
+  	Push and sqeeze down
+  </effect>
+  <effect caption="向上推挤">
+  	Push and sqeeze up
+  </effect>
+  <effect caption="垂直百叶窗">
+  	Blind vertically
+  </effect>
+  <effect caption="水平百叶窗">
+  	Blind horizontally
+  </effect>
+  <effect caption="不规则百叶窗向右">
+  	Uneven blind from left
+  </effect>
+  <effect caption="不规则百叶窗向右">
+  	Uneven blind from left
+  </effect>
+  <effect caption="不规则百叶窗向左">
+  	Uneven blind from right
+  </effect>
+  <effect caption="不规则百叶窗向下">
+  	Uneven blind from top
+  </effect>
+  <effect caption="不规则百叶窗向上">
+  	Uneven blind from bottom
+  </effect>
+  <effect caption="方形碎片">
+    Rectangular shred
+  </effect>
+  <effect caption="顺时针回旋，一根轮辐">
+  	Sweep clockwise
+  </effect>
+  <effect caption="逆时针回旋，一根轮辐">
+  	Sweep anticlockwise
+  </effect>
+  <effect caption="多个矩形从左到右">
+  	Rectangles apear from left and disapear to right
+  </effect>
+  <effect caption="多个矩形从右到左">
+  	Rectangles apear from right and disapear to left
+  </effect>
+  <effect caption="多个矩形从上到下">
+  	Rectangles apear from up and disapear to bottom
+  </effect>
+  <effect caption="多个矩形从下到上">
+  	Rectangles apear from bottom and disapear to up
+  </effect>
+  <effect caption="矩形旋转展开">
+  	Rotational rectangle in center
+  </effect>
+  <effect caption="星星旋转展开">
+  	Rotational star in center
+  </effect>
+  <effect caption="旋转矩形">
+  	Spiral rectangle
+  </effect>
+  <effect caption="圆形碎片">
+  	Circular shred
+  </effect>
+  <effect caption="V状向右擦除">
+  	Reveal V from left
+  </effect>
+  <effect caption="V状向左擦除">
+  	Reveal V from right
+  </effect>
+  <effect caption="V状向下擦除">
+  	Reveal V from top
+  </effect>
+  <effect caption="V状向上擦除">
+  	Reveal V from bottom
+  </effect>
+  <effect caption="水平领结状">
+  	Bow Tie Horizontal
+  </effect>
+  <effect caption="垂直领结状">
+  	Bow Tie Vertical
+  </effect>
+  <effect caption="对角十字架收缩">
+  	Diagonal Cross In
+  </effect>
+  <effect caption="对角十字架展开">
+  	Diagonal Cross Out
+  </effect>
+  <effect caption="锯齿状垂直展开">
+  	Zigzag Horizontal
+  </effect>
+  <effect caption="锯齿状水平展开">
+  	Zigzag Vertical
+  </effect>
+  <effect caption="菱形碎片">
+  	Diamond shred
+  </effect>
+  <effect caption="菱形展开">
+  	Reveal diamond out from centre
+  </effect>
+  <effect caption="菱形收缩">
+  	Reveal diamond in to centre
+  </effect>
+  <effect caption="菱形缩展">
+  	Diagonal Box Out
+  </effect>
+  <effect caption="由近及远">
+  	Pixelate
+  </effect>
+  <effect caption="溶解">
+  	Dissolve
+  </effect>
+  <effect caption="随机横向线条">
+  	Random Bars Horizontal
+  </effect>
+  <effect caption="随机纵向线条">
+  	Random Bars Vertical
+  </effect>
+  <effect caption="通道组合">
+  	Channel Mix
+  </effect>
+</effects>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

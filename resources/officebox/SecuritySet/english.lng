@@ -1,0 +1,286 @@
+###########################################################
+#
+#  Language:		English
+#  Author:		Winston Zhang
+#  Product Name:	A-PDF Password Secruity
+#  Product Version:	1.2.0
+#
+###########################################################
+
+[Font]
+ Name 							=Tahoma
+ Size							=8
+ CharSet						=Default
+[frmOption]
+ .Caption                      				=设置
+ bOk.Caption                   				=完成
+ bCancel.Caption               				=取消
+ tbgeneral.Caption             				=常规
+ rbExt.Caption                 				=(&A)在文件名后加上.bak后缀名做备份
+ rbDir.Caption                 				=备份目录
+ bBrowse.Caption               				=浏览...
+ gbCreatMenu.Caption           				=创建上下文有关的菜单
+ lCreateMenu.Caption           				=右键单击文件后如果没有在Windows Explorer中弹出菜单， 点击下方按钮重建或删除菜单。
+ bCreateMenu.Caption           				=创建上下文有关的菜单
+ cbBackup.Caption              				=备份原始文件
+ tbpool.Caption                				=密码库
+ labelppool.Caption            				=密码库
+ Labelpooltip.Caption          				=密码库帮助你自动批量删除PDF文件的安全加密设置                                                
+ cbtrypassword.Caption         				=在单一模式下加载PDF文件时验证密码 
+
+
+                                                     
+[frmMain]
+ .Caption                      				=万彩办公大师-PDF安全加密解密
+ Label2.Caption                				= 安全选项设置
+ lvBatchResults.Columns        				=生成文件名
+ Label1.Caption                				=已完成批量PDF文件安全性设置
+ btnopen.Caption               				=浏览...
+ lboptions.Caption             				=源PDF文件:
+ Label7.Caption                				=观看视频教程
+ Label8.Caption                				=请选择一种模式，然后点击“下一步”开始，或选择“退出”退出向导
+ Labelsingle.Caption           				=设置或删除单个PDF文档的保护密码
+ Labelbatch.Caption            				=设置或删除批量PDF文档的保护密码
+ Labelhot.Caption              				=To monitor a directory. When PDF files copied in, them will be encrypted and sent to an output directory automatically.
+ linksecurityserver.Caption    				=To enable hot directory in windows service, please check the Server Edition.
+ rbtSingle.Caption             				=单个PDF文档安全性设置
+ rbtbatch.Caption              				=多个PDF文档安全性设置
+ rdohotdir.Caption             				=Ho&t Directory
+ GroupBox3.Caption             				="Hot Directory Setting"
+ Label4.Caption                				=Monitored Directory:
+ Label6.Caption                				=日志文件目录:
+ Label5.Caption                				=输出目录:
+ chksubdir.Caption             				=包含子目录
+ chkmoveto.Caption             				=备份目录
+ btnselectindir.Caption        				=..
+ btnselectindir.Hint           				=浏览...
+ btnselectoutdir.Caption       				=..
+ btnselectoutdir.Hint          				=浏览...
+ btnselectlogfile.Caption      				=..
+ btnselectlogfile.Hint         				=浏览...
+ btnviewlog.Caption            				=打开日志目录
+ btnmoveto.Caption             				=..
+ btnmoveto.Hint                				=浏览...
+ TabSet.Tabs						=安全||属性||添加有效期限
+ btnTrypasswords.Caption       				=创建密码
+ btnTrypasswords.Hint          				=通过密码库创建密码
+ sbtOption.Caption             				=选项...
+ sbtHelp.Caption               				=帮助
+ btnAbout.Caption              				=关于
+ btnback.Caption               				=返回
+ btnNext.Caption               				=下一步
+ btnSaveas.Caption             				=退出
+ Labeltitle.Caption            				=标题
+ LabelSubject.Caption          				=主题:
+ LabelAuthor.Caption           				=作者:
+ Labelkeyword.Caption          				=密码
+ btnMacroTitle.Caption         				=Macro
+ btnMacroSubject.Caption       				=Macro
+ btnMacroAuthor.Caption        				=Macro
+ btnMacroKeyword.Caption       				=Macro
+ chkaddprop.Caption            				=添加属性
+ Label3.Caption                				=设置PDF的有效日期
+ Label11.Caption               				=设置过期提示
+ MmoExpired.Lines              				=文档截止日期
+ rbRemoveScript.Caption        				=删除脚本
+ rbAddEXpiry.Caption           				=添加有效期
+ rbNoneScript.Caption          				=无需操作
+ lbsuccess.Caption             				=成功设置PDF文档的安全性
+ btnsuccessopen.Caption        				=打开已保存的PDF文件
+ btnother.Caption              				=设置另一个PDF文档的安全性
+ btnsuccessopendir.Caption     				=打开目标文件夹
+ actAdd.Caption                				=添加
+ actAddDir.Caption             				=添加目录
+ actRemove.Caption             				=删除
+ actClear.Caption              				=清除
+ Actinputpassword.Caption      				=输入密码
+ acthotstart.Caption           				=开始
+ acthotend.Caption             				=结束
+ actOpen.Caption               				=打开
+ N6.Caption                    				=%Date%
+ N7.Caption                    				=%Time%
+ Original1.Caption             				=%Original%
+
+[frmAddDirProgressing]
+ FileName.Caption					=文件名
+ lAdding.Caption					=添加:
+
+ [frmSelectDir]
+ .Caption						=选择目录
+ bCancel.Caption					=取消
+ bOk.Caption						=完成
+ bAdvanced.Caption					=高级
+ cbIncSub.Caption					=包含字文件夹
+ lDesc.Caption						=选择目录:
+ lMask.Caption						=刷选:
+ lMaskDesc.Caption					=，号分开， 支持 *，&，？，空格
+ cbMask.Text						=*.pdf
+ cbMask.Items						=*.pdf
+
+[frmFileList] 
+ lvFiles.Columns               				=命名||密码||大小||修改||完整的文件名
+
+[FrmOptions]
+ lblOpenPassword.Caption       				=文件打开密码
+ lboptions.Caption             				=安全性设置方式:
+ lbneedpwd1.Caption            				=需要密码
+ LabelSlV.Caption              				=安全等级
+ labeltip.Caption              				=..
+ chkOpenPassword.Caption       				=需要密码才能打开文件
+ grpPermissions.Caption        				=权限
+ lblPermissionsPassword.Caption				=权限密码: 
+ lblPermissionsPrint.Caption   				=允许打印:
+ lblPermissionsChange.Caption  				=允许更改:
+ lbneedpwd2.Caption            				=需要密码
+ chkPermissionsPassword.Caption				=使用密码限制权限
+ cbbPermissionsPrint.Text      				=无
+ cbbPermissionsPrint.Items     				=无||低分辨率 (150 dpi)||高分辨率
+ cbbPermissionsChange.Text     				=无
+ cbbPermissionsChange.Items    				=无||插入，删除和旋转页面||填写表单域并在已有的签名域签名||注释， 填写表单域并在已有的签名域签名||不包括提取页
+ chkPermissionsCopy.Caption    				=允许复制内容
+ chktextaccess.Caption         				= 允许复制内容用于屏幕阅读辅助工具
+ gboptions.Caption             				=选项
+ Label3.Caption                				=打印
+ Label4.Caption                				=更改文档
+ Label5.Caption                				=允许复制或提取内容
+ Label6.Caption                				=注释 表单域
+ Label7.Caption                				=允许表单域添加或签名
+ Label8.Caption                				=可访问内容
+ Label9.Caption                				=文档组合
+ cbSecurityMethod.Text         				=无
+ cbSecurityMethod.Items        				=无||低(40-bit; Acrobat 3.0 及以上)||高(128-bit; Acrobat 5.0 及以上)
+
+[frmAbout]
+ .Caption						=关于
+ lblVersionName.Caption					=版本:
+ lblRegKey.Caption					=账号:
+ btnReg.Caption						=注册
+ bQuit.Caption						=关闭
+ bOK.Caption						=成功
+ btnOrder.Caption					=如何订购
+ btnOlOrder.Caption					=在线购买
+ lblReg.Caption						=软件已经注册，注册码：
+lVersion.Caption					=版本:
+
+
+ 
+[STRINGS] 
+ 1					= Thank you for registering
+ 2					= Invalid Register Key
+ 3					= The product has been licensed. 
+ 4					= The product has been licensed to:
+ 5					= Q: How to order||A: Click the "Online Purchase" button above, or visit our homepage (http://www.a-pdf.com) for more options. We will send your registration key after receiving your order. If you cannot access the Internet, please call our Toll Free number 1-877-353-7297, and give the operator the product number %s. The product price is %s.
+ 6					= Note: The product is a try-before-buy product. The unregistered version has a limitation: disallowing to change the passwords in encrypted file. If you ordered, you will get a register key (license code), after inputing the code below, the limitation will remove, and that means that you can set your owner passwords.
+
+ 11					= 无法加载文件: %s. %s
+ 12					= 未知错误!
+ 13					= 文件密码错误: %s      
+ 14					= 解密失败. %s
+ 15					= 用户终止.
+ 16					= 文件夹 %s 不存在. 是否要创建?
+ 17					= 无法创建文件夹: %s
+ 18					= 保存文档出错%s
+
+ 20                     = N/A 
+ 21                     = 未知                         
+ 22                     = 需要                            
+ 23                     = 否 
+ 24                     = 标题
+ 25                     = 作者
+ 26                     = 主题
+ 27                     = 关键词
+ 28                     = 文件
+ 29                     = 在此输入密码: 
+ 30                     = 密码                        
+ 
+ 32                     = 密码                          
+ 33                     = 在此输入密码: 
+ 34                     = You must select a directory for monitoring. 
+ 35                     = 选择一输出目录保存加密文件。
+ 36                     = 安全性设置
+ 37                     = 选择需要密码安全设置的PDF文件
+ 38                     = 完成
+ 39                     = PDF文档密码安全设置已成功更改！
+
+ 41                     = 需要重启程序才能运用此语言
+ 42                     = 选择哪种语言？
+ 43                     = 需要重启程序加载语言
+ 
+ 45                     = 无法加载文件: %s.           
+ 46                     =  "%s" 需要密码来打开. 点击文件输入密码. 
+ 47                     = 不支持加密. 
+ 48                     = 密码错误. 
+ 49                     = 未知的加密. 
+ 
+ 51                     = 请先添加PDF文件夹!
+ 52                     = 还有"%s"文件没有备份
+ 53                     = 保存PDF文件时出现错误.
+ 54                     =PDF 文件 加密到"%s" 时失败. 
+ 55                     = PDF文件保存到"%s" 失败.             
+ 56                     = 加密
+ 57                     = 加载文件错误:
+ 58                     = 加载文件错误:
+ 59                     = 失败: 文件正在使用或只读
+ 60                     = 用户停止
+ 61                     = 选择一个目录保存日志文件
+ 62                     = 选择原始文件移动的目录
+ 63                     = 成功
+ 64                     = 需要密码
+ 65                     = Can not set the same path "%s" to the monitored directory and output directory.
+ 66                     = 添加PDF文件.
+ 67                     = 需要加密的PDF文档.
+ 68                     = 完成 
+ 69                     = 批量PDF文件加密已完成
+ 70                     = Hot directory and Encryption Policy Setting. 
+ 71                     = Set monitored directory; all files written in will be encrypted and saved to output directory. ||All of the operations will be recorded in log files. If you set backup directory, the original PDF files will be moved to.
+
+ 73                     = [系统信息]                 
+ 74                     = [成功] 
+ 75                     = [失败]                          
+ 76                     = [移动文件]  "%s" 到 "%s" 
+ 77                     = Target 
+ 78                     = 导入 PDF 文件: 
+ 79                     = 文件已存在, 覆盖它么? 
+ 80                     = Confirm File Overwrite 
+ 81                     = 请等待...
+ 82                     = 目录为空! 
+ 83                     = 允许
+ 84                     = 不允许
+ 85                     = 完全允许
+
+ 91                      =主页                            
+ 92                      =另存为...
+ 93                      =保存
+ 94                      =下一步
+ 95                      =完成
+ 96                      =开始
+ 97                      =结束                         
+ 98                      =退出
+ 99                      =选择目录
+
+100                     = %s  %s  %s  %s
+101                     = 警告
+102                     = 版本未注册则无法修改密码， 点击下方“关于”按钮了解更多信息。
+103                     = 创建上下文相关的菜单
+104                     = 删除上下文相关的菜单
+105                     = 设置PDF文档安全加密
+106                     = [密码验证成功]
+107                     = 所有的密码已被验证，但无正确密码，请更正密码库！
+108                     = 文件无需密码
+110                     = Monitor Start
+111                     = Monitor End
+
+120                     = Illegal dir "%s"
+121                     = 你确定清楚所有的密码吗？
+122                     = %d of %d files try password successfully!
+123                     = 密码库中没有密码，你要添加密码吗？
+124                     = 加密设置
+125                     = 设置批量PDF文档的安全性策略
+
+130                     = Can not open input file "%s".无法打开导入文件"%s"
+131                     = Invalid password for input file "%s".
+132                     = 不支持安全性.
+
+135                     = 密码设置进行中，请等待
+136                     = Backup PDF from "%s" ||to "%s". Please wait. PDF文件
+137                     = PDF文件"%s"正在保存， 请等待

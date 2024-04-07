@@ -1,0 +1,178 @@
+###########################################################
+#
+#  Language:		English
+#  Author:		WanQing Huang
+#  Product Name:	A-PDF n-up Page
+#  Product Version:	1.5.0
+#
+###########################################################
+
+[Font]
+ Name 																=Tahoma
+ Size																	=8
+ CharSet															=Default
+
+[MainForm]
+TabSheet1.Caption             				=N-UP PDF
+.Caption             				=万彩办公大师-页面排列布局(N-UP PDF PAGE) 
+imgPreView.hint               				=24页
+lblCurPage.Caption            				=0/0
+GroupBox1.Caption             				=模式
+lblNupMode.Caption            				=布局模式:
+lblPrintMode.Caption          				=打印模式:
+cbbNupMode.text               				=一张纸上打印两页
+cbbPrintMode.text             				=单面
+GroupBox2.Caption             				=页面布局 
+lblLayOutGutterX.Caption      				=装订线宽 &X:
+lblLayoutXInch.Caption        				=英寸
+lblLayoutYInch.Caption        				=英寸
+lblLayOutGutterY.Caption      				=装订线宽 &Y:
+rbHLayout.Caption             				=横向
+rbVLayout.Caption             				=纵向
+GroupBox3.Caption             				=模式
+rbModeDM.Caption              				=A/C
+rbModeAB.Caption              				=A&/B
+rbModeSplit.Caption           				=分割
+rbModeFl.Caption              				=首-尾
+gbLayoutMargin.Caption        				=页边距
+lblLayOutLeft.Caption         				=左边:
+Label4.Caption                				=英寸
+lblLayOutTop.Caption          				=顶端:
+Label9.Caption                				=英寸
+sbtReset.Caption              				=重置
+lblLayOutRight.Caption        				=右边:
+Label13.Caption               				=英寸
+Label12.Caption               				=英寸
+lblLayOutBottom.Caption       				=底端:
+Labeladdtip.Caption           				=列表为空. 请先添加PDF文档 ...
+lbladdtip.Caption             				=列表为空.请先添加PDF文档 ...
+
+BtnAddpdf.Caption             				=添加文件
+BtnAddpdf.hint                				=添加PDF文档
+BtnAddDir.Caption             				=添加文件夹
+BtnAddDir.hint                				=添加列表目录
+BtnDelPdf.Caption             				=删除
+BtnDelPdf.hint                				=把选中项目从列表中移除
+BtnDelAllPdf.Caption          				=清空所有
+BtnDelAllPdf.hint             				=清空所有项目
+btnUp.Caption                 				=上移
+btnDown.Caption               				=下移
+Label1.Caption                				=添加PDF文档
+Label2.Caption                				=页面布局方式
+Label3.Caption                				=页面布局
+btnUpPage.Caption             				=生成页面布局 ...
+sbthelp.Caption               				=帮助
+sbtSetting.Caption            				=设置
+sbtSetting.hint               				=设置
+Open1.Caption                 				=打开
+Details1.Caption              				=详情...
+AddFile1.Caption              				=添加文件
+popdelpdf.Caption             				=移除
+popClearallpdf.Caption        				=清空所有
+SelectAll1.Caption            				=全选
+FileF1.Caption                				=文件
+Addpdf.Caption                				=添加PDF
+Addadirectiy.Caption          				=添加文件
+RecentFiles1.Caption          				=最近打开的文件
+Delete2.Caption               				=移除
+Clearall1.Caption             				=清空
+ImportList1.Caption           				=导入列表
+ExportList1.Caption           				=导出列表
+OpenFile1.Caption             				=打开文件
+Quit1.Caption                 				=退出
+ools1.Caption                 				=操作
+mpreview.Caption              				=页面布局
+Options1.Caption              				=选项
+Settings1.Caption             				=设置
+Help1.Caption                 				=帮助
+Help2.Caption                 				=帮助
+Regirst1.Caption              				=关于 ...
+Contactus1.Caption            				=联系我们...
+
+Labellink.Caption= 打开
+Labellink1.Caption= DEMO演示
+grpSplit.Caption=        分割
+
+[frmOption]
+tsSize.Caption                				=页面大小
+grpPagesize.Caption           				=页面大小
+lblWidthHint.Caption          				=宽 x
+lblWidthScale.Caption         				=%
+lblHeightHint.Caption         				=高 x
+lblHeightScale.Caption        				=%
+rbRemain.Caption              				=保持原来大小 
+rbScale.Caption               				=缩放比例
+rbFitSize.Caption             				=适合页面大小:
+tsRange.Caption               				=页面范围
+GroupBox1.Caption             				=页面范围
+Label2.Caption                				=示例: 1,2,3-5,-1
+rbpageAll.Caption             				=所有页面
+rbPageno.Caption              				=页码
+rball.Caption                 				=所有页面
+cbpageodd.Caption             				=奇数页
+cbPageEven.Caption            				=偶数页
+cbfirst.Caption               				=cbfirst
+cblast.Caption                				=cblast
+chkRealDelete.Caption         				=确定删除页面（需要花点时间）
+chkMerge.Caption              				=在进行页面布局时，把所有PDF文件合并成一个文件
+tsRotate.Caption              				=页面旋转
+GroupBox2.Caption             				=旋转
+Labelfrom.Caption             				=角度:
+rbRotateNone.Caption          				=无
+rbRotateEven.Caption          				=偶数页
+rbRotateOdd.Caption           				=奇数页
+rbRotateAll.Caption           				=所有页面
+cbbAngle.text                 				=90度
+btnSave.Caption               				=保存
+btnCloase.Caption             				=关闭
+actAddSize.Caption            				=添加
+actEditSize.Caption           				=编辑
+actDelSize.Caption            				=删除
+mniAddSize.Caption            				=添加
+mniEditSize.Caption           				=编辑
+mniDelSize.Caption            				=删除
+
+
+
+
+[frmPageSizeInfo]
+.Caption                              =页面尺寸信息
+tsPagesize.Caption            				=页面尺寸信息
+lblPageName.Caption           				=相关名称:
+lblPageWidth.Caption          				=页面宽度:
+lblPageHeight.Caption         				=页面高度:
+btnOk.Caption                 				=确定
+btnCancel.Caption             				=取消
+
+[STRINGS]
+ 1					= Thank you for registering
+ 2					= Invalid Register Key
+ 3					= The product has been licensed. 
+ 4					= The product has been licensed to:
+ 5					= Q: How to order||A: Click the "Online Purchase" button above, or visit our homepage(http://www.a-pdf.com) for more options. We will send your Registration key after receiving your order. If you cannot access the Internet, please call our Toll Free number 1-877-353-7297, and give the operator the product number %s. The product price is %s.
+ 6					= Note: The product is a try-before-buy product. The unregistered version has a limitation: adding a watermark into the output PDF files. If you ordered, you will get a register key (license code), after inputting the code below, the limitation will remove, that means the output files will not be added a watermark..
+
+
+20                            				=文档成功创建! 现在打开查看吗?
+21                            				=打开文件
+22                            				=PDF创建失败.
+23                            				=PDF创建失败
+50                            				=页面布局完成, 要打开查看吗?
+51                            				=打开文件
+52                            				=文件已保存, 要打开目标文件夹吗?
+53                            				=打开目标文件夹
+54                            				=名称||页面||路径
+55                            				="%s" 需要打开密码. 不能添加到文件列表中. ||||要继续添加剩下的文件吗?
+56                            				=图片添加失败
+59                            				=完成 : 
+60                                    =保存文件 : %s
+61                                    =合并文件 : %s    
+62                                    =另存为 : %s          
+63                                    =确定要删除尺寸 "%s"?                 
+64                                    =添加页面尺寸失败, 尺寸 "%s" 已存在!        
+
+65                           				=文件名
+66                           				=页码
+67                           				=文件路径
+
+   

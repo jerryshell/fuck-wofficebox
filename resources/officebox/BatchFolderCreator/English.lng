@@ -1,0 +1,58 @@
+###########################################################
+#
+#  Language:		Folder Create
+#  Author:		Dongge Xie
+#  Product Name:	
+#  Product Version:	1.0.0 
+#
+###########################################################
+[frmFolderCreate]
+grpCreateMethod.Caption       				= 创建方式  
+Label1.Caption                				=创建文件或文件夹的方式：
+cbbCreateMethod.text          				=文件目录: CSV
+grpFolderName.Caption         				=文件目录名
+Label2.Caption                				=前缀:
+Label3.Caption                				=后缀:
+grpNormal.Caption             				= 名称模式
+Label4.Caption                				=数量:
+Label5.Caption                				=起始值:
+lblEveryStep.Caption          				=每次增加:
+grpCSV.Caption                				=CSV
+grpOutPath.Caption            				= 文件目录保存路径...
+lblDelimiter.Caption                			=分隔符:
+btnLog.Caption                				=日志
+chkOnTop.Caption              				=始终在最前端
+actBrowseCSV.Caption          				=浏览
+actBrowseOutPath.Caption      				=浏览
+lblOutPath.Caption                                      =目录:
+lblCSVFilePath.Caption                                  =文件:
+lblSuffixName.Caption                                   =文件类型:
+actUndo.Caption               				=取消
+actCreate.Caption             				=创建
+
+[STRINGS]
+ 1							= Thank you for registering
+ 2							= Invalid Register Key
+ 3							= The product has been licensed. 
+ 4							= The product has been licensed to:
+ 5							= Q: How to order||A: Click the "Online Purchase" button above, or visit our homepage (http://www.boxoft.com) for more options. We will send your registration key after receiving your order. If you cannot access the Internet, please call our Toll Free number 1-877-353-7297, and give the operator the product number %s. The product price is %s.
+6	=This product is shareware. The trial period is %d days and %d days remain.
+7	=The trial period has ended. Further use requires registration.
+8	=If you ordered, you will get a register key (license code), after inputting the code below, the product can be used permanently.
+20                            				=选择创建文件夹(文件)的目录
+21                            				=开始: %s.
+22                            				=文件目录 %s 已存在。
+23                            				=文件 %s 已存在。
+24                            				=文件夹: %s 创建成功。
+25                            				=文件: %s 创建成功。
+26                            				=无法创建 %s: %s.
+27                            				=结束: %s.
+28                            				=文件 (文件夹)已创建, 是否打开所在目录?
+29                            				=开始: %s
+30                            				=文件夹: %s 删除成功。
+31                            				=文件: %s 删除成功。
+32                            				=没有找到文件夹（文件） %s.
+33                            				=出错: %s.
+34                            				=结束: %s.
+35                                                      =返回
+36                                                      =日志

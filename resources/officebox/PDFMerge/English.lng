@@ -1,0 +1,245 @@
+###########################################################
+#
+#  Language:		English
+#  Author:		Winston Zhang, Andy Bowers
+#  Product Name:	A-PDF Merger 
+#  Product Version:	3.0.5
+#
+###########################################################
+
+[Font]
+ Name 						=Tahoma
+ Size						=8
+ CharSet					=Default
+
+[frmMain]
+.Caption                                                                                             =万彩办公大师-PDF合并工具
+ lblDemo.Caption				=演示DEMO
+ aListAdd.Caption				=添加
+ aListRemove.Caption				=移除
+ aListClear.Caption				=清空
+ aActionPosUp.Caption				=上移
+ aActionPosDown.Caption				=下移
+ aSetPass.Caption				=密码
+ aSetMergeMethod.Caption			=合并方式
+ aMerge.Caption					=合并
+ aClose.Caption					=退出
+ aHelp.Caption					=帮助
+ aRegister.Caption				=注册
+ aAbout.Caption					=关于
+ aStopMerge.Caption				=停止合并
+ aListImport.Caption				=导入列表
+ aListExport.Caption				=输出列表
+ aActionFirst.Caption				=移动到顶端
+ aActionLast.Caption				=移动到末端
+ aOptions.Caption				=选项
+ aFileOpen.Caption				=打开文件
+ aSelectAll.Caption				=全选
+ aListAddDir.Caption				=添加文件夹
+ aNewLanguage.Caption				=新的语言文件
+ aEditLanguage.Caption				=编辑语言文件
+ aImportLanguage.Caption			=导入语言文件
+
+ aListAdd.Hint					=添加文件
+ aListRemove.Hint				=从列表中移除
+ aListClear.Hint				=清空
+ aActionPosUp.Hint				=上移
+ aActionPosDown.Hint				=下移
+ aSetPass.Hint					=设置打开密码
+ aSetMergeMethod.Caption			=设置合并方式
+ aMerge.Hint					=开始合并
+ aClose.Hint					=退出
+ aHelp.Hint					=帮助
+ aRegister.Hint					=注册
+ aAbout.Hint					=关于
+ aStopMerge.Hint				=停止合并
+ aListImport.Hint				=导入列表
+ aListExport.Hint				=导出列表
+ aActionFirst.Hint				=移动到顶端
+ aActionLast.Hint				=移动到末端
+ aOptions.Hint					=选项
+ aFileOpen.Hint					=打开文件
+ aSelectAll.Hint				=全选
+ aListAddDir.Hint				=添加文件夹
+ aNewLanguage.Hint				=新的语言文件
+ aEditLanguage.Hint				=编辑语言文件
+ aImportLanguage.Hint				=导入语言文件
+
+ Menu_File.Caption				=文件
+ Menu_Action.Caption				=操作
+ Menu_Tool.Caption				=工具
+ Menu_Help.Caption				=帮助
+ mFileCol.Lines					=名称||密码||页数||合并方式||大小||修改日期||文件名
+
+[frmOption] 
+ .Caption					=选项
+ btnOK.Caption					=确定
+ btnCancel.Caption				=取消
+
+ tabProperties.Caption                          =属性
+ lblTitle.Caption			        =标题
+ lblAuthor.Caption			        =作者
+ lblKeyword.Caption			        =关键词
+ lblSubject.Caption			        =主题
+ btnMacroTitle.Caption			        =宏
+ btnMacroAuthor.Caption			        =宏
+ btnMacroKeyword.Caption		        =宏
+ btnMacroSubject.Caption		        =宏
+
+ tabSecurity.Caption                            =安全
+ lblOpenPassword.Caption		        =文档打开密码
+ chkSecurity.Caption			        =增强安全性
+ chkOpenPassword.Caption		        =要求打开文档的密码
+ grpPermissions.Caption			        =许可
+ lblPermissionsPassword.Caption		        =更改许可密码
+ lblPermissionsPrint.Caption		        =允许打印
+ lblPermissionsChange.Caption		        =允许更改
+ chkPermissionsPassword.Caption		        =改变这些许可设置需要密码
+ chkPermissionsCopy.Caption		        =启用复制文档内容
+ cbbPermissionsPrint.Items		        =无||低分辨率||高分辨率
+ cbbPermissionsChange.Items		        =无||插入, 删除,和旋转页面||填写表单域和签名现有的签名域||注释, 填写表单域和签名现有的签名域||任何
+
+ tabBookMark.Caption				=书签
+ cbBookMark.Caption				=书签
+ gbPNB.Caption					=" 没有书签的PDF文档 "
+ rbPNBIgnore.Caption				=忽略
+ rbPNBUseFileName.Caption			=把文件名作为书签
+ gbIF.Caption					=" 图片文件 "
+ rbIFIgnore.Caption				=忽略
+ rbIFUseFileName.Caption			=把文件名作为书签
+ cbPNBRemoveExt.Caption				=去除扩展名
+ cbIFRemoveExt.Caption				=去除扩展名
+ cbUsingFilenameAsRoot.Caption			=把文件名作为根书签
+ cbCollapse.Caption				=折叠顶层书签
+ tabNumber.Caption				=页码
+ lPreview.Caption				=预览:
+ lPageBegin.Caption				=起始页码
+ lPageEnd.Caption				=结束页码
+ lOffset.Caption				=偏移量:
+ lPosition.Caption				=位置:
+ lExample.Caption				=示例
+ lColor.Caption					=颜色:
+ lPrefix.Caption				=前缀:
+ lFont.Caption					=字体:
+ lSize.Caption					=大小:
+ rgNumberType.Caption				=数字类型 
+ rgNumberType.Items				=数字||大写罗马数字 (VI)||小写罗马数字 (vi)
+ cbPosition.Items				=左下角||底部中间||右下角
+ cbNumber.Caption				=给生成文件添加页码
+
+ tabViewer.Caption				=查看
+ gbDocumentOptions.Caption			=文档选项
+ lPageShow.Caption				=展示:
+ lMagnification.Caption				=放大率:
+ lOpenPage.Caption				=打开文档初始页码:
+ cbPageMode.Items				=只显示页面||显示书签面板||显示缩略图面板
+ gbWindowOptions.Caption			=窗口选项
+ cbFitWindow.Caption				=把窗口调整到初始页面大小
+ cbCenterWindow.Caption				=在屏幕中央显示窗口
+ cbFullScreen.Caption				=全屏打开
+ gbUI.Caption					=用户界面选项
+ cbHideMenuBar.Caption				=隐藏菜单栏
+ cbHideToolBars.Caption				=隐藏工具栏
+ cbHideWindowControls.Caption			=隐藏窗口控制
+ tabPage.Caption				=页面
+ cbAddPageToEven.Caption			=如果当前PDF总页数为奇数，则给每个文档添加一个空白页。 
+
+ tabImage.Caption				=图片
+ lDefaultDPI.Caption				=默认DPI
+ lDPIExample.Caption				=示例: 300
+[frmSelectDir]
+ .Caption					=选择文件夹
+ bCancel.Caption				=取消
+ bOk.Caption					=确定
+ bAdvanced.Caption				=高级
+ cbIncSub.Caption				=包括子文件夹
+ lDesc.Caption					=选择文件夹:
+ lMask.Caption					=过滤:
+ lMaskDesc.Caption				=用逗号分开, 支持*，?宽字符
+ cbMask.Text					=*.pdf,*.bmp,*.gif,*.jpg,*.jpeg,*.png,*.tif,*.tiff
+ cbMask.Items					=*.pdf,*.bmp,*.gif,*.jpg,*.jpeg,*.png,*.tif,*.tiff||*.bmp,*.gif,*.jpg,*.jpeg,*.png,*.tif,*.tiff||*.pdf||*.bmp||*.gif||*.jpg,*.jpeg||*.png||*.tif,*.tiff||*.*
+
+[frmAddDirProgressing]
+ .Caption					=进度
+ lAdding.Caption				=添加:
+ Button1.Caption				=停止
+
+[frmMergeMethodSetting]
+.Caption					=设置合并方式
+bOk.Caption					=确定
+bCancel.Caption					=取消
+bHelp.Caption					=帮助
+
+rbWhole.Caption					=整体
+rbPart.Caption					=部分
+lRange.Caption					=页面范围 (示例: 3,10,12-15)
+rbMix.Caption					=交替混合合并页
+lMixSteps.Caption				=每隔N页:
+rbMixReverse.Caption				=交替混合合并页(反向)
+lMixRSteps.Caption				=每隔N页: 
+cbReversePage.Caption				=颠倒页序
+rbRepeat.Caption				=重复
+
+[frmAbout]
+ .Caption					=About
+ lblVersionName.Caption				=Version:
+ lblUnReg.Caption				=Note: This product is a try-before-buy product. The unregistered version has a limitation: it adds a watermark into the output file(PDF file). If you ordered, you will receive a register key (license code). After entering the register code below, the limitation will be removed and the output file will not have an added watermark.
+ lblRegKey.Caption				=Have a key:
+ btnReg.Caption					=&Register
+ btnClose.Caption				=&Close
+ btnTry.Caption					=&Try
+ btnOrder.Caption				=&How to order
+ btnOlOrder.Caption				=Online Purchase
+ lblReg.Caption					=The product has been registered. Register key:
+ mmo1.Lines					=Q: How to order||A: Click the "Online Purchase" button above, or visit our homepage(http://www.a-pdf.com) for ||more options. We will send your register key after receiving your order. If you cannot access ||the Internet, please call our Toll Free number 1-877-353-7297, and give the operator the product ||number 9891-8. The product price is US$27.||
+
+
+[Strings]
+1 	=合并成功!
+2	=文件无法创建!
+3	=文件打开出错,请检查文件: %s
+4	=出现未知错误!
+5	=合并失败! 
+6	=用户终止
+7	=需要添加更多的PDF文件进行合并
+8	=合并文件 %s 失败
+9	=解密文件错误: %s
+10	=成功合并! 要打开生成的文件吗?
+11	=要停止合并?
+12	=内部出错!
+13	=文件密码不正确: %s
+14	=确定打开 %d 文件?
+15	=谢谢注册
+16	=无效注册码
+17	=至少一个文件需要密码,继续操作?
+18	=产品已注册. 
+19	=产品已注册: 
+21	=未知
+22	=需要
+23	=无
+24	="标题        "
+25	="作者       "
+26	="主题      "
+27	="关键词     "
+28	="文件        "
+29	=在此输入摩玛:
+30	=密码
+31	=合计: %d个文件
+32	=书签
+33	=页码
+34	=属性
+35	=安全性
+41	=需要重启软件使语言设置生效.
+42	=你想要哪种语言?
+
+51	=整体
+52	=部分页面： %s
+53    	=Cross with steps %s
+54    	=Cross reserve with steps %s
+55	=Cross reserve with steps %s, and reverse page
+56    	=重复
+
+[Zoom]
+0	=默认
+1	=适合页面
+2	=适合宽度

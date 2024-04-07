@@ -1,0 +1,208 @@
+###########################################################
+#
+#  Language:		English
+#  Author:		Winston Zhang
+#  Product Name:	A-PDF Optimizer for Scanned PDF
+#  Product Version:	1.1.0
+#
+###########################################################
+
+[Font]
+ Name 						=Tahoma
+ Size						=8
+ CharSet					=Default
+
+
+
+[frmMain]
+.Caption                                                =万彩办公大师-扫描PDF优化
+ Panel1.Caption				=控制面板1
+ Label1.Caption				=添加PDF文档
+ btnadddir.Caption		        =添加文件夹
+ btnadd.Caption				=添加
+ actRemove.Caption				=删除
+ actClear.Caption				=清除
+ btnUnlock.Caption				=解锁
+ Label7.Caption				= 目录为空，请添加PDF文件 ...
+ Label2.Caption				=优化选项
+ Label3.Caption				=扫描图像去扭斜
+ Label4.Caption				=将PDF转换成黑白
+ Label5.Caption				=重新取样 - 减小文件大小
+ Label6.Caption				=删除PDF中的空白页
+ lbldwon.Caption				=打开
+ lblbwon.Caption				=打开
+ lbldson.Caption				=打开
+ lbldbon.Caption				=打开
+ lbldwsetting.Caption				=设置...
+ lblbwsetting.Caption				=设置...
+ lbldnSetting.Caption				=设置...
+ lblDBsetting.Caption				=设置...
+ btnExeAs.Caption				=优化并保存为
+ btnExe.Caption				=优化
+ btnStop.Caption				=终止
+ btnset.Caption				=设置
+ BtnAbout.Caption				=关于
+ actOpen1.Caption				=打开
+ Inputpassword1.Caption				=输入密码
+ Add1.Caption				=添加
+ AddFolder1.Caption				=添加文件夹
+ Remove1.Caption				=删除
+ Clear1.Caption				=清除
+ sbthelp.Caption				=帮助
+
+Labellink.Caption				=打开
+Labellink1.Caption				=演示DEMO
+
+
+
+[frmOption]
+TabSheet1.Caption             				=去扭斜
+lblangle.Caption              				=角度范围:
+Label8.Caption                				=角度范围以度数制定操作范围. 低值可以提高性能和准确性.例如，指定30度时，应用程序将会扫描像素为-15到15度范围内的的图像. 角度范围可以从1到180.
+chkdwEnable.Caption           				= 使用图像去扭斜
+TabSheet2.Caption             				=黑/白
+chkimageonly.Caption          				=只转换图片
+GroupBox5.Caption             				= 阈值参数
+Label7.Caption                				=阈值 (0..255)
+Label24.Caption               				=所有低于阈值的将被设置为黑色||反之高于阈值的将被设置为白色
+btnauto.Caption               				=自动
+GroupBox6.Caption             				=预览-初始值 (例如)
+GroupBox7.Caption             				=预览-黑白值(例如)
+grp1.Caption                  				=选择原文件
+btn1.Caption                  				=浏览
+chkbwEnable.Caption           				=转换成黑白
+TabSheet3.Caption             				=重新取样
+grpMethod.Caption             				=取样方式
+lblmaxw.Caption               				=最大宽度:
+lblmaxh.Caption               				=最大高度:
+lblcscale.Caption             				=压缩比例 :
+LabelResample.Caption         				=重新取样筛选
+Label9.Caption                				=彩色图像建议: Hermite, Lanczos3, Nearest
+Label10.Caption               				=黑白图像建议: 无, 黑白
+Label11.Caption               				=
+Label13.Caption               				=重新取样筛选
+lbldpi.Caption                				=最大分辨率:
+rbByDPI.Caption               				=通过分辨率
+rbByScale.Caption             				=通过压缩率
+rbByWH.Caption                				=通过宽与高
+cmbFilter.hint                				=目标筛选
+chkDnEnable.Caption           				=重新取样PDF图像
+TabSheet4.Caption             				=删除空白
+chkDBEnable.Caption           				=可以删除空白页
+GroupBoxSource.Caption        				=1.选择源文件
+BtnOpen.Caption               				=浏览
+GroupBoxpreview.Caption       				=预览
+GroupBoxAt.Caption            				=2.调整测试参数
+lbThreshold.Caption           				=阈值:
+lbBWTH.Caption                				=黑/白值:
+lbCurThreshold.Caption        				=当前阈值:
+Button1.Caption               				=自动获取
+cbUsecrop.Caption             				=使用裁剪
+GroupBoxTR.Caption            				=3.测试结果正在识别
+Labelresult.Caption           				=结果:
+LbIsBlank.Caption             				=N/A
+Labeltip1.Caption             				=为了使PDF中的空白页能够被识别，请按下面的指示进行操作: 
+Labeltip2.Caption             				=步骤1: 先浏览一个有空白页的PDF测试文件，然后导航到空白页
+Labeltip3.Caption             				=步骤2: 调整黑白/参数以及设置阈值，找到空白页
+Labeltip4.Caption             				=步骤3: 单击OK按钮保存设置
+TabSheet5.Caption             				=通用
+Label1.Caption                				=图片的宽度:
+Label2.Caption                				=图片的高度:
+Label3.Caption                				=少于
+Label4.Caption                				=像素
+Label5.Caption                				=像素
+Label12.Caption               				=将被忽略
+Label6.Caption                				=或
+btnReset.Caption              				=重置
+Labelpagefrom.Caption         				=页码从
+Labelto.Caption               				=到
+GroupBox2.Caption             				=压缩质量
+LabelSmall.Caption            				=小尺寸
+LabelHi.Caption               				=高质量
+LabelIT.Caption               				=JEPG 质量:
+rbExt.Caption                 				=备份文件（把文件扩展名改为.bak）
+rbDir.Caption                 				=备份到文件夹
+bBrowse.Caption               				=浏览...
+chkbackup.Caption             				=优化时备份文档
+chkRange.Caption              				=应用范围
+btnOk.Caption                 				=完成
+btnCancel.Caption             				=取消
+
+cbSkipNonSupport.Caption				=跳过不支持的图片
+chkwhitebackground.Caption				=强行转换为白色背景和黑色文字
+ 
+[STRINGS]
+ 1					= Thank you for registering
+ 2					= Invalid Register Key
+ 3					= The product has been licensed. 
+ 4					= The product has been licensed to:
+ 5					= Q: How to order||A: Click the "Online Purchase" button above, or visit our homepage(http://www.a-pdf.com) for more options. We will send your registration key after receiving your order. If you cannot access the Internet, please call our Toll Free number 1-877-353-7297, and give the operator the product number %s. The product price is %s.
+ 6					= Note: The product is a try-before-buy product. The unregistered version has a limitation: adding a watermark into the output PDF files. If you ordered, you will get a register key (license code), after inputting the code below, the limitation will be removed, that means the output files will not be added a watermark.
+
+ 7					= 请选择一个目录:
+ 8					=图片:
+ 9					=没有目录!
+ 10					=信息
+ 11					=你确定清除所有目录吗？
+ 12					= 删除所有目录信息
+ 13					=已修改
+ 14					= 减少颜色
+ 15					= 插入图片的颜色:
+ 16					= 在列表中添加一个目录
+ 17					= 请等待...
+ 18					= 文档创建 "%s" 已完成. 是否打开?
+ 19					= 警告
+ 20					= 文件 "%s" 已存在, 要覆盖它吗? 
+ 21					= 创建文档 "%s" 失败!
+ 22					= 正在处理
+ 23					= 请等待...
+ 24					= 在PDF文档中嵌入图像...
+ 25					= 嵌入图像
+ 26					= 图像嵌入成功!
+ 27					= 请先用鼠标框选出一个区域！
+
+ 28					= 缩放
+ 29					= PDF文件已创建，是否打开目录吗？
+ 30					= 图像
+50                            				=打开
+51                            				=关闭
+80                            				=文件名||密码||大小||修改||完整的文件名
+81                            				=需要密码.
+90                            				=请等待...
+91                            				=当前阈值:||%.5f
+92                            				=空白
+93                            				=非空白
+94                            				=已完成. 是否要打开目录?
+95                            				=无效目录 "%s"!
+96                            				=目录为空
+97                            				=信息
+98                  					=至少要有一个文档需要密码来打开，如果没有设置密码，这些文档将不能被优化。||||是否继续?
+99                            				=原始大小:%s  黑白文档大小:%s(灰色可能是由JEPG图片的质量引起的)
+135					=选择一个有效的监控目录. 
+ 136					= 不能设置监控目录的路径与输出目录的路径相同"%s".
+ 137					=警告!
+ 138					=您需要选择一个有效的输出目录保存加密文件.
+ 139					=您需要选择一个有效的目录备份原始文件. 
+ 140					=您需要选择一个有效目录保存日志文件. 
+ 141					=监控文件夹已被用于另一个监控目录的设置中!
+
+143					=终止服务并返回批量模式吗？
+150					=分析: %s. 页数: %d
+151					=搜索空白页 ...
+152					=%d 空白页已被删除.
+153					=删除空白页: %d
+154					=开始去除图像扭斜 ...
+155					=图像 %d 扭斜已被纠正为%f度
+156					=成功去除图像扭斜%d , 全部%d ，
+157					=完成.
+158					=转换成黑白.
+159					=图像在范围内重新取样 %d * %d (宽 * 高).
+160					=图像重新采样到分辨率为 %d.
+161					=图像缩放到 %d%%.
+
+
+162                           				=文件名
+163                           				=需要密码
+164                          				=文件尺寸
+165                          				=修改日期
+166                         				=文件全名

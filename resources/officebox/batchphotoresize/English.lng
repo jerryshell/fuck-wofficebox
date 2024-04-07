@@ -1,0 +1,135 @@
+###########################################################
+#
+#  Language:	BatchPhotoResize
+#  Author:	  Dongge Xie
+#  Product Name:	
+#  Product Version:	1.0.0 
+#
+###########################################################
+[frmBatchPhotoResize]
+.Caption            				=万彩办公大师-批量图像大小修改
+actPreverconvert.Caption       =预览图片
+btnPreverconvert.Caption       =预览图片
+lbllbtitle.Caption            				=批量图像大小修改热目录设置
+lbllbdes.Caption              				=设置收件时的目录，所有写入的图像大小将被修改。
+tsMode.Caption                				=模式
+lblhot.Caption                				=监视服务器中的目录，当有图像拷入目录时，将自动调整图像大小并自动发送到输出目录
+lbl1.Caption                  				=请选择一种模式，然后点击 '下一个 >' 开始修改图像大小. 或者点击 '退出' 关闭软件.
+lblbatch.Caption              				=批量修改图像大小
+lblcommandline.Caption        				=命令行模式
+lblcmdtip.Caption             				=使用命令行来修改图像大小，了解更多信息，请参考:
+lblcmdlink.Caption            				=在命令行中使用万彩办公大师-批量图像大小修改Using Boxoft Batch Photo Resizer in command line
+rbrdohotdir.Caption           				=热目录模式
+rbtbatch.Caption              				=批量修改模式
+btn1.Caption                  				=关于
+btnexit.Caption               				=退出
+tsConvert.Caption             				=转换
+lbl5.Caption                  				=列表为空，请先添加一些图像...
+lblexample.Caption            				=示例
+btnHotdirectory.Caption       				=热目录模式
+btnHelp.Caption               				=帮助
+btnAbout.Caption              				=关于
+btnOpenLog.Caption            				=显示日志...
+SpeedButton1.Caption          				=预览
+lblformat.Caption             				=格式:
+lblReNamePefix.Caption        				=前缀:
+lblReNameNum.Caption          				=页码:
+chkRename.Caption             				=重命名
+lblReSizeWidth.Caption        				=宽:
+lblReSizeHeight.Caption       				=高:
+lblReSizeType.Caption         				=类型:
+chkEnlarge.Caption            				=不允许放大
+chkSharpen.Caption            				=锐化
+cbbReSizeType.text            				=固定图像
+chkResize.Caption             				=修改
+lblStampText.Caption          				=文本:
+btnStampFont.Caption          				=字体
+chkStamp.Caption              				=水印
+cbbOutputformat.text          				=.bmp
+chkRotate.Caption             				=旋转图像
+pnlLog.Caption                				=pnlLog
+tsHotDirectory.Caption        				=热目录
+grp1.Caption                  				=热目录设置
+lbl2.Caption                  				=输入目录：
+lbl3.Caption                  				=日志文件路径:
+lbl4.Caption                  				=输出目录
+chksubdir.Caption             				=包含子目录
+btnviewlog.Caption            				=打开日志目录
+btnopeninputdir.Caption       				=打开目录
+btnopenoutputdir.Caption      				=打开目录
+lbl6.Caption                  				=监视服务器中的目录，当有照片拷入目录时，将自动调整图像大小并自动发送到输出目录
+mniOpenFolder1.Caption        				=打开文件夹
+mniAdd.Caption                				=添加
+mniAddFolder.Caption          				=添加文件夹
+mniSelectAll.Caption          				=选择全部
+mniRemove.Caption             				=删除
+mniClearr.Caption             				=清空
+mniRemoveFailedItems.Caption  				=删除修改失败文件
+mniRemoveSuccededItems.Caption				=删除修改成功文件
+mniImport.Caption             				=导入列表
+mniExport.Caption             				=导出列表
+mnishow.Caption               				=展示
+mniAbout.Caption              				=关于...
+mniExit.Caption               				=关闭
+actNext.Caption               				=下一步
+actHotDir.Caption             				=热目录模式
+actAdd.Caption                				=添加
+actAddFolder.Caption          				=添加文件夹
+actClear.Caption              				=清空
+actConvert.Caption            				=转换
+actOption.Caption             				=选项
+actRemove.Caption             				=删除
+actReturntoBatchMode.Caption  				=返回批量修改模式
+actSelectIndir.Caption        				=浏览..
+actSelectOutdir.Caption       				=浏览..
+actSelectLogdir.Caption       				=浏览..
+actMiniShow.Caption           				=展示
+actOpenFolder.Caption         				=打开文件夹
+actSelectAll.Caption          				=选择全部
+actRemoveFailedItems.Caption  				=删除修改失败文件
+actRemoveSucceededItems.Caption				=删除修改成功文件
+actImportList.Caption         				=导入列表
+actExportList.Caption         				=导出列表
+actModifyOption.Caption       				=修改 ID3
+actPause.Caption              				=暂停
+actStopConvert.Caption        				=停止修改
+[STRINGS]
+ 1							= Thank you for registering
+ 2							= Invalid Register Key
+ 3							= The product has been licensed. 
+ 4							= The product has been licensed to:
+ 5							= Q: How to order||A: Click the "Online Purchase" button above, or visit our homepage (http://www.boxoft.com) for more options. We will send your registration key after receiving your order. If you cannot access the Internet, please call our Toll Free number 1-877-353-7297, and give the operator the product number %s. The product price is %s.
+6	=This product is shareware. The trial period is %d days and %d days remain.
+7	=The trial period has ended. Further use requires registration.
+8	=If you ordered, you will get a register key (license code), after inputting the code below, the product can be used permanently. 
+20                            				=开始: %s
+21                            				=加载文件: %s
+22                            				=保存到: %s [success]
+23                            				=保存到: %s [fail]
+24                            				=结束: %s
+25                            				=请选择要打开的文件
+26                            				=隐藏日志...
+27                            				=显示日志...
+28                            				= 输入路径不存在！
+29                            				=输出路径不存在！
+30                            				=日志路径不存在！
+31                            				=输入目录不能与输出输出目录一样。
+32                            				=文件不存在
+33                            				=请选择输出路径
+34                            				=开始: %s
+35                            				=已停止修改!
+36                            				=结束: %s
+37                            				= 修改 %s [success]
+38                            				= 修改 %s [faid]
+39                            				=结束: %s
+40                            				=文件已修改成功，要打开该目录吗?
+41                            				=请选择输入路径
+42                            				=输入目录不能与输出输出目录一样！
+43                            				=请选择输出路径
+44                            				=请选择日志路径
+
+45                            				=固定尺寸(Fix Image)
+46                            				=限制宽度(Restrict Width)
+47                            				=限制高度(Restrict Height)
+48                            				=忽略比例(Ignore proportion)
+

@@ -1,0 +1,219 @@
+###########################################################
+#
+#  Language:		English
+#  Author:		Wanqing Huang
+#  Product Name:	A-PDF Number Pro
+#  Product Version:	1.5.0
+#
+###########################################################
+
+[Font]
+ Name 						=Tahoma
+ Size						=8
+ CharSet					=Default
+
+[frmMain]
+.Caption                                                =万彩办公大师-批量添加页码
+Labeladdtip.Caption           				=列表为空，请添加PDF文档...
+lbladdtip.Caption             				=列表为空，请添加PDF文档...
+btnAddFile.Caption            				=添加文件
+btnAddFile.hint               				=添加多个文件
+btnAddFolder.Caption          				=添加文件夹
+btnAddFolder.hint             				=从文件夹中添加文件
+btnDelete.Caption             				=删除
+btnDelete.hint                				=删除选中的文件
+btnClear.Caption              				=清除所有
+btnClear.hint                 				=清除所有PDF文件
+btnUp.Caption                 				=上移
+btnUp.hint                    				=向上移动
+btnDown.Caption               				=下移
+btnDown.hint                  				=向下移动
+Label1.Caption                				=添加PDF文件
+Label3.Caption                				=添加页码进行中
+btnUpPage.Caption             				=添加页码进行中...
+btnUpPage.hint                				=为文档添加页码
+btnHelp.Caption               				=帮助
+btnHelp.hint                  				=帮助
+sbtSetting.Caption            				=设置
+sbtSetting.hint               				=设置
+btnStop.Caption               				=终止
+btnStop.hint                  				=终止
+btnAddNumberAndSave.Caption   				=添加页码并另存为 ...
+btnAddNumberAndSave.hint      				=为文档添加页码并另存为
+pnlSelAndPreview.Caption      				=pnlSelAndPreview
+tsBasic.Caption               				=基础
+gpreperties.Caption           				=文本属性
+Label5.Caption                				=字体:
+LabelSize.Caption             				=大小:
+Label6.Caption                				=样式:
+Label7.Caption                				=颜色:
+btnfontRefresh.hint           				=添加PDF文件
+cbBold.Caption                				=加粗
+cbItalic.Caption              				=斜体
+cbUnderLine.Caption           				=下划线
+cbEmbed.Caption               				=嵌入字体
+gMargins.Caption              				=边距           
+lbtop.Caption                 				=上:
+lbleft.Caption                				=左:
+lbright.Caption               				=右:
+lbbottom.Caption              				=下:
+lblUnits.Caption              				=单位:
+btnReset.Caption              				=重置
+lblPTop.Caption               				=%
+lblPLeft.Caption              				=%
+lblPRight.Caption             				=%
+lblPBottom.Caption            				=%
+cbPercentage.Caption          				=使用 %
+cbbUnits.text                 				=点
+gPosition.Caption             				=页码位置
+grpFormat.Caption             				=格式
+lblFormat.Caption             				=页码格式:
+tsAdvanced.Caption            				=高级
+GroupBox4.Caption             				=页码
+lPageBegin.Caption            				=开始处理页:
+lPageEnd.Caption              				=结束处理页:
+lOffset.Caption               				=页码编号开始:
+lblInterval.Caption           				=页码编号间隔:
+btnResetRange.Caption         				=重置
+gtexteffect.Caption           				=文本效果
+LabelOpac.Caption             				=透明度:
+Label8.Caption                				=旋转:
+degree.Caption                				=度
+Label10.Caption               				=0%
+Label11.Caption               				=100%
+lblCurOpacity.Caption         				=100%
+grpSpecial.Caption            				=特殊配置
+chkSymmetry.Caption           				=对称页
+chkContinuous.Caption         				=继续
+rgNumberType.Caption          				=编号类型 
+rgPageRange.Caption           				=页面范围
+Label2.Caption                				=页码设置
+mniOpenFile1.Caption          				=打开文件
+mniOpenFile1.hint             				=打开选中的文件
+Details1.Caption              				=详细...
+mniAddFile1.Caption           				=添加文件
+mniAddFile1.hint              				=添加PDF文件
+mniAddFolder1.Caption         				=添加文件夹
+mniAddFolder1.hint            				=从文件夹中添加文件
+popUp.Caption                 				=上
+popUp.hint                    				=向上移动
+popDown.Caption               				=下
+popDown.hint                  				=向下移动
+mniSelectAll.Caption          				=选中所有
+mniDelete1.Caption            				=删除
+mniDelete1.hint               				=删除选中的文件
+mniClear1.Caption             				=清除所有
+mniClear1.hint                				=清除所有PDF文件
+FileF1.Caption                				=文件
+mniAddFile.Caption            				=添加文件
+mniAddFile.hint               				=添加PDF文件
+mniAddFolder.Caption          				=添加文件夹
+mniAddFolder.hint             				=从文件夹中添加文件
+mniDelete.Caption             				=删除
+mniDelete.hint                				=删除选中的文件
+mniClear.Caption              				=清除所有
+mniClear.hint                 				=清除所有PDF文件
+mniOpenFile.Caption           				=打开文件
+mniOpenFile.hint              				=打开选中的文件
+mniQuit.Caption               				=退出
+ools1.Caption                 				=编辑
+mniUp.Caption                 				=上
+mniUp.hint                    				=向上移动
+mniDown.Caption               				=下
+mniDown.hint                  				=向下移动
+mniAddNumber.Caption          				=添加页码进行中...
+mniAddNumber.hint             				=添加页码到文件的所有页
+mniNumberandsaveas.Caption    				=正在添加页码并保存为...
+mniNumberandsaveas.hint       				=为文档添加页码并另存为 
+Help1.Caption                 				=帮助
+mniHelp.Caption               				=帮助
+mniHelp.hint                  				=帮助
+mniRegirst.Caption            				=关于...
+mniContactus.Caption          				=联系我们...
+actAddFile.Caption            				=添加文件
+actAddFile.hint               				=添加PDF文件
+actAddFolder.Caption          				=添加文件夹
+actAddFolder.hint             				=从文件夹中添加文件
+actDelete.Caption             				=删除
+actDelete.hint                				=删除选中的文件
+actClear.Caption              				=清除所有
+actClear.hint                 				=清除所有的PDF文件
+actAddNumber.Caption          				=添加页码...
+actAddNumber.hint             				=添加页码到文件的所有页
+actOpenFile.Caption           				=打开文件
+actOpenFile.hint              				=打开选中的文件
+actHelp.Caption               				=帮助
+actHelp.hint                  				=帮助
+actUp.Caption                 				=上
+actUp.hint                    				=向上移动
+actDown.Caption               				=下
+actDown.hint                  				=向下移动
+actStop.Caption               				=终止
+actNumberAndSave.Caption      				=正在添加页码并保存为...
+actNumberAndSave.hint         				=为文档添加页码并另存为 
+btnMacro.Caption                                        =宏
+lblNumberDesc.Caption                                   =添加页码格式说明:
+
+lbDemoHint.Caption				=打开
+lblDemo.Caption				=演示DEMO
+N3.Caption				=导入列表
+ExportList1.Caption				=导出列表
+
+
+[frmAddDirProgressing]
+.Caption                              = 添加页码到文件
+lAdding.Caption               				=添加:
+Button1.Caption               				=隐藏
+ 
+[STRINGS] 
+ 1					= Thank you for registering
+ 2					= Invalid Register Key
+ 3					= The product has been licensed. 
+ 4					= The product has been licensed to:
+ 5					= Q: How to order||A: Click the "Online Purchase" button above, or visit our homepage (http://www.a-pdf.com) for more options. We will send your registration key after receiving your order. If you cannot access the Internet, please call our Toll Free number 1-877-353-7297, and give the operator the product number %s. The product price is %s.
+ 6					= Note: The product is a try-before-buy product. The unregistered version has a limitation: adding a watermark into the output PDF files. If you ordered, you will get a register key (license code), after inputting the code below, the limitation will remove, that means the output files will not be added a watermark...
+
+ 11					= 无法下载文档: %s. %s
+ 12					= 未知错误!
+ 13					= 文档密码有误: %s      
+ 14					= 解密失败. %s
+ 15					= 用户终止.
+ 16					= 文件 %s 不存在. 是否需要创建?
+ 17					= 无法创建文件夹: %s
+ 18					= 保存文件出错. %s
+
+ 20                     = N/A 
+ 21                     = 未知                          
+ 22                     = 需要                            
+ 23                     = 否  
+ 24                     = 标题
+ 25                     = 作者
+ 26                     = 主题
+ 27                     = 关键词
+ 28                     = 文件 
+ 29                     = 在此输入密码:
+ 30                     = 密码      
+ 31                     = 完成: %d
+ 32                     = 是否打开输出的文件夹 "%s"?
+ 33                     = 打开文件夹
+ 34                     = 是否阅览生成的文件: "%s"?
+ 35                     = 打开文件
+ 36                     = 列表 %d 文件
+ 37                     = 选择一个文件 %s
+ 38                     = 选择 %d 多个文件
+ 39                     = 命名||页码||路径
+ 40                     = "%s" 需要密码才能够打开, 无法添加到文件目录. 
+ 41                     = 此操作将覆盖原始文件，你确定继续吗？
+ 42                     = 覆盖原始文件
+ 43                     = 你确定停止添加页码吗？
+ 44                     = 停止添加页码
+ 45                     = 例如: 1已经被替换为 %s 
+ 46                     = 宏不完整，请重新检查
+ 47                     = 宏不完整
+ 50                     = 开启
+
+65                           				=文件名
+66                           				=页码
+67                           				=文件路径
+
+

@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<effects>
+  <effect caption="Expand from right">
+  	Expand from right
+  </effect>
+  <effect caption="Expand from left">
+  	Expand from left
+  </effect>
+  <effect caption="Slide in from right">
+  	Slide in from right
+  </effect>
+  <effect caption="Slide in from left">
+  	Slide in from left
+  </effect>
+  <effect caption="Reveal from left">
+  	Reveal from left
+  </effect>
+  <effect caption="Reveal from right">
+  	Reveal from right
+  </effect>
+  <effect caption="Expand in from right">
+  	Expand in from right
+  </effect>
+  <effect caption="Expand in from left">
+  	Expand in from left
+  </effect>
+  <effect caption="Expand in to middle">
+  	Expand in to middle
+  </effect>
+  <effect caption="Expand out from middle">
+  	Expand out from middle
+  </effect>
+  <effect caption="Reveal out from middle">
+  	Reveal out from middle
+  </effect>
+  <effect caption="Reveal in from sides">
+  	Reveal in from sides
+  </effect>
+  <effect caption="Expand in from sides">
+  	Expand in from sides
+  </effect>
+  <effect caption="Unroll from left">
+  	Unroll from left
+  </effect>
+  <effect caption="Unroll from right">
+  	Unroll from right
+  </effect>
+  <effect caption="Build up from right">
+  	Build up from right
+  </effect>
+  <effect caption="Build up from left">
+  	Build up from left
+  </effect>
+  <effect caption="Expand from bottom">
+  	Expand from bottom
+  </effect>
+  <effect caption="Expand from top">
+  	Expand from top
+  </effect>
+  <effect caption="Slide in from bottom">
+  	Slide in from bottom
+  </effect>
+  <effect caption="Slide in from top">
+  	Slide in from top
+  </effect>
+  <effect caption="Reveal from top">
+  	Reveal from top
+  </effect>
+  <effect caption="Reveal from bottom">
+  	Reveal from bottom
+  </effect>
+  <effect caption="Expand in from bottom">
+  	Expand in from bottom
+  </effect>
+  <effect caption="Expand in from top">
+  	Expand in from top
+  </effect>
+  <effect caption="Expand in to middle (horiz)">
+  	Expand in to middle (horiz)
+  </effect>
+  <effect caption="Expand out from middle (horiz)">
+  	Expand out from middle (horiz)
+  </effect>
+  <effect caption="Reveal from middle (horiz)">
+  	Reveal from middle (horiz)
+  </effect>
+  <effect caption="Slide in from top / bottom">
+  	Slide in from top / bottom
+  </effect>
+  <effect caption="Expand in from top / bottom">
+  	Expand in from top / bottom
+  </effect>
+  <effect caption="Unroll from top">
+  	Unroll from top
+  </effect>
+  <effect caption="Unroll from bottom">
+  	Unroll from bottom
+  </effect>
+  <effect caption="Expand from bottom">
+  	Expand from bottom
+  </effect>
+  <effect caption="Expand in from top">
+  	Expand in from top
+  </effect>
+  <effect caption="Expand from bottom right">
+  	Expand from bottom right
+  </effect>
+  <effect caption="Expand from top right">
+  	Expand from top right
+  </effect>
+  <effect caption="Expand from top left">
+  	Expand from top left
+  </effect>
+  <effect caption="Expand from bottom left">
+  	Expand from bottom left
+  </effect>
+  <effect caption="Slide in from bottom right">
+  	Slide in from bottom right
+  </effect>
+  <effect caption="Slide in from top right">
+  	Slide in from top right
+  </effect>
+  <effect caption="Slide in from top left">
+  	Slide in from top left
+  </effect>
+  <effect caption="Slide in from bottom left">
+  	Slide in from bottom left
+  </effect>
+  <effect caption="Reveal from top left">
+  	Reveal from top left
+  </effect>
+  <effect caption="Reveal from bottom left">
+  	Reveal from bottom left
+  </effect>
+  <effect caption="Reveal from bottom right">
+  	Reveal from bottom right
+  </effect>
+  <effect caption="Reveal from top right">
+  	Reveal from top right
+  </effect>
+  <effect caption="Appear and Contract to top left">
+  	Appear and Contract to top left
+  </effect>
+  <effect caption="Appear and Contract to bottom left">
+  	Appear and Contract to bottom left
+  </effect>
+  <effect caption="Appear and Contract to bottom right">
+  	Appear and Contract to bottom right
+  </effect>
+  <effect caption="Appear and Contract to top right">
+  	Appear and Contract to top right
+  </effect>
+  <effect caption="Appear and Contract to middle">
+  	Appear and Contract to middle
+  </effect>
+  <effect caption="Expand out from centre">
+  	Expand out from centre
+  </effect>
+  <effect caption="Reveal out from centre">
+  	Reveal out from centre
+  </effect> 
+  <effect caption="Reveal in to centre">
+  	Reveal in to centre
+  </effect>
+  <effect caption="Quarters Reveal in to middle">
+  	Quarters Reveal in to middle
+  </effect>
+  <effect caption="Quarters Expand to middle">
+  	Quarters Expand to middle
+  </effect>
+  <effect caption="Quarters Slide in to middle">
+  	Quarters Slide in to middle
+  </effect>
+  <effect caption="Curved Reveal from left">
+  	Curved Reveal from left
+  </effect>
+  <effect caption="Curved Reveal from right">
+  	Curved Reveal from right
+  </effect>
+  <effect caption="Bars in from right">
+  	Bars in from right
+  </effect>
+  <effect caption="Bars in from left">
+  	Bars in from left
+  </effect>
+  <effect caption="Bars left then right">
+  	Bars left then right
+  </effect>
+  <effect caption="Bars right then left">
+  	Bars right then left
+  </effect>
+  <effect caption="Bars from both sides">
+  	Bars from both sides
+  </effect>
+  <effect caption="Uneven shred from right">
+  	Uneven shred from right
+  </effect>
+  <effect caption="Uneven shred from left">
+  	Uneven shred from left
+  </effect>
+  <effect caption="Uneven shred out from middle (horiz)">
+  	Uneven shred out from middle (horiz)
+  </effect>
+  <effect caption="Uneven shred in to middle (horiz)">
+  	Uneven shred in to middle (horiz)
+  </effect>
+  <effect caption="Curved Reveal from top">
+  	Curved Reveal from top
+  </effect>
+  <effect caption="Curved Reveal from bottom">
+  	Curved Reveal from bottom
+  </effect>
+  <effect caption="Bars from bottom">
+  	Bars from bottom
+  </effect>
+  <effect caption="Bars from top">
+  	Bars from top
+  </effect>
+  <effect caption="Bars top then bottom">
+  	Bars top then bottom
+  </effect>
+  <effect caption="Bars bottom then top">
+  	Bars bottom then top
+  </effect>
+  <effect caption="Bars from top and bottom">
+  	Bars from top and bottom
+  </effect>
+  <effect caption="Unven shred from bottom">
+  	Unven shred from bottom
+  </effect>
+  <effect caption="Uneven shred from top">
+  	Uneven shred from top
+  </effect>
+  <effect caption="Uneven shred from horizon">
+  	Uneven shred from horizon
+  </effect>
+  <effect caption="Uneven shred in to horizon">
+  	Uneven shred in to horizon
+  </effect>
+  <effect caption="Curved reveal from top left">
+  	Curved reveal from top left
+  </effect>
+  <effect caption="Curved reveal from top right">
+  	Curved reveal from top right
+  </effect>
+  <effect caption="Curved reveal from bottom left">
+  	Curved reveal from bottom left
+  </effect>
+  <effect caption="Curved reveal from bottom right">
+  	Curved reveal from bottom right
+  </effect>
+  <effect caption="Elliptic reveal out from centre">
+  	Elliptic reveal out from centre
+  </effect>
+  <effect caption="Elliptic reveal in to centre">
+  	Elliptic reveal in to centre
+  </effect>
+  <effect caption="Criss Cross reveal from bottom right">
+  	Criss Cross reveal from bottom right
+  </effect>
+  <effect caption="Criss Cross reveal from top right">
+  	Criss Cross reveal from top right
+  </effect>
+  <effect caption="Criss Cross reveal from bottom left">
+  	Criss Cross reveal from bottom left
+  </effect>
+  <effect caption="Criss Cross reveal from top left">
+  	Criss Cross reveal from top left
+  </effect>
+  <effect caption="Criss Cross reveal bounce from top left">
+  	Criss Cross reveal bounce from top left
+  </effect>
+  <effect caption="Criss Cross reveal bounce from bottom left">
+  	Criss Cross reveal bounce from bottom left
+  </effect>
+  <effect caption="Criss Cross reveal bounce from top right">
+  	Criss Cross reveal bounce from top right
+  </effect>
+  <effect caption="Criss Cross reveal bounce from bottom right">
+  	Criss Cross reveal bounce from bottom right
+  </effect>
+  <effect caption="Criss Cross reveal from right top and bottom">
+  	Criss Cross reveal from right top and bottom
+  </effect>
+  <effect caption="Criss Cross reveal from left top and bottom">
+  	Criss Cross reveal from left top and bottom
+  </effect>
+  <effect caption="Criss Cross reveal from left right and bottom">
+  	Criss Cross reveal from left right and bottom
+  </effect>
+  <effect caption="Criss Cross reveal from left right and top">
+  	Criss Cross reveal from left right and top
+  </effect>
+  <effect caption="Criss Cross reveal from top left right and bottom">
+  	Criss Cross reveal from top left right and bottom
+  </effect>
+  <effect caption="Criss Cross reveal from bottom left top right">
+  	Criss Cross reveal from bottom left top right
+  </effect>
+  <effect caption="Uneven shred from bottom and right">
+  	Uneven shred from bottom and right
+  </effect>
+  <effect caption="Uneven shred from top and right">
+  	Uneven shred from top and right
+  </effect>
+  <effect caption="Uneven shred from bottom and left">
+  	Uneven shred from bottom and left
+  </effect>
+  <effect caption="Uneven shred from top and left">
+  	Uneven shred from top and left
+  </effect>
+  <effect caption="Uneven shred from horiz and right">
+  	Uneven shred from horiz and right
+  </effect>
+  <effect caption="Uneven shred from horiz and left">
+  	Uneven shred from horiz and left
+  </effect>
+  <effect caption="Uneven shred from bottom and vert middle">
+  	Uneven shred from bottom and vert middle
+  </effect>
+  <effect caption="Uneven shred from top and vert middle">
+  	Uneven shred from top and vert middle
+  </effect>
+  <effect caption="Uneven shred from centre">
+  	Uneven shred from centre
+  </effect>
+  <effect caption="Uneven shred to centre">
+  	Uneven shred to centre
+  </effect>
+  <effect caption="Reveal diagonal from top left">
+  	Reveal diagonal from top left
+  </effect>
+  <effect caption="Reveal diagonal from top right">
+  	Reveal diagonal from top right
+  </effect>
+  <effect caption="Reveal diagonal from bottom left">
+  	Reveal diagonal from bottom left
+  </effect>
+  <effect caption="Reveal diagonal from bottom right">
+  	Reveal diagonal from bottom right
+  </effect>
+  <effect caption="Diagonal sweep from top left bottom right anticlockwise">
+  	Diagonal sweep from top left bottom right anticlockwise
+  </effect>
+  <effect caption="Diagonal sweep from top left bottom right clockwise">
+  	Diagonal sweep from top left bottom right clockwise
+  </effect>
+  <effect caption="Diagonal sweep from top left bottom right clockwise">
+  	Diagonal sweep from top left bottom right clockwise
+  </effect>
+  <effect caption="Starburst clockwise from center">
+  	Starburst clockwise from center
+  </effect>
+  <effect caption="Starburst anticlockwise from center">
+  	Starburst anticlockwise from center
+  </effect>
+  <effect caption="Triangular shred">
+  	Triangular shred
+  </effect>
+  <effect caption="Fade">
+  	Fade
+  </effect>
+  <effect caption="Pivot from top left">
+  	Pivot from top left
+  </effect>
+  <effect caption="Pivot from bottom left">
+  	Pivot from bottom left
+  </effect>
+  <effect caption="Pivot from top right">
+  	Pivot from top right
+  </effect>
+  <effect caption="Pivot from bottom right">
+  	Pivot from bottom right
+  </effect>
+  <effect caption="Speckle appear from right">
+  	Speckle appear from right
+  </effect>
+  <effect caption="Speckle appear from left">
+  	Speckle appear from left
+  </effect>
+  <effect caption="Speckle appear from bottom">
+  	Speckle appear from bottom
+  </effect>
+  <effect caption="Speckle appear from top">
+  	Speckle appear from top
+  </effect>
+  <effect caption="Random squares appear">
+  	Random squares appear
+  </effect>
+  <effect caption="Push right">
+  	Push right
+  </effect>
+  <effect caption="Push left">
+  	Push left
+  </effect>
+  <effect caption="Push and squeeze right">
+  	Push and squeeze right
+  </effect>
+  <effect caption="Push and squeeze left">
+  	Push and squeeze left
+  </effect>
+  <effect caption="Push down">
+  	Push down
+  </effect>
+  <effect caption="Push up">
+  	Push up
+  </effect>
+  <effect caption="Push and sqeeze down">
+  	Push and sqeeze down
+  </effect>
+  <effect caption="Push and sqeeze up">
+  	Push and sqeeze up
+  </effect>
+  <effect caption="Blind vertically">
+  	Blind vertically
+  </effect>
+  <effect caption="Blind horizontally">
+  	Blind horizontally
+  </effect>
+  <effect caption="Uneven blind from left">
+  	Uneven blind from left
+  </effect>
+  <effect caption="Uneven blind from left">
+  	Uneven blind from left
+  </effect>
+  <effect caption="Uneven blind from right">
+  	Uneven blind from right
+  </effect>
+  <effect caption="Uneven blind from top">
+  	Uneven blind from top
+  </effect>
+  <effect caption="Uneven blind from bottom">
+  	Uneven blind from bottom
+  </effect>
+  <effect caption="Rectangular shred">
+    Rectangular shred
+  </effect>
+  <effect caption="Sweep clockwise">
+  	Sweep clockwise
+  </effect>
+  <effect caption="Sweep anticlockwise">
+  	Sweep anticlockwise
+  </effect>
+  <effect caption="Rectangles apear from left and disapear to right">
+  	Rectangles apear from left and disapear to right
+  </effect>
+  <effect caption="Rectangles apear from right and disapear to left">
+  	Rectangles apear from right and disapear to left
+  </effect>
+  <effect caption="Rectangles apear from up and disapear to bottom">
+  	Rectangles apear from up and disapear to bottom
+  </effect>
+  <effect caption="Rectangles apear from bottom and disapear to up">
+  	Rectangles apear from bottom and disapear to up
+  </effect>
+  <effect caption="Rotational rectangle in center">
+  	Rotational rectangle in center
+  </effect>
+  <effect caption="Rotational star in center">
+  	Rotational star in center
+  </effect>
+  <effect caption="Spiral rectangle">
+  	Spiral rectangle
+  </effect>
+  <effect caption="Circular shred">
+  	Circular shred
+  </effect>
+  <effect caption="Reveal V from left">
+  	Reveal V from left
+  </effect>
+  <effect caption="Reveal V from right">
+  	Reveal V from right
+  </effect>
+  <effect caption="Reveal V from top">
+  	Reveal V from top
+  </effect>
+  <effect caption="Reveal V from bottom">
+  	Reveal V from bottom
+  </effect>
+  <effect caption="Bow Tie Horizontal">
+  	Bow Tie Horizontal
+  </effect>
+  <effect caption="Bow Tie Vertical">
+  	Bow Tie Vertical
+  </effect>
+  <effect caption="Diagonal Cross In">
+  	Diagonal Cross In
+  </effect>
+  <effect caption="Diagonal Cross Out">
+  	Diagonal Cross Out
+  </effect>
+  <effect caption="Zigzag Horizontal">
+  	Zigzag Horizontal
+  </effect>
+  <effect caption="Zigzag Vertical">
+  	Zigzag Vertical
+  </effect>
+  <effect caption="Diamond shred">
+  	Diamond shred
+  </effect>
+  <effect caption="Reveal diamond out from centre">
+  	Reveal diamond out from centre
+  </effect>
+  <effect caption="Reveal diamond in to centre">
+  	Reveal diamond in to centre
+  </effect>
+  <effect caption="Diagonal Box Out">
+  	Diagonal Box Out
+  </effect>
+  <effect caption="Pixelate">
+  	Pixelate
+  </effect>
+  <effect caption="Dissolve">
+  	Dissolve
+  </effect>
+  <effect caption="Random Bars Horizontal">
+  	Random Bars Horizontal
+  </effect>
+  <effect caption="Random Bars Vertical">
+  	Random Bars Vertical
+  </effect>
+  <effect caption="Channel Mix">
+  	Channel Mix
+  </effect>
+</effects>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

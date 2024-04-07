@@ -1,0 +1,152 @@
+###########################################################
+#
+#  Language:		English
+#  Author:		Donge Xie
+#  Product Name:	
+#  Product Version:	1.0.0 
+#
+###########################################################
+[frmAudioDedupe]
+SpeedButton6.Caption          				=帮助
+Label7.Caption                				=重复文件处理
+TabSheet1.Caption             				=操作
+grpMoveFile.Caption           				=移动或删除选中文件(保留文件夹结构) :
+chkDelEmptyFolder.Caption     				=删除空文件夹 
+chkToRecycleBin.Caption       				=删除文件到回收站 
+grpAutoCheck.Caption          				=自动勾选
+btnInvertSelection.Caption    				=反向选择
+chkBitrateLower.Caption       				=比特率较低的文件
+chkSizeSmall.Caption          				=较小的文件（不考虑音乐时长）
+chkFileShorter.Caption        				=时长较短的文件（比特率相同的情况下）
+chkFileOlder.Caption          				=修改时间较早的文件
+chkFileNewer.Caption          				=修改时间较迟的文件
+tsPreview.Caption             				=预览
+lblVoice.Caption              				=音量
+grpTag.Caption                				=标签
+chkContinue.Caption           				=从同一位置继续播放 
+Label6.Caption                				=重复
+Label1.Caption                				=文件夹
+chkSubFolder.Caption          				=扫描子文件夹
+Label2.Caption                				=扫描
+Label3.Caption                				=方式:
+lblSimilarity.Caption         				=相似度:
+Label5.Caption                				=扫描后:
+lblPercent.Caption            				=% (或以上)  
+cbbScanMethod.text            				=散列 (100%相同的文件)
+cbbAfterScan.text             				=<什么也不做>
+FileF1.Caption                				=文件
+Quit1.Caption                 				=退出
+mniAction.Caption             				=操作
+mniInvertSelection.Caption    				=反向选择
+mniSetting.Caption            				=设置
+Help1.Caption                 				=帮助
+Help2.Caption                 				=帮助
+AboutImagetoPDF1.Caption      				=关于 ...
+Contactus1.Caption            				=联系我们...
+actAddFolders.Caption         				=添加文件夹
+actRemoveFolders.Caption      				=删除文件夹
+actNewProject.Caption         				=新工程
+actOpenProject.Caption        				=打开工程
+actSaveProject.Caption        				=保存工程
+actStartScan.Caption          				=开始扫描
+actOpenFilter.Caption         				=过滤
+actAutoCheck.Caption          				=自动勾选
+actUncheckAll.Caption         				=取消勾选
+actCheckFilter.Caption        				=勾选过滤
+actMoveCheckFile.Caption      				=移动选中文件
+actDeleteCheckFile.Caption    				=删除选中文件
+actOpenMoveDir.Caption        				=浏览
+actOptions.Caption            				=选项
+actStopScan.Caption           				=停止扫描
+actPlay.Caption               				=播放
+actPause.Caption              				=暂停
+actStopPlay.Caption           				=停止播放
+actPrewind.Caption            				=快退
+actForward.Caption            				=快进
+mniDelete.Caption             				=删除
+mniCheckAll.Caption           				=全选
+mniProperties.Caption         				=属性
+mniAbout.Caption              				=关于...
+mniExit.Caption               				=关闭
+lblSimilarity.Caption                                   =相似度
+
+[frmFilter]
+ .Caption                      				=过滤
+ grpNotFolder.Caption          				=不扫描的文件夹
+ btnAddFolder.Caption          				=添加
+ btnRemoveFolder.Caption       				=删除
+ grpNotFile.Caption            				=不扫描的文件（拓展名为）
+ lbl1.Caption                  				=拓展名(格式示例：.ext).  
+ btnAddExt.Caption             				=添加
+ grpCondition.Caption          				=不扫描以下文件
+ lblContaining.Caption         				=文件名支持通配符.   
+ chkFileSmall.Caption          				=文件小于: 
+ chkfilebig.Caption            				=文件大于: 
+ cbbFileSmall.Text             				=KBytes
+ cbbFileSmall.Items            				=Bytes||KBytes||MBytes
+ chkfileold.Caption            				=文件修改日期早于: 
+ cbbFileBig.Text               				=KBytes
+ cbbFileBig.Items              				=Bytes||KBytes||MBytes
+ chkFileNewer.Caption          				=文件修改日期晚于: 
+ chkContaining.Caption         				=文件名包含(以|分隔)   
+ btnOK.Caption                 				=确定
+ btnCancel.Caption             				=取消
+
+[frmOption]
+ .Caption                      				=选项
+ btnOK.Caption                 				=确定
+ btnCancel.Caption             				=取消
+ TabSheet1.Caption             				=常规
+ chkMiniToTray.Caption         				=最小化到系统托盘
+ chkLastProject.Caption        				=程序启动时加载上一次打开的工程 
+ TabSheet2.Caption             				=文件类型
+ BitBtn3.Caption               				=全选
+ BitBtn4.Caption               				=取消勾选
+ chklstFileType.Items          				=Monkey's Audio APE 文件(*.ape)||FLAC 文件(*.flac)||MP3 文件(*.mp3)||OGG 文件(*.ogg)||True Audio 文件(*.tta)||WAV 文件(*.wav)||WavPack 文件(*.wv)||Windows Media Audio文件(*.wma)
+ TabSheet3.Caption             				=列
+ chkFileName.Caption           				=文件名
+ chkFolder.Caption             				=目录名
+ chkDuration.Caption           				=时长
+ chkBitRate.Caption            				=比特率
+ chkSample.Caption             				=采样率
+ chkResolution.Caption         				=比特分辨率
+ chkFileSize.Caption           				=文件大小
+ chkDate.Caption               				=修改时间
+ chkSimilarity.Caption         				=相似度
+ chkGroup.Caption              				=分组
+
+[frmCheckFilter]
+ .Caption                      				=不自动勾选的文件
+ grp1.Caption                  				=不自动勾选的文件（拓展名为）
+ chklstExt.Items               				=*.ape||*.flac||*.mp3||*.ogg||*.tta||*.wav||*.wma||*.wv
+ btnUncheck.Caption            				=取消勾选
+ grp2.Caption                  				=不自动勾选以下文件
+ lblContaining.Caption         				=文件名支持通配符.     
+ chkFileSmall.Caption          				=文件小于:
+ cbbFileSmall.Text             				=KBytes
+ cbbFileSmall.Items            				=Bytes||KBytes||MBytes
+ cbbFilebig.Text               				=KBytes
+ cbbFilebig.Items              				=Bytes||KBytes||MBytes
+ chkFileBig.Caption            				=文件大于:
+ chkFileOld.Caption            				=文件修改时间早于
+ chkFileNew.Caption            				=文件修改时间晚于
+ chkContaining.Caption         				=文件名包含 (用| 分隔文字)
+ btnOK.Caption                 				=确定
+ btnCancel.Caption             				=取消
+
+[STRINGS]
+ 1							= Thank you for registering
+ 2							= Invalid Register Key
+ 3							= The product has been licensed. 
+ 4							= The product has been licensed to:
+ 5							= Q: How to order||A: Click the "Online Purchase" button above, or visit our homepage (http://www.a-pdf.com) for more options. We will send your registration key after receiving your order. If you cannot access the Internet, please call our Toll Free number 1-877-353-7297, and give the operator the product number %s. The product price is %s.
+6	=This product is shareware. The trial period is %d days and %d days remain.
+7	=The trial period has ended. Further use requires registration.
+
+8	=If you ordered, you will get a register key (license code), after inputting the code below, the product can be used permanently.
+
+20                            				=请选择要添加的文件夹.
+21                            				=请选择目标文件夹.
+22                            				=打开新工程将清除当前结果。是否要继续?
+23                            				=打开新工程将清除当前结果。是否要继续?
+24                            				=开启新一轮扫描将清除当前结果。是否要继续?

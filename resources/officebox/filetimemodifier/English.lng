@@ -1,0 +1,79 @@
+###########################################################
+#
+#  Language:		English
+#  Author:		Wanqing Huang
+#  Product Name:	
+#  Product Version:	1.0.0 
+#
+###########################################################
+
+[frmMain]
+ .Caption                      				=万彩办公大师-文件时间修改大师
+ btnPayAttention.Caption       				=关注万彩
+ lvFiles.Columns               				=文件名||文件所在目录||创建时间||最后访问时间||修改时间
+ tsAlterTime.Caption           				=修改为新时间
+ lblCreateTime1.Caption        				=创建时间：
+ lblAccessTime1.Caption        				=最后访问时间：
+ lblModifyTime1.Caption        				=修改时间：
+ tsAddTime.Caption             				=在原时间基础上修改时间
+ lbl5.Caption                  				=创建时间：
+ lbl6.Caption                  				=最后访问时间：
+ lbl7.Caption                  				=修改时间：
+ lblCreateTimeYear.Caption     				=年
+ lblCreateTimeMonth.Caption    				=月
+ lblCreateTimeDay.Caption      				=日
+ lblCreateTimeHour.Caption     				=时
+ lblCreateTimeMinute.Caption   				=分
+ lblCreateTimeSeconds.Caption  				=秒
+ lblAccessTimeYear.Caption     				=年
+ lblModifyTimeYear.Caption     				=年
+ lblAccessTimeMonth.Caption    				=月
+ lblModifyTimeMonth.Caption    				=月
+ lblAccessTimeDay.Caption      				=日
+ lblModifyTimeDay.Caption      				=日
+ lblAccessTimeHour.Caption     				=时
+ lblModifyTimeHour.Caption     				=时
+ lblAccessTimeMinute.Caption   				=分
+ lblModifyTimeMinute.Caption   				=分
+ lblAccessTimeSeconds.Caption  				=秒
+ lblModifyTimeSeconds.Caption  				=秒
+ chkApplyToAll.Caption         				=对所有文件生效
+ tsAttribute.Caption           				=文件属性
+ chkReadOnly.Caption           				=只读
+ chkHidden.Caption             				=隐藏
+ chkSystem.Caption             				=系统
+ chkArchive.Caption            				=存档
+ chkCompress.Caption           				=压缩
+ chkEncrypted.Caption          				=加密
+ chkVolume.Caption             				=索引
+ chkTemp.Caption               				=临时
+ chkOffline.Caption            				=脱机
+ chkReparsePoint.Caption       				=超链接
+ chkVirtual.Caption            				=虚拟
+ pmiFile.Caption               				=文件(&X)
+ pmiN3.Caption                 				=动作(&Y)
+ pmiN4.Caption                 				=帮助(&Z)
+ actAddFiles.Caption           				=添加文件
+ actAddDir.Caption             				=添加目录
+ actRemoveFile.Caption         				=移除文件
+ actClearFiles.Caption         				=清空文件
+ actModifySelected.Caption     				=修改选择的文件
+ actModifyAll.Caption          				=修改所有文件
+ actExit.Caption               				=退出
+ actAbout.Caption              				=关于
+ actContact.Caption            				=联系我们
+ actHelp.Caption               				=帮助
+ actAddTime.Caption            				=增加时间
+ actReduceTime.Caption         				=减少时间
+ actModifySelectedAttr.Caption 				=修改选择的文件
+ actModifyAllAttr.Caption      				=修改所有文件
+ actViewFile.Caption           				=查看文件
+ 
+[STRINGS]
+32                            				=所有文件(*.*)|*.*
+33                            				=这个操作会改变列表中所有文件的时间， 您确定要继续吗？
+34                            				=温馨提示
+35                            				=修改所有文件属性完成。
+36                            				=文件数量：%d
+37                            				=选择文件：%s
+38                            				=日期修改操作失败！

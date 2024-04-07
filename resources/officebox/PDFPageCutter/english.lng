@@ -1,0 +1,159 @@
+###########################################################
+#
+#  Language:		English
+#  Author:		XianCai Huang
+#  Product Name:	A-PDF Page Cut
+#  Product Version:	1.8.0 
+#
+###########################################################
+
+[Font]
+ Name 																=Tahoma
+ Size																	=8
+ CharSet															=Default
+
+[frmCutEditor]
+.caption		                                =万彩办公大师-页面分割
+lbl1.Caption                  				=分割页面顺序:
+actBrowsePDFFile.hint         				=打开文档
+actNextPage.hint              				=下一页
+actPrePage.hint               				=上一页
+actFirstPage.hint             				=第一页
+actLastPage.hint              				=最后一页
+actZoomToFit.hint             				=缩放文档到适合高度
+actZoomToFitWidth.hint        				=缩放文档到适合宽度
+actAddHLine.hint              				=添加一条水平分割线
+actDeleteLines.hint           				=删除所有选中的分割线
+actAddVLine.hint              				=添加一条垂直分割线
+actCmdHistRedo.hint           				=恢复
+actCmdHisUnDo.hint            				=撤销
+actAddLines.hint              				=添加网格
+actApplyRulesToAllPage.Caption				=应用
+actApplyRulesToAllPage.hint   				=把当前页面的分割设置应用到其他页面.
+actPageOrderChange.Caption    				=操作页面顺序改变
+actCutAndSaveAs.Caption       				=分割且另存为
+actCutAndSaveAs.hint          				=分割文档且另存为...
+actCancelCut.Caption          				=停止
+actCancelCut.hint             				=停止分割
+actExit.Caption               				=退出
+Exportthesettings1.Caption               				=导出规则
+ImportRule1.Caption               				=导入规则
+
+mniFileF1.Caption             				=文件
+mniOpenPdfFile1.Caption       				=打开
+
+
+mniRecentFiles1.Caption       				=最近打开的文件
+mniools1.Caption              				=操作
+mniExtractallpdf.Caption      				=添加水平分割线
+mniExtractallpdf.hint         				=添加一条垂直分割线
+mniEditRule1.Caption          				=添加垂直分割线
+mniAddGrid1.Caption           				=添加网格
+
+mniDeleteRule1.Caption        				=删除分割线
+
+
+mniUndo1.Caption              				=撤销
+mniCmdHistRedo.Caption        				=恢复
+
+mniHelp1.Caption              				=帮助
+mniHelp2.Caption              				=帮助
+mniRegirst1.Caption           				=关于...
+mniContractus1.Caption        				=联系我们...
+btnscanpaper.Caption        				=纵向分成两部分
+btnSelectandscan.Caption        			=横向分成两部分
+btnBatchCut.Caption        			=批量分割...
+
+
+
+Labellink.Caption				=打开
+Labellink1.Caption				=演示DEMO
+Rule1.Caption				=规则
+
+lbl2.Caption				=切割线位置
+Options1.Caption				=选项
+BatchCut1.Caption				=批量处理模式
+mniQuit1.Caption				=退出
+
+
+
+
+
+[frmGridCells]
+.Caption             									=设置分割线数量
+btnCancel.Caption             				=取消
+btnOK.Caption                 				=确定
+lbl1.Caption                  				=横向(X):
+lbl2.Caption                  				=纵向(Y):
+
+[frmPageRange]
+.Caption             									=选择页面范围
+lbl1.Caption                  				=页面:
+lbl2.Caption                  				=方向:
+btnOK.Caption                 				=应用
+btnCancel.Caption             				=取消
+
+[frmBatchCut]
+.caption                                                =批量分割模式
+lbl1.Caption                  				=添加PDF文档
+lbladdtip.Caption             				=列表为空. 请先添加PDF文档 ...
+lbl2.Caption                  				=开始分割
+lbl3.Caption                  				=选择切割规则
+grpRule.Caption               				=选择规则
+rbRuleFile.Caption            				=规则文件:
+rbRuleVHalf.Caption           				=纵向分成两部分
+rbRuleHHalf.Caption           				=横向分成两部分
+lblPageOrder.Caption          				=分割页面顺序:
+actAddDir.Caption             				=添加文件夹
+actAddFile.Caption            				=添加文件
+actDelPdf.Caption             				=移除
+actDelAllPdf.Caption          				=清空所有 
+actOpenPdf.Caption            				=打开
+actBatchCut.Caption           				=分割
+actBatchCutAndSaveAs.Caption  				=分割并另存为
+actSelectAll.Caption          				=全选
+actPreViewAsTXT.Caption       				=预览文字文档
+actBatchCutCancel.Caption     				=停止
+actDesSelectAll.Caption       				=取消全选
+actBrowseRuleFile.Caption     				=浏览...
+
+[STRINGS]
+ 1					= Thank you for registering
+ 2					= Invalid Register Key
+ 3					= The product has been licensed. 
+ 4					= The product has been licensed to:
+ 5					= Q: How to order||A: Click the "Online Purchase" button above, or visit our homepage(http://www.a-pdf.com) for more options. We will send your registration key after receiving your order. If you cannot access the Internet, please call our Toll Free number 1-877-353-7297, and give the operator the product number %s. The product price is %s.
+ 6					= Note: The product is a try-before-buy product. The unregistered version has a limitation: adding a watermark into the output PDF files. If you ordered, you will get a register key (license code), after inputting the code below, the limitation will remove, that means the output files will not be added a watermark..
+
+20                            				=PDF文件无法打开.
+21                            				=打开PDF文件需要密码!
+22                            				=解密文件时出错.
+23                            				=发生未知错误.
+24                            				=文件打开出错.
+25                            				=不能把此顺序应用到当前页.
+26                            				=设置无效
+27                            				=此操作会覆盖其他页面分割设置，使它们与当前设置一致. 确定要继续吗?
+28                            				=设置无效
+29                            				=你没有添加任何分割线, 文件无法分割.
+30                            				=分割出错
+31                            				=你只给一个页面添加了分割线, 需要把此分割设置应用到其他页面吗?
+32                            				=把分割规则应用到其他页面?
+33                            				=分割完成, 是否查看生成文件?
+34                            				=打开文件
+35                            				=页面分割正在进行, 中止了切割过程才可放弃.
+36                            				=无法放弃
+37                            				=要把当前设置保存到规则文件里吗?
+38                            				=退出前要保存规则吗?
+39                            				=当前页面没有分割线, 此操作会移除其他页面的分割线, 确定要继续吗?
+40                            				=你确定要清空其他页面的分割设置吗?
+41                            				=页码 '%d' 不存在.
+42                            				=页面不存在
+43                            				=页面#: %d/%d
+44                            				=当前分割顺序是从头到尾再从尾到头（或者从尾到头再从头到尾）, 如果要添加或者删除切割线, 必须把页面顺序改成默认的横向, 确定要继续吗?
+45                            				=添加分割线 改变顺序?
+46                            				=成功输出!
+47                            				=输出完成
+48                            				=请选择文件保存位置.
+49                            				=分割完成, 打开文件所在文件夹?
+50                            				=分割完成
+51                            				=%s--正在分割文件:%s

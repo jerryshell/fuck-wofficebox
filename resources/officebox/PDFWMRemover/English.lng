@@ -1,0 +1,125 @@
+###########################################################
+#
+#  Language:		PDFWM
+#  Author:		DongYin Cai
+#  Product Name:	
+#  Product Version:	1.0.0 
+#
+###########################################################
+
+
+[Font]
+ Name 						=Tahoma
+ Size						=8
+ CharSet					=默认
+
+
+[frmmain]
+.Caption            				=万彩办公大师 - PDF水印去除工具
+sbtaddpdf.Caption            				=添加PDF
+sbtbrowse.Caption            				=浏览PDF
+Label6.Caption            				=列表是空的 请添加PDF文件来去除水印...
+sbtDelPdf.Caption              				=删除
+sbtDelAllPdf.Caption                				=清空
+sbtUnlock.Caption                				=解锁
+Label3.Caption                				=添加PDF文档,然后点击"移除水印"按钮或者"移除水印并另存为"按钮开始
+tabwatermarklib.Caption                				=选择要删除的图片水印
+tabaddopdf.Caption                				=添加PDF
+edtbrowse.text               				=请先添加一个PDF文件
+Label1.Caption                				=PDF文件:
+btnAdd.Caption                				=&添加->
+sbtView.Caption                				=查看
+sbtDelimg.Caption                				=删除
+Labelprofile.Caption                				=预设:
+Label5.Caption                				=水印待去除列表(库)
+Label4.Caption                				=目标样板图片水印列表
+sbtHelp.Caption                				=帮助
+btnPiror.Caption                				=<--&返回
+btnremoveall.Caption                				=移除水印
+btnNext.Caption                				=&下一步-->
+btnremoveandsaveas.Caption                				=移除水印并另存为
+
+viewwm1.Caption                				=查看
+addtorwlist.Caption                				=加入到待移除列表 ->
+SelectAll3.Caption                				=全选
+
+Viewwm.Caption                				=查看
+Deletewm.Caption                				=删除
+SelectAll2.Caption                				=全选
+
+Open1.Caption                				=打开
+popinputpass.Caption                				=输入密码
+popdelpdf.Caption                				=移除
+popClearallpdf.Caption                				=清空
+SelectAll1.Caption                				=全选
+
+
+
+
+[STRINGS]
+1							= Thank you for registering
+ 2							= Invalid Register Key
+ 3							= The product has been licensed. 
+ 4							= The product has been licensed to:
+ 5							= Q: How to order||A: Click the "Online Purchase" button above, or visit our homepage (http://www.boxoft.com) for more options. We will send your registration key after receiving your order. If you cannot access the Internet, please call our Toll  Free number 1-877-353-7297, and give the operator the product number %s. The product price is %s.
+ 6							=This product is shareware. The trial period is  %d days and %d days remain.
+ 7							=The trial period has ended. Further use requires registration.
+ 8							=If you ordered, you will get a register key  (license code), after inputting the code below, the product can be used permanently.
+
+11                            				=请选择文件夹
+12                            				=文件另存为...
+13                            				=导入文件不存在
+14                            				=PDF文件已完成Word格式转换， 是否打开文件夹查看？
+15                            				=请选择输入路径
+16                            				=输入目录与输出目录相同
+17                            				=请选择输出路径
+18                            				=输出目录与输入目录相同
+19                            				=日志文件路径不存在
+20                            				=不能设置相同的路径  
+21                            				=停止转换... 
+
+
+22                           				=文件名
+23                           				=路径
+24                          				=需要密码
+25                          				=修改日期
+26                         				=索引
+
+
+
+     // message
+   MSG_Can_not_open_file ='Can not open file';
+   MSG_Duplicate_watermark  ='Duplicate Watermark';
+   MSG_Image_already_exists  ='Can not add the image to Watermark Removal List: Image already exists!';
+   MSG_Delete_Preset  ='Delete Preset';
+   MSG_Can_not_delete_default_preset  ='Can not delete default preset!';
+   MSG_Information   ='Information';
+   MSG_NoPDFfile_selected   ='No PDF file(s) selected';
+   MSG_Are_you_sure_to_clear   ='Are you sure to clear all items?';
+   MSG_Delete_all_items   ='Delete all items';
+   MSG_At_least_one_file_needs_password   ='At least one file needs a password to open, if you do not set the passwords, watermark will not be able to be deleted from these documents.' + #13 + 'Continue?';
+   MSG_Remove_image_watermarks   ='Remove image watermarks';
+   //MSG_Delete_Preset ='Delete Preset';
+   MSG_delete_the_current_preset ='Are you to sure to delete the current preset?';
+   MSG_overwritten='The original PDF files will be overwritten, are you sure you want to continue?';
+   MSG_Overwrite_Confirmation= 'Overwrite Confirmation';
+   MSG_Please_input_name= 'Please input name';
+   MSG_Overwrite_Preset= 'Overwrite Preset';
+   MSG_Can_not_open_PDF= 'Can not open [ "%s" ] because it is either not a supported file type or need password to open and or because the file has been damaged (for example, it was sent as an email attachment and was not correctly decoded).';
+   MSG_Save_modified_proset= 'Save modified proset';
+   MSG_Save_modified_proset_inf='The current preset: [ "%s" ] has been modified! do you want to save it before open a new proset?';
+   MSG_has_been_processed_successfully='File: [ "%s" ] has been processed successfully! do you want to open it?';
+   MSG_open_folder='file(s) have been processed successfully! do you want to open dest folder?';
+   MSG_Total='Total';
+   MSG_has_been_processed_successfully1='file(s) have been processed successfully!';
+   MSG_Preset_name_already_extists='Preset name: [ "%s" .lib ] already extists, are you sure to overwrite it?';
+   MSG_Need_open_password ='Need open password';
+   MSG_Please_input_password ='Please input open password:';
+   MSG_Create_Path_Error ='Create Path Error! ';
+   MSG_Save_As ='&Save As...'     ;
+   MSG_Delete_Current_Preset ='&Delete Current Preset';
+   MSG_Password_incorrect= 'Password incorrect!';
+   MSG_Input_Password='Input Password';
+   MSG_Removing='Removing...';
+   MSG_Open_PDF_file_Faild='Open PDF file Faild!';
+   MSG_Please_select_directory='Please select a directory';
